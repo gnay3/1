@@ -1,0 +1,12958 @@
+const vocab = [
+  {
+    "word": "こんにちは",
+    "reading": "konnichiwa",
+    "translation": "Hello",
+    "part": "expression",
+    "collocations": [
+      "こんにちは、元気ですか？",
+      "こんにちはと言う"
+    ],
+    "example": "彼は私にこんにちはと言いました。",
+    "category": "Greetings",
+    "id": 1
+  },
+  {
+    "word": "こんにちは",
+    "reading": "konnichiwa",
+    "translation": "Hello",
+    "part": "expression",
+    "collocations": [
+      "こんにちは、元気ですか？",
+      "こんにちはと言う"
+    ],
+    "example": "彼は私にこんにちはと言いました。",
+    "category": "Daily Life",
+    "id": 2
+  },
+  {
+    "word": "こんにちは",
+    "reading": "konnichiwa",
+    "translation": "Hello",
+    "part": "expression",
+    "collocations": [
+      "こんにちは、元気ですか？",
+      "こんにちはと言う"
+    ],
+    "example": "彼は私にこんにちはと言いました。",
+    "category": "Food & Drink",
+    "id": 3
+  },
+  {
+    "word": "こんにちは",
+    "reading": "konnichiwa",
+    "translation": "Hello",
+    "part": "expression",
+    "collocations": [
+      "こんにちは、元気ですか？",
+      "こんにちはと言う"
+    ],
+    "example": "彼は私にこんにちはと言いました。",
+    "category": "Travel",
+    "id": 4
+  },
+  {
+    "word": "こんにちは",
+    "reading": "konnichiwa",
+    "translation": "Hello",
+    "part": "expression",
+    "collocations": [
+      "こんにちは、元気ですか？",
+      "こんにちはと言う"
+    ],
+    "example": "彼は私にこんにちはと言いました。",
+    "category": "Shopping",
+    "id": 5
+  },
+  {
+    "word": "こんにちは",
+    "reading": "konnichiwa",
+    "translation": "Hello",
+    "part": "expression",
+    "collocations": [
+      "こんにちは、元気ですか？",
+      "こんにちはと言う"
+    ],
+    "example": "彼は私にこんにちはと言いました。",
+    "category": "Office",
+    "id": 6
+  },
+  {
+    "word": "こんにちは",
+    "reading": "konnichiwa",
+    "translation": "Hello",
+    "part": "expression",
+    "collocations": [
+      "こんにちは、元気ですか？",
+      "こんにちはと言う"
+    ],
+    "example": "彼は私にこんにちはと言いました。",
+    "category": "Health",
+    "id": 7
+  },
+  {
+    "word": "こんにちは",
+    "reading": "konnichiwa",
+    "translation": "Hello",
+    "part": "expression",
+    "collocations": [
+      "こんにちは、元気ですか？",
+      "こんにちはと言う"
+    ],
+    "example": "彼は私にこんにちはと言いました。",
+    "category": "Family",
+    "id": 8
+  },
+  {
+    "word": "こんにちは",
+    "reading": "konnichiwa",
+    "translation": "Hello",
+    "part": "expression",
+    "collocations": [
+      "こんにちは、元気ですか？",
+      "こんにちはと言う"
+    ],
+    "example": "彼は私にこんにちはと言いました。",
+    "category": "Emotions",
+    "id": 9
+  },
+  {
+    "word": "こんにちは",
+    "reading": "konnichiwa",
+    "translation": "Hello",
+    "part": "expression",
+    "collocations": [
+      "こんにちは、元気ですか？",
+      "こんにちはと言う"
+    ],
+    "example": "彼は私にこんにちはと言いました。",
+    "category": "Fitness",
+    "id": 10
+  },
+  {
+    "word": "こんにちは",
+    "reading": "konnichiwa",
+    "translation": "Hello",
+    "part": "expression",
+    "collocations": [
+      "こんにちは、元気ですか？",
+      "こんにちはと言う"
+    ],
+    "example": "彼は私にこんにちはと言いました。",
+    "category": "Leisure",
+    "id": 11
+  },
+  {
+    "word": "こんにちは",
+    "reading": "konnichiwa",
+    "translation": "Hello",
+    "part": "expression",
+    "collocations": [
+      "こんにちは、元気ですか？",
+      "こんにちはと言う"
+    ],
+    "example": "彼は私にこんにちはと言いました。",
+    "category": "Technology",
+    "id": 12
+  },
+  {
+    "word": "こんにちは",
+    "reading": "konnichiwa",
+    "translation": "Hello",
+    "part": "expression",
+    "collocations": [
+      "こんにちは、元気ですか？",
+      "こんにちはと言う"
+    ],
+    "example": "彼は私にこんにちはと言いました。",
+    "category": "Education",
+    "id": 13
+  },
+  {
+    "word": "こんにちは",
+    "reading": "konnichiwa",
+    "translation": "Hello",
+    "part": "expression",
+    "collocations": [
+      "こんにちは、元気ですか？",
+      "こんにちはと言う"
+    ],
+    "example": "彼は私にこんにちはと言いました。",
+    "category": "Weather",
+    "id": 14
+  },
+  {
+    "word": "こんにちは",
+    "reading": "konnichiwa",
+    "translation": "Hello",
+    "part": "expression",
+    "collocations": [
+      "こんにちは、元気ですか？",
+      "こんにちはと言う"
+    ],
+    "example": "彼は私にこんにちはと言いました。",
+    "category": "Hobbies",
+    "id": 15
+  },
+  {
+    "word": "こんにちは",
+    "reading": "konnichiwa",
+    "translation": "Hello",
+    "part": "expression",
+    "collocations": [
+      "こんにちは、元気ですか？",
+      "こんにちはと言う"
+    ],
+    "example": "彼は私にこんにちはと言いました。",
+    "category": "Home",
+    "id": 16
+  },
+  {
+    "word": "こんにちは",
+    "reading": "konnichiwa",
+    "translation": "Hello",
+    "part": "expression",
+    "collocations": [
+      "こんにちは、元気ですか？",
+      "こんにちはと言う"
+    ],
+    "example": "彼は私にこんにちはと言いました。",
+    "category": "Directions",
+    "id": 17
+  },
+  {
+    "word": "こんにちは",
+    "reading": "konnichiwa",
+    "translation": "Hello",
+    "part": "expression",
+    "collocations": [
+      "こんにちは、元気ですか？",
+      "こんにちはと言う"
+    ],
+    "example": "彼は私にこんにちはと言いました。",
+    "category": "Numbers",
+    "id": 18
+  },
+  {
+    "word": "こんにちは",
+    "reading": "konnichiwa",
+    "translation": "Hello",
+    "part": "expression",
+    "collocations": [
+      "こんにちは、元気ですか？",
+      "こんにちはと言う"
+    ],
+    "example": "彼は私にこんにちはと言いました。",
+    "category": "Nature",
+    "id": 19
+  },
+  {
+    "word": "こんにちは",
+    "reading": "konnichiwa",
+    "translation": "Hello",
+    "part": "expression",
+    "collocations": [
+      "こんにちは、元気ですか？",
+      "こんにちはと言う"
+    ],
+    "example": "彼は私にこんにちはと言いました。",
+    "category": "Animals",
+    "id": 20
+  },
+  {
+    "word": "こんにちは",
+    "reading": "konnichiwa",
+    "translation": "Hello",
+    "part": "expression",
+    "collocations": [
+      "こんにちは、元気ですか？",
+      "こんにちはと言う"
+    ],
+    "example": "彼は私にこんにちはと言いました。",
+    "category": "Time",
+    "id": 21
+  },
+  {
+    "word": "こんにちは",
+    "reading": "konnichiwa",
+    "translation": "Hello",
+    "part": "expression",
+    "collocations": [
+      "こんにちは、元気ですか？",
+      "こんにちはと言う"
+    ],
+    "example": "彼は私にこんにちはと言いました。",
+    "category": "Finance",
+    "id": 22
+  },
+  {
+    "word": "おはようございます",
+    "reading": "ohayou gozaimasu",
+    "translation": "Good morning",
+    "part": "expression",
+    "collocations": [
+      "おはよう",
+      "おはようございます"
+    ],
+    "example": "朝起きて家族におはようございますと言います。",
+    "category": "Grocery",
+    "id": 23
+  },
+  {
+    "word": "おはようございます",
+    "reading": "ohayou gozaimasu",
+    "translation": "Good morning",
+    "part": "expression",
+    "collocations": [
+      "おはよう",
+      "おはようございます"
+    ],
+    "example": "朝起きて家族におはようございますと言います。",
+    "category": "Tourism",
+    "id": 24
+  },
+  {
+    "word": "おはようございます",
+    "reading": "ohayou gozaimasu",
+    "translation": "Good morning",
+    "part": "expression",
+    "collocations": [
+      "おはよう",
+      "おはようございます"
+    ],
+    "example": "朝起きて家族におはようございますと言います。",
+    "category": "Medical",
+    "id": 25
+  },
+  {
+    "word": "おはようございます",
+    "reading": "ohayou gozaimasu",
+    "translation": "Good morning",
+    "part": "expression",
+    "collocations": [
+      "おはよう",
+      "おはようございます"
+    ],
+    "example": "朝起きて家族におはようございますと言います。",
+    "category": "Social",
+    "id": 26
+  },
+  {
+    "word": "おはようございます",
+    "reading": "ohayou gozaimasu",
+    "translation": "Good morning",
+    "part": "expression",
+    "collocations": [
+      "おはよう",
+      "おはようございます"
+    ],
+    "example": "朝起きて家族におはようございますと言います。",
+    "category": "Business",
+    "id": 27
+  },
+  {
+    "word": "おはようございます",
+    "reading": "ohayou gozaimasu",
+    "translation": "Good morning",
+    "part": "expression",
+    "collocations": [
+      "おはよう",
+      "おはようございます"
+    ],
+    "example": "朝起きて家族におはようございますと言います。",
+    "category": "Media",
+    "id": 28
+  },
+  {
+    "word": "おはようございます",
+    "reading": "ohayou gozaimasu",
+    "translation": "Good morning",
+    "part": "expression",
+    "collocations": [
+      "おはよう",
+      "おはようございます"
+    ],
+    "example": "朝起きて家族におはようございますと言います。",
+    "category": "Hotel",
+    "id": 29
+  },
+  {
+    "word": "おはようございます",
+    "reading": "ohayou gozaimasu",
+    "translation": "Good morning",
+    "part": "expression",
+    "collocations": [
+      "おはよう",
+      "おはようございます"
+    ],
+    "example": "朝起きて家族におはようございますと言います。",
+    "category": "Misc",
+    "id": 30
+  },
+  {
+    "word": "おはようございます",
+    "reading": "ohayou gozaimasu",
+    "translation": "Good morning",
+    "part": "expression",
+    "collocations": [
+      "おはよう",
+      "おはようございます"
+    ],
+    "example": "朝起きて家族におはようございますと言います。",
+    "category": "Greetings",
+    "id": 31
+  },
+  {
+    "word": "おはようございます",
+    "reading": "ohayou gozaimasu",
+    "translation": "Good morning",
+    "part": "expression",
+    "collocations": [
+      "おはよう",
+      "おはようございます"
+    ],
+    "example": "朝起きて家族におはようございますと言います。",
+    "category": "Daily Life",
+    "id": 32
+  },
+  {
+    "word": "おはようございます",
+    "reading": "ohayou gozaimasu",
+    "translation": "Good morning",
+    "part": "expression",
+    "collocations": [
+      "おはよう",
+      "おはようございます"
+    ],
+    "example": "朝起きて家族におはようございますと言います。",
+    "category": "Food & Drink",
+    "id": 33
+  },
+  {
+    "word": "おはようございます",
+    "reading": "ohayou gozaimasu",
+    "translation": "Good morning",
+    "part": "expression",
+    "collocations": [
+      "おはよう",
+      "おはようございます"
+    ],
+    "example": "朝起きて家族におはようございますと言います。",
+    "category": "Travel",
+    "id": 34
+  },
+  {
+    "word": "おはようございます",
+    "reading": "ohayou gozaimasu",
+    "translation": "Good morning",
+    "part": "expression",
+    "collocations": [
+      "おはよう",
+      "おはようございます"
+    ],
+    "example": "朝起きて家族におはようございますと言います。",
+    "category": "Shopping",
+    "id": 35
+  },
+  {
+    "word": "おはようございます",
+    "reading": "ohayou gozaimasu",
+    "translation": "Good morning",
+    "part": "expression",
+    "collocations": [
+      "おはよう",
+      "おはようございます"
+    ],
+    "example": "朝起きて家族におはようございますと言います。",
+    "category": "Office",
+    "id": 36
+  },
+  {
+    "word": "おはようございます",
+    "reading": "ohayou gozaimasu",
+    "translation": "Good morning",
+    "part": "expression",
+    "collocations": [
+      "おはよう",
+      "おはようございます"
+    ],
+    "example": "朝起きて家族におはようございますと言います。",
+    "category": "Health",
+    "id": 37
+  },
+  {
+    "word": "おはようございます",
+    "reading": "ohayou gozaimasu",
+    "translation": "Good morning",
+    "part": "expression",
+    "collocations": [
+      "おはよう",
+      "おはようございます"
+    ],
+    "example": "朝起きて家族におはようございますと言います。",
+    "category": "Family",
+    "id": 38
+  },
+  {
+    "word": "おはようございます",
+    "reading": "ohayou gozaimasu",
+    "translation": "Good morning",
+    "part": "expression",
+    "collocations": [
+      "おはよう",
+      "おはようございます"
+    ],
+    "example": "朝起きて家族におはようございますと言います。",
+    "category": "Emotions",
+    "id": 39
+  },
+  {
+    "word": "おはようございます",
+    "reading": "ohayou gozaimasu",
+    "translation": "Good morning",
+    "part": "expression",
+    "collocations": [
+      "おはよう",
+      "おはようございます"
+    ],
+    "example": "朝起きて家族におはようございますと言います。",
+    "category": "Fitness",
+    "id": 40
+  },
+  {
+    "word": "おはようございます",
+    "reading": "ohayou gozaimasu",
+    "translation": "Good morning",
+    "part": "expression",
+    "collocations": [
+      "おはよう",
+      "おはようございます"
+    ],
+    "example": "朝起きて家族におはようございますと言います。",
+    "category": "Leisure",
+    "id": 41
+  },
+  {
+    "word": "おはようございます",
+    "reading": "ohayou gozaimasu",
+    "translation": "Good morning",
+    "part": "expression",
+    "collocations": [
+      "おはよう",
+      "おはようございます"
+    ],
+    "example": "朝起きて家族におはようございますと言います。",
+    "category": "Technology",
+    "id": 42
+  },
+  {
+    "word": "おはようございます",
+    "reading": "ohayou gozaimasu",
+    "translation": "Good morning",
+    "part": "expression",
+    "collocations": [
+      "おはよう",
+      "おはようございます"
+    ],
+    "example": "朝起きて家族におはようございますと言います。",
+    "category": "Education",
+    "id": 43
+  },
+  {
+    "word": "おはようございます",
+    "reading": "ohayou gozaimasu",
+    "translation": "Good morning",
+    "part": "expression",
+    "collocations": [
+      "おはよう",
+      "おはようございます"
+    ],
+    "example": "朝起きて家族におはようございますと言います。",
+    "category": "Weather",
+    "id": 44
+  },
+  {
+    "word": "こんばんは",
+    "reading": "konbanwa",
+    "translation": "Good evening",
+    "part": "expression",
+    "collocations": [
+      "こんばんは、と挨拶する"
+    ],
+    "example": "夜に友達に会ってこんばんはと言いました。",
+    "category": "Hobbies",
+    "id": 45
+  },
+  {
+    "word": "こんばんは",
+    "reading": "konbanwa",
+    "translation": "Good evening",
+    "part": "expression",
+    "collocations": [
+      "こんばんは、と挨拶する"
+    ],
+    "example": "夜に友達に会ってこんばんはと言いました。",
+    "category": "Home",
+    "id": 46
+  },
+  {
+    "word": "こんばんは",
+    "reading": "konbanwa",
+    "translation": "Good evening",
+    "part": "expression",
+    "collocations": [
+      "こんばんは、と挨拶する"
+    ],
+    "example": "夜に友達に会ってこんばんはと言いました。",
+    "category": "Directions",
+    "id": 47
+  },
+  {
+    "word": "こんばんは",
+    "reading": "konbanwa",
+    "translation": "Good evening",
+    "part": "expression",
+    "collocations": [
+      "こんばんは、と挨拶する"
+    ],
+    "example": "夜に友達に会ってこんばんはと言いました。",
+    "category": "Numbers",
+    "id": 48
+  },
+  {
+    "word": "こんばんは",
+    "reading": "konbanwa",
+    "translation": "Good evening",
+    "part": "expression",
+    "collocations": [
+      "こんばんは、と挨拶する"
+    ],
+    "example": "夜に友達に会ってこんばんはと言いました。",
+    "category": "Nature",
+    "id": 49
+  },
+  {
+    "word": "こんばんは",
+    "reading": "konbanwa",
+    "translation": "Good evening",
+    "part": "expression",
+    "collocations": [
+      "こんばんは、と挨拶する"
+    ],
+    "example": "夜に友達に会ってこんばんはと言いました。",
+    "category": "Animals",
+    "id": 50
+  },
+  {
+    "word": "こんばんは",
+    "reading": "konbanwa",
+    "translation": "Good evening",
+    "part": "expression",
+    "collocations": [
+      "こんばんは、と挨拶する"
+    ],
+    "example": "夜に友達に会ってこんばんはと言いました。",
+    "category": "Time",
+    "id": 51
+  },
+  {
+    "word": "こんばんは",
+    "reading": "konbanwa",
+    "translation": "Good evening",
+    "part": "expression",
+    "collocations": [
+      "こんばんは、と挨拶する"
+    ],
+    "example": "夜に友達に会ってこんばんはと言いました。",
+    "category": "Finance",
+    "id": 52
+  },
+  {
+    "word": "こんばんは",
+    "reading": "konbanwa",
+    "translation": "Good evening",
+    "part": "expression",
+    "collocations": [
+      "こんばんは、と挨拶する"
+    ],
+    "example": "夜に友達に会ってこんばんはと言いました。",
+    "category": "Grocery",
+    "id": 53
+  },
+  {
+    "word": "こんばんは",
+    "reading": "konbanwa",
+    "translation": "Good evening",
+    "part": "expression",
+    "collocations": [
+      "こんばんは、と挨拶する"
+    ],
+    "example": "夜に友達に会ってこんばんはと言いました。",
+    "category": "Tourism",
+    "id": 54
+  },
+  {
+    "word": "こんばんは",
+    "reading": "konbanwa",
+    "translation": "Good evening",
+    "part": "expression",
+    "collocations": [
+      "こんばんは、と挨拶する"
+    ],
+    "example": "夜に友達に会ってこんばんはと言いました。",
+    "category": "Medical",
+    "id": 55
+  },
+  {
+    "word": "こんばんは",
+    "reading": "konbanwa",
+    "translation": "Good evening",
+    "part": "expression",
+    "collocations": [
+      "こんばんは、と挨拶する"
+    ],
+    "example": "夜に友達に会ってこんばんはと言いました。",
+    "category": "Social",
+    "id": 56
+  },
+  {
+    "word": "こんばんは",
+    "reading": "konbanwa",
+    "translation": "Good evening",
+    "part": "expression",
+    "collocations": [
+      "こんばんは、と挨拶する"
+    ],
+    "example": "夜に友達に会ってこんばんはと言いました。",
+    "category": "Business",
+    "id": 57
+  },
+  {
+    "word": "こんばんは",
+    "reading": "konbanwa",
+    "translation": "Good evening",
+    "part": "expression",
+    "collocations": [
+      "こんばんは、と挨拶する"
+    ],
+    "example": "夜に友達に会ってこんばんはと言いました。",
+    "category": "Media",
+    "id": 58
+  },
+  {
+    "word": "こんばんは",
+    "reading": "konbanwa",
+    "translation": "Good evening",
+    "part": "expression",
+    "collocations": [
+      "こんばんは、と挨拶する"
+    ],
+    "example": "夜に友達に会ってこんばんはと言いました。",
+    "category": "Hotel",
+    "id": 59
+  },
+  {
+    "word": "こんばんは",
+    "reading": "konbanwa",
+    "translation": "Good evening",
+    "part": "expression",
+    "collocations": [
+      "こんばんは、と挨拶する"
+    ],
+    "example": "夜に友達に会ってこんばんはと言いました。",
+    "category": "Misc",
+    "id": 60
+  },
+  {
+    "word": "こんばんは",
+    "reading": "konbanwa",
+    "translation": "Good evening",
+    "part": "expression",
+    "collocations": [
+      "こんばんは、と挨拶する"
+    ],
+    "example": "夜に友達に会ってこんばんはと言いました。",
+    "category": "Greetings",
+    "id": 61
+  },
+  {
+    "word": "こんばんは",
+    "reading": "konbanwa",
+    "translation": "Good evening",
+    "part": "expression",
+    "collocations": [
+      "こんばんは、と挨拶する"
+    ],
+    "example": "夜に友達に会ってこんばんはと言いました。",
+    "category": "Daily Life",
+    "id": 62
+  },
+  {
+    "word": "こんばんは",
+    "reading": "konbanwa",
+    "translation": "Good evening",
+    "part": "expression",
+    "collocations": [
+      "こんばんは、と挨拶する"
+    ],
+    "example": "夜に友達に会ってこんばんはと言いました。",
+    "category": "Food & Drink",
+    "id": 63
+  },
+  {
+    "word": "こんばんは",
+    "reading": "konbanwa",
+    "translation": "Good evening",
+    "part": "expression",
+    "collocations": [
+      "こんばんは、と挨拶する"
+    ],
+    "example": "夜に友達に会ってこんばんはと言いました。",
+    "category": "Travel",
+    "id": 64
+  },
+  {
+    "word": "こんばんは",
+    "reading": "konbanwa",
+    "translation": "Good evening",
+    "part": "expression",
+    "collocations": [
+      "こんばんは、と挨拶する"
+    ],
+    "example": "夜に友達に会ってこんばんはと言いました。",
+    "category": "Shopping",
+    "id": 65
+  },
+  {
+    "word": "こんばんは",
+    "reading": "konbanwa",
+    "translation": "Good evening",
+    "part": "expression",
+    "collocations": [
+      "こんばんは、と挨拶する"
+    ],
+    "example": "夜に友達に会ってこんばんはと言いました。",
+    "category": "Office",
+    "id": 66
+  },
+  {
+    "word": "ありがとう",
+    "reading": "arigatou",
+    "translation": "Thank you",
+    "part": "expression",
+    "collocations": [
+      "ありがとうございます",
+      "本当にありがとう"
+    ],
+    "example": "助けてくれてありがとう。",
+    "category": "Health",
+    "id": 67
+  },
+  {
+    "word": "ありがとう",
+    "reading": "arigatou",
+    "translation": "Thank you",
+    "part": "expression",
+    "collocations": [
+      "ありがとうございます",
+      "本当にありがとう"
+    ],
+    "example": "助けてくれてありがとう。",
+    "category": "Family",
+    "id": 68
+  },
+  {
+    "word": "ありがとう",
+    "reading": "arigatou",
+    "translation": "Thank you",
+    "part": "expression",
+    "collocations": [
+      "ありがとうございます",
+      "本当にありがとう"
+    ],
+    "example": "助けてくれてありがとう。",
+    "category": "Emotions",
+    "id": 69
+  },
+  {
+    "word": "ありがとう",
+    "reading": "arigatou",
+    "translation": "Thank you",
+    "part": "expression",
+    "collocations": [
+      "ありがとうございます",
+      "本当にありがとう"
+    ],
+    "example": "助けてくれてありがとう。",
+    "category": "Fitness",
+    "id": 70
+  },
+  {
+    "word": "ありがとう",
+    "reading": "arigatou",
+    "translation": "Thank you",
+    "part": "expression",
+    "collocations": [
+      "ありがとうございます",
+      "本当にありがとう"
+    ],
+    "example": "助けてくれてありがとう。",
+    "category": "Leisure",
+    "id": 71
+  },
+  {
+    "word": "ありがとう",
+    "reading": "arigatou",
+    "translation": "Thank you",
+    "part": "expression",
+    "collocations": [
+      "ありがとうございます",
+      "本当にありがとう"
+    ],
+    "example": "助けてくれてありがとう。",
+    "category": "Technology",
+    "id": 72
+  },
+  {
+    "word": "ありがとう",
+    "reading": "arigatou",
+    "translation": "Thank you",
+    "part": "expression",
+    "collocations": [
+      "ありがとうございます",
+      "本当にありがとう"
+    ],
+    "example": "助けてくれてありがとう。",
+    "category": "Education",
+    "id": 73
+  },
+  {
+    "word": "ありがとう",
+    "reading": "arigatou",
+    "translation": "Thank you",
+    "part": "expression",
+    "collocations": [
+      "ありがとうございます",
+      "本当にありがとう"
+    ],
+    "example": "助けてくれてありがとう。",
+    "category": "Weather",
+    "id": 74
+  },
+  {
+    "word": "ありがとう",
+    "reading": "arigatou",
+    "translation": "Thank you",
+    "part": "expression",
+    "collocations": [
+      "ありがとうございます",
+      "本当にありがとう"
+    ],
+    "example": "助けてくれてありがとう。",
+    "category": "Hobbies",
+    "id": 75
+  },
+  {
+    "word": "ありがとう",
+    "reading": "arigatou",
+    "translation": "Thank you",
+    "part": "expression",
+    "collocations": [
+      "ありがとうございます",
+      "本当にありがとう"
+    ],
+    "example": "助けてくれてありがとう。",
+    "category": "Home",
+    "id": 76
+  },
+  {
+    "word": "ありがとう",
+    "reading": "arigatou",
+    "translation": "Thank you",
+    "part": "expression",
+    "collocations": [
+      "ありがとうございます",
+      "本当にありがとう"
+    ],
+    "example": "助けてくれてありがとう。",
+    "category": "Directions",
+    "id": 77
+  },
+  {
+    "word": "ありがとう",
+    "reading": "arigatou",
+    "translation": "Thank you",
+    "part": "expression",
+    "collocations": [
+      "ありがとうございます",
+      "本当にありがとう"
+    ],
+    "example": "助けてくれてありがとう。",
+    "category": "Numbers",
+    "id": 78
+  },
+  {
+    "word": "ありがとう",
+    "reading": "arigatou",
+    "translation": "Thank you",
+    "part": "expression",
+    "collocations": [
+      "ありがとうございます",
+      "本当にありがとう"
+    ],
+    "example": "助けてくれてありがとう。",
+    "category": "Nature",
+    "id": 79
+  },
+  {
+    "word": "ありがとう",
+    "reading": "arigatou",
+    "translation": "Thank you",
+    "part": "expression",
+    "collocations": [
+      "ありがとうございます",
+      "本当にありがとう"
+    ],
+    "example": "助けてくれてありがとう。",
+    "category": "Animals",
+    "id": 80
+  },
+  {
+    "word": "ありがとう",
+    "reading": "arigatou",
+    "translation": "Thank you",
+    "part": "expression",
+    "collocations": [
+      "ありがとうございます",
+      "本当にありがとう"
+    ],
+    "example": "助けてくれてありがとう。",
+    "category": "Time",
+    "id": 81
+  },
+  {
+    "word": "ありがとう",
+    "reading": "arigatou",
+    "translation": "Thank you",
+    "part": "expression",
+    "collocations": [
+      "ありがとうございます",
+      "本当にありがとう"
+    ],
+    "example": "助けてくれてありがとう。",
+    "category": "Finance",
+    "id": 82
+  },
+  {
+    "word": "ありがとう",
+    "reading": "arigatou",
+    "translation": "Thank you",
+    "part": "expression",
+    "collocations": [
+      "ありがとうございます",
+      "本当にありがとう"
+    ],
+    "example": "助けてくれてありがとう。",
+    "category": "Grocery",
+    "id": 83
+  },
+  {
+    "word": "ありがとう",
+    "reading": "arigatou",
+    "translation": "Thank you",
+    "part": "expression",
+    "collocations": [
+      "ありがとうございます",
+      "本当にありがとう"
+    ],
+    "example": "助けてくれてありがとう。",
+    "category": "Tourism",
+    "id": 84
+  },
+  {
+    "word": "ありがとう",
+    "reading": "arigatou",
+    "translation": "Thank you",
+    "part": "expression",
+    "collocations": [
+      "ありがとうございます",
+      "本当にありがとう"
+    ],
+    "example": "助けてくれてありがとう。",
+    "category": "Medical",
+    "id": 85
+  },
+  {
+    "word": "ありがとう",
+    "reading": "arigatou",
+    "translation": "Thank you",
+    "part": "expression",
+    "collocations": [
+      "ありがとうございます",
+      "本当にありがとう"
+    ],
+    "example": "助けてくれてありがとう。",
+    "category": "Social",
+    "id": 86
+  },
+  {
+    "word": "ありがとう",
+    "reading": "arigatou",
+    "translation": "Thank you",
+    "part": "expression",
+    "collocations": [
+      "ありがとうございます",
+      "本当にありがとう"
+    ],
+    "example": "助けてくれてありがとう。",
+    "category": "Business",
+    "id": 87
+  },
+  {
+    "word": "ありがとう",
+    "reading": "arigatou",
+    "translation": "Thank you",
+    "part": "expression",
+    "collocations": [
+      "ありがとうございます",
+      "本当にありがとう"
+    ],
+    "example": "助けてくれてありがとう。",
+    "category": "Media",
+    "id": 88
+  },
+  {
+    "word": "ごめんなさい",
+    "reading": "gomen nasai",
+    "translation": "Sorry",
+    "part": "expression",
+    "collocations": [
+      "ごめん",
+      "ごめんなさいと言う"
+    ],
+    "example": "遅れてごめんなさい。",
+    "category": "Hotel",
+    "id": 89
+  },
+  {
+    "word": "ごめんなさい",
+    "reading": "gomen nasai",
+    "translation": "Sorry",
+    "part": "expression",
+    "collocations": [
+      "ごめん",
+      "ごめんなさいと言う"
+    ],
+    "example": "遅れてごめんなさい。",
+    "category": "Misc",
+    "id": 90
+  },
+  {
+    "word": "ごめんなさい",
+    "reading": "gomen nasai",
+    "translation": "Sorry",
+    "part": "expression",
+    "collocations": [
+      "ごめん",
+      "ごめんなさいと言う"
+    ],
+    "example": "遅れてごめんなさい。",
+    "category": "Greetings",
+    "id": 91
+  },
+  {
+    "word": "ごめんなさい",
+    "reading": "gomen nasai",
+    "translation": "Sorry",
+    "part": "expression",
+    "collocations": [
+      "ごめん",
+      "ごめんなさいと言う"
+    ],
+    "example": "遅れてごめんなさい。",
+    "category": "Daily Life",
+    "id": 92
+  },
+  {
+    "word": "ごめんなさい",
+    "reading": "gomen nasai",
+    "translation": "Sorry",
+    "part": "expression",
+    "collocations": [
+      "ごめん",
+      "ごめんなさいと言う"
+    ],
+    "example": "遅れてごめんなさい。",
+    "category": "Food & Drink",
+    "id": 93
+  },
+  {
+    "word": "ごめんなさい",
+    "reading": "gomen nasai",
+    "translation": "Sorry",
+    "part": "expression",
+    "collocations": [
+      "ごめん",
+      "ごめんなさいと言う"
+    ],
+    "example": "遅れてごめんなさい。",
+    "category": "Travel",
+    "id": 94
+  },
+  {
+    "word": "ごめんなさい",
+    "reading": "gomen nasai",
+    "translation": "Sorry",
+    "part": "expression",
+    "collocations": [
+      "ごめん",
+      "ごめんなさいと言う"
+    ],
+    "example": "遅れてごめんなさい。",
+    "category": "Shopping",
+    "id": 95
+  },
+  {
+    "word": "ごめんなさい",
+    "reading": "gomen nasai",
+    "translation": "Sorry",
+    "part": "expression",
+    "collocations": [
+      "ごめん",
+      "ごめんなさいと言う"
+    ],
+    "example": "遅れてごめんなさい。",
+    "category": "Office",
+    "id": 96
+  },
+  {
+    "word": "ごめんなさい",
+    "reading": "gomen nasai",
+    "translation": "Sorry",
+    "part": "expression",
+    "collocations": [
+      "ごめん",
+      "ごめんなさいと言う"
+    ],
+    "example": "遅れてごめんなさい。",
+    "category": "Health",
+    "id": 97
+  },
+  {
+    "word": "ごめんなさい",
+    "reading": "gomen nasai",
+    "translation": "Sorry",
+    "part": "expression",
+    "collocations": [
+      "ごめん",
+      "ごめんなさいと言う"
+    ],
+    "example": "遅れてごめんなさい。",
+    "category": "Family",
+    "id": 98
+  },
+  {
+    "word": "ごめんなさい",
+    "reading": "gomen nasai",
+    "translation": "Sorry",
+    "part": "expression",
+    "collocations": [
+      "ごめん",
+      "ごめんなさいと言う"
+    ],
+    "example": "遅れてごめんなさい。",
+    "category": "Emotions",
+    "id": 99
+  },
+  {
+    "word": "ごめんなさい",
+    "reading": "gomen nasai",
+    "translation": "Sorry",
+    "part": "expression",
+    "collocations": [
+      "ごめん",
+      "ごめんなさいと言う"
+    ],
+    "example": "遅れてごめんなさい。",
+    "category": "Fitness",
+    "id": 100
+  },
+  {
+    "word": "ごめんなさい",
+    "reading": "gomen nasai",
+    "translation": "Sorry",
+    "part": "expression",
+    "collocations": [
+      "ごめん",
+      "ごめんなさいと言う"
+    ],
+    "example": "遅れてごめんなさい。",
+    "category": "Leisure",
+    "id": 101
+  },
+  {
+    "word": "ごめんなさい",
+    "reading": "gomen nasai",
+    "translation": "Sorry",
+    "part": "expression",
+    "collocations": [
+      "ごめん",
+      "ごめんなさいと言う"
+    ],
+    "example": "遅れてごめんなさい。",
+    "category": "Technology",
+    "id": 102
+  },
+  {
+    "word": "ごめんなさい",
+    "reading": "gomen nasai",
+    "translation": "Sorry",
+    "part": "expression",
+    "collocations": [
+      "ごめん",
+      "ごめんなさいと言う"
+    ],
+    "example": "遅れてごめんなさい。",
+    "category": "Education",
+    "id": 103
+  },
+  {
+    "word": "ごめんなさい",
+    "reading": "gomen nasai",
+    "translation": "Sorry",
+    "part": "expression",
+    "collocations": [
+      "ごめん",
+      "ごめんなさいと言う"
+    ],
+    "example": "遅れてごめんなさい。",
+    "category": "Weather",
+    "id": 104
+  },
+  {
+    "word": "ごめんなさい",
+    "reading": "gomen nasai",
+    "translation": "Sorry",
+    "part": "expression",
+    "collocations": [
+      "ごめん",
+      "ごめんなさいと言う"
+    ],
+    "example": "遅れてごめんなさい。",
+    "category": "Hobbies",
+    "id": 105
+  },
+  {
+    "word": "ごめんなさい",
+    "reading": "gomen nasai",
+    "translation": "Sorry",
+    "part": "expression",
+    "collocations": [
+      "ごめん",
+      "ごめんなさいと言う"
+    ],
+    "example": "遅れてごめんなさい。",
+    "category": "Home",
+    "id": 106
+  },
+  {
+    "word": "ごめんなさい",
+    "reading": "gomen nasai",
+    "translation": "Sorry",
+    "part": "expression",
+    "collocations": [
+      "ごめん",
+      "ごめんなさいと言う"
+    ],
+    "example": "遅れてごめんなさい。",
+    "category": "Directions",
+    "id": 107
+  },
+  {
+    "word": "ごめんなさい",
+    "reading": "gomen nasai",
+    "translation": "Sorry",
+    "part": "expression",
+    "collocations": [
+      "ごめん",
+      "ごめんなさいと言う"
+    ],
+    "example": "遅れてごめんなさい。",
+    "category": "Numbers",
+    "id": 108
+  },
+  {
+    "word": "ごめんなさい",
+    "reading": "gomen nasai",
+    "translation": "Sorry",
+    "part": "expression",
+    "collocations": [
+      "ごめん",
+      "ごめんなさいと言う"
+    ],
+    "example": "遅れてごめんなさい。",
+    "category": "Nature",
+    "id": 109
+  },
+  {
+    "word": "ごめんなさい",
+    "reading": "gomen nasai",
+    "translation": "Sorry",
+    "part": "expression",
+    "collocations": [
+      "ごめん",
+      "ごめんなさいと言う"
+    ],
+    "example": "遅れてごめんなさい。",
+    "category": "Animals",
+    "id": 110
+  },
+  {
+    "word": "すみません",
+    "reading": "sumimasen",
+    "translation": "Excuse me / I'm sorry",
+    "part": "expression",
+    "collocations": [
+      "すみませんが",
+      "すみませんと言う"
+    ],
+    "example": "店員さんにすみませんと声をかけました。",
+    "category": "Time",
+    "id": 111
+  },
+  {
+    "word": "すみません",
+    "reading": "sumimasen",
+    "translation": "Excuse me / I'm sorry",
+    "part": "expression",
+    "collocations": [
+      "すみませんが",
+      "すみませんと言う"
+    ],
+    "example": "店員さんにすみませんと声をかけました。",
+    "category": "Finance",
+    "id": 112
+  },
+  {
+    "word": "すみません",
+    "reading": "sumimasen",
+    "translation": "Excuse me / I'm sorry",
+    "part": "expression",
+    "collocations": [
+      "すみませんが",
+      "すみませんと言う"
+    ],
+    "example": "店員さんにすみませんと声をかけました。",
+    "category": "Grocery",
+    "id": 113
+  },
+  {
+    "word": "すみません",
+    "reading": "sumimasen",
+    "translation": "Excuse me / I'm sorry",
+    "part": "expression",
+    "collocations": [
+      "すみませんが",
+      "すみませんと言う"
+    ],
+    "example": "店員さんにすみませんと声をかけました。",
+    "category": "Tourism",
+    "id": 114
+  },
+  {
+    "word": "すみません",
+    "reading": "sumimasen",
+    "translation": "Excuse me / I'm sorry",
+    "part": "expression",
+    "collocations": [
+      "すみませんが",
+      "すみませんと言う"
+    ],
+    "example": "店員さんにすみませんと声をかけました。",
+    "category": "Medical",
+    "id": 115
+  },
+  {
+    "word": "すみません",
+    "reading": "sumimasen",
+    "translation": "Excuse me / I'm sorry",
+    "part": "expression",
+    "collocations": [
+      "すみませんが",
+      "すみませんと言う"
+    ],
+    "example": "店員さんにすみませんと声をかけました。",
+    "category": "Social",
+    "id": 116
+  },
+  {
+    "word": "すみません",
+    "reading": "sumimasen",
+    "translation": "Excuse me / I'm sorry",
+    "part": "expression",
+    "collocations": [
+      "すみませんが",
+      "すみませんと言う"
+    ],
+    "example": "店員さんにすみませんと声をかけました。",
+    "category": "Business",
+    "id": 117
+  },
+  {
+    "word": "すみません",
+    "reading": "sumimasen",
+    "translation": "Excuse me / I'm sorry",
+    "part": "expression",
+    "collocations": [
+      "すみませんが",
+      "すみませんと言う"
+    ],
+    "example": "店員さんにすみませんと声をかけました。",
+    "category": "Media",
+    "id": 118
+  },
+  {
+    "word": "すみません",
+    "reading": "sumimasen",
+    "translation": "Excuse me / I'm sorry",
+    "part": "expression",
+    "collocations": [
+      "すみませんが",
+      "すみませんと言う"
+    ],
+    "example": "店員さんにすみませんと声をかけました。",
+    "category": "Hotel",
+    "id": 119
+  },
+  {
+    "word": "すみません",
+    "reading": "sumimasen",
+    "translation": "Excuse me / I'm sorry",
+    "part": "expression",
+    "collocations": [
+      "すみませんが",
+      "すみませんと言う"
+    ],
+    "example": "店員さんにすみませんと声をかけました。",
+    "category": "Misc",
+    "id": 120
+  },
+  {
+    "word": "すみません",
+    "reading": "sumimasen",
+    "translation": "Excuse me / I'm sorry",
+    "part": "expression",
+    "collocations": [
+      "すみませんが",
+      "すみませんと言う"
+    ],
+    "example": "店員さんにすみませんと声をかけました。",
+    "category": "Greetings",
+    "id": 121
+  },
+  {
+    "word": "すみません",
+    "reading": "sumimasen",
+    "translation": "Excuse me / I'm sorry",
+    "part": "expression",
+    "collocations": [
+      "すみませんが",
+      "すみませんと言う"
+    ],
+    "example": "店員さんにすみませんと声をかけました。",
+    "category": "Daily Life",
+    "id": 122
+  },
+  {
+    "word": "すみません",
+    "reading": "sumimasen",
+    "translation": "Excuse me / I'm sorry",
+    "part": "expression",
+    "collocations": [
+      "すみませんが",
+      "すみませんと言う"
+    ],
+    "example": "店員さんにすみませんと声をかけました。",
+    "category": "Food & Drink",
+    "id": 123
+  },
+  {
+    "word": "すみません",
+    "reading": "sumimasen",
+    "translation": "Excuse me / I'm sorry",
+    "part": "expression",
+    "collocations": [
+      "すみませんが",
+      "すみませんと言う"
+    ],
+    "example": "店員さんにすみませんと声をかけました。",
+    "category": "Travel",
+    "id": 124
+  },
+  {
+    "word": "すみません",
+    "reading": "sumimasen",
+    "translation": "Excuse me / I'm sorry",
+    "part": "expression",
+    "collocations": [
+      "すみませんが",
+      "すみませんと言う"
+    ],
+    "example": "店員さんにすみませんと声をかけました。",
+    "category": "Shopping",
+    "id": 125
+  },
+  {
+    "word": "すみません",
+    "reading": "sumimasen",
+    "translation": "Excuse me / I'm sorry",
+    "part": "expression",
+    "collocations": [
+      "すみませんが",
+      "すみませんと言う"
+    ],
+    "example": "店員さんにすみませんと声をかけました。",
+    "category": "Office",
+    "id": 126
+  },
+  {
+    "word": "すみません",
+    "reading": "sumimasen",
+    "translation": "Excuse me / I'm sorry",
+    "part": "expression",
+    "collocations": [
+      "すみませんが",
+      "すみませんと言う"
+    ],
+    "example": "店員さんにすみませんと声をかけました。",
+    "category": "Health",
+    "id": 127
+  },
+  {
+    "word": "すみません",
+    "reading": "sumimasen",
+    "translation": "Excuse me / I'm sorry",
+    "part": "expression",
+    "collocations": [
+      "すみませんが",
+      "すみませんと言う"
+    ],
+    "example": "店員さんにすみませんと声をかけました。",
+    "category": "Family",
+    "id": 128
+  },
+  {
+    "word": "すみません",
+    "reading": "sumimasen",
+    "translation": "Excuse me / I'm sorry",
+    "part": "expression",
+    "collocations": [
+      "すみませんが",
+      "すみませんと言う"
+    ],
+    "example": "店員さんにすみませんと声をかけました。",
+    "category": "Emotions",
+    "id": 129
+  },
+  {
+    "word": "すみません",
+    "reading": "sumimasen",
+    "translation": "Excuse me / I'm sorry",
+    "part": "expression",
+    "collocations": [
+      "すみませんが",
+      "すみませんと言う"
+    ],
+    "example": "店員さんにすみませんと声をかけました。",
+    "category": "Fitness",
+    "id": 130
+  },
+  {
+    "word": "すみません",
+    "reading": "sumimasen",
+    "translation": "Excuse me / I'm sorry",
+    "part": "expression",
+    "collocations": [
+      "すみませんが",
+      "すみませんと言う"
+    ],
+    "example": "店員さんにすみませんと声をかけました。",
+    "category": "Leisure",
+    "id": 131
+  },
+  {
+    "word": "すみません",
+    "reading": "sumimasen",
+    "translation": "Excuse me / I'm sorry",
+    "part": "expression",
+    "collocations": [
+      "すみませんが",
+      "すみませんと言う"
+    ],
+    "example": "店員さんにすみませんと声をかけました。",
+    "category": "Technology",
+    "id": 132
+  },
+  {
+    "word": "はい",
+    "reading": "hai",
+    "translation": "Yes",
+    "part": "expression",
+    "collocations": [
+      "はい、そうです",
+      "はい、と答える"
+    ],
+    "example": "質問に対してはいと答えました。",
+    "category": "Education",
+    "id": 133
+  },
+  {
+    "word": "はい",
+    "reading": "hai",
+    "translation": "Yes",
+    "part": "expression",
+    "collocations": [
+      "はい、そうです",
+      "はい、と答える"
+    ],
+    "example": "質問に対してはいと答えました。",
+    "category": "Weather",
+    "id": 134
+  },
+  {
+    "word": "はい",
+    "reading": "hai",
+    "translation": "Yes",
+    "part": "expression",
+    "collocations": [
+      "はい、そうです",
+      "はい、と答える"
+    ],
+    "example": "質問に対してはいと答えました。",
+    "category": "Hobbies",
+    "id": 135
+  },
+  {
+    "word": "はい",
+    "reading": "hai",
+    "translation": "Yes",
+    "part": "expression",
+    "collocations": [
+      "はい、そうです",
+      "はい、と答える"
+    ],
+    "example": "質問に対してはいと答えました。",
+    "category": "Home",
+    "id": 136
+  },
+  {
+    "word": "はい",
+    "reading": "hai",
+    "translation": "Yes",
+    "part": "expression",
+    "collocations": [
+      "はい、そうです",
+      "はい、と答える"
+    ],
+    "example": "質問に対してはいと答えました。",
+    "category": "Directions",
+    "id": 137
+  },
+  {
+    "word": "はい",
+    "reading": "hai",
+    "translation": "Yes",
+    "part": "expression",
+    "collocations": [
+      "はい、そうです",
+      "はい、と答える"
+    ],
+    "example": "質問に対してはいと答えました。",
+    "category": "Numbers",
+    "id": 138
+  },
+  {
+    "word": "はい",
+    "reading": "hai",
+    "translation": "Yes",
+    "part": "expression",
+    "collocations": [
+      "はい、そうです",
+      "はい、と答える"
+    ],
+    "example": "質問に対してはいと答えました。",
+    "category": "Nature",
+    "id": 139
+  },
+  {
+    "word": "はい",
+    "reading": "hai",
+    "translation": "Yes",
+    "part": "expression",
+    "collocations": [
+      "はい、そうです",
+      "はい、と答える"
+    ],
+    "example": "質問に対してはいと答えました。",
+    "category": "Animals",
+    "id": 140
+  },
+  {
+    "word": "はい",
+    "reading": "hai",
+    "translation": "Yes",
+    "part": "expression",
+    "collocations": [
+      "はい、そうです",
+      "はい、と答える"
+    ],
+    "example": "質問に対してはいと答えました。",
+    "category": "Time",
+    "id": 141
+  },
+  {
+    "word": "はい",
+    "reading": "hai",
+    "translation": "Yes",
+    "part": "expression",
+    "collocations": [
+      "はい、そうです",
+      "はい、と答える"
+    ],
+    "example": "質問に対してはいと答えました。",
+    "category": "Finance",
+    "id": 142
+  },
+  {
+    "word": "はい",
+    "reading": "hai",
+    "translation": "Yes",
+    "part": "expression",
+    "collocations": [
+      "はい、そうです",
+      "はい、と答える"
+    ],
+    "example": "質問に対してはいと答えました。",
+    "category": "Grocery",
+    "id": 143
+  },
+  {
+    "word": "はい",
+    "reading": "hai",
+    "translation": "Yes",
+    "part": "expression",
+    "collocations": [
+      "はい、そうです",
+      "はい、と答える"
+    ],
+    "example": "質問に対してはいと答えました。",
+    "category": "Tourism",
+    "id": 144
+  },
+  {
+    "word": "はい",
+    "reading": "hai",
+    "translation": "Yes",
+    "part": "expression",
+    "collocations": [
+      "はい、そうです",
+      "はい、と答える"
+    ],
+    "example": "質問に対してはいと答えました。",
+    "category": "Medical",
+    "id": 145
+  },
+  {
+    "word": "はい",
+    "reading": "hai",
+    "translation": "Yes",
+    "part": "expression",
+    "collocations": [
+      "はい、そうです",
+      "はい、と答える"
+    ],
+    "example": "質問に対してはいと答えました。",
+    "category": "Social",
+    "id": 146
+  },
+  {
+    "word": "はい",
+    "reading": "hai",
+    "translation": "Yes",
+    "part": "expression",
+    "collocations": [
+      "はい、そうです",
+      "はい、と答える"
+    ],
+    "example": "質問に対してはいと答えました。",
+    "category": "Business",
+    "id": 147
+  },
+  {
+    "word": "はい",
+    "reading": "hai",
+    "translation": "Yes",
+    "part": "expression",
+    "collocations": [
+      "はい、そうです",
+      "はい、と答える"
+    ],
+    "example": "質問に対してはいと答えました。",
+    "category": "Media",
+    "id": 148
+  },
+  {
+    "word": "はい",
+    "reading": "hai",
+    "translation": "Yes",
+    "part": "expression",
+    "collocations": [
+      "はい、そうです",
+      "はい、と答える"
+    ],
+    "example": "質問に対してはいと答えました。",
+    "category": "Hotel",
+    "id": 149
+  },
+  {
+    "word": "はい",
+    "reading": "hai",
+    "translation": "Yes",
+    "part": "expression",
+    "collocations": [
+      "はい、そうです",
+      "はい、と答える"
+    ],
+    "example": "質問に対してはいと答えました。",
+    "category": "Misc",
+    "id": 150
+  },
+  {
+    "word": "はい",
+    "reading": "hai",
+    "translation": "Yes",
+    "part": "expression",
+    "collocations": [
+      "はい、そうです",
+      "はい、と答える"
+    ],
+    "example": "質問に対してはいと答えました。",
+    "category": "Greetings",
+    "id": 151
+  },
+  {
+    "word": "はい",
+    "reading": "hai",
+    "translation": "Yes",
+    "part": "expression",
+    "collocations": [
+      "はい、そうです",
+      "はい、と答える"
+    ],
+    "example": "質問に対してはいと答えました。",
+    "category": "Daily Life",
+    "id": 152
+  },
+  {
+    "word": "はい",
+    "reading": "hai",
+    "translation": "Yes",
+    "part": "expression",
+    "collocations": [
+      "はい、そうです",
+      "はい、と答える"
+    ],
+    "example": "質問に対してはいと答えました。",
+    "category": "Food & Drink",
+    "id": 153
+  },
+  {
+    "word": "はい",
+    "reading": "hai",
+    "translation": "Yes",
+    "part": "expression",
+    "collocations": [
+      "はい、そうです",
+      "はい、と答える"
+    ],
+    "example": "質問に対してはいと答えました。",
+    "category": "Travel",
+    "id": 154
+  },
+  {
+    "word": "いいえ",
+    "reading": "iie",
+    "translation": "No",
+    "part": "expression",
+    "collocations": [
+      "いいえ、違います",
+      "いいえ、と答える"
+    ],
+    "example": "それは違いますか？いいえ、と言いました。",
+    "category": "Shopping",
+    "id": 155
+  },
+  {
+    "word": "いいえ",
+    "reading": "iie",
+    "translation": "No",
+    "part": "expression",
+    "collocations": [
+      "いいえ、違います",
+      "いいえ、と答える"
+    ],
+    "example": "それは違いますか？いいえ、と言いました。",
+    "category": "Office",
+    "id": 156
+  },
+  {
+    "word": "いいえ",
+    "reading": "iie",
+    "translation": "No",
+    "part": "expression",
+    "collocations": [
+      "いいえ、違います",
+      "いいえ、と答える"
+    ],
+    "example": "それは違いますか？いいえ、と言いました。",
+    "category": "Health",
+    "id": 157
+  },
+  {
+    "word": "いいえ",
+    "reading": "iie",
+    "translation": "No",
+    "part": "expression",
+    "collocations": [
+      "いいえ、違います",
+      "いいえ、と答える"
+    ],
+    "example": "それは違いますか？いいえ、と言いました。",
+    "category": "Family",
+    "id": 158
+  },
+  {
+    "word": "いいえ",
+    "reading": "iie",
+    "translation": "No",
+    "part": "expression",
+    "collocations": [
+      "いいえ、違います",
+      "いいえ、と答える"
+    ],
+    "example": "それは違いますか？いいえ、と言いました。",
+    "category": "Emotions",
+    "id": 159
+  },
+  {
+    "word": "いいえ",
+    "reading": "iie",
+    "translation": "No",
+    "part": "expression",
+    "collocations": [
+      "いいえ、違います",
+      "いいえ、と答える"
+    ],
+    "example": "それは違いますか？いいえ、と言いました。",
+    "category": "Fitness",
+    "id": 160
+  },
+  {
+    "word": "いいえ",
+    "reading": "iie",
+    "translation": "No",
+    "part": "expression",
+    "collocations": [
+      "いいえ、違います",
+      "いいえ、と答える"
+    ],
+    "example": "それは違いますか？いいえ、と言いました。",
+    "category": "Leisure",
+    "id": 161
+  },
+  {
+    "word": "いいえ",
+    "reading": "iie",
+    "translation": "No",
+    "part": "expression",
+    "collocations": [
+      "いいえ、違います",
+      "いいえ、と答える"
+    ],
+    "example": "それは違いますか？いいえ、と言いました。",
+    "category": "Technology",
+    "id": 162
+  },
+  {
+    "word": "いいえ",
+    "reading": "iie",
+    "translation": "No",
+    "part": "expression",
+    "collocations": [
+      "いいえ、違います",
+      "いいえ、と答える"
+    ],
+    "example": "それは違いますか？いいえ、と言いました。",
+    "category": "Education",
+    "id": 163
+  },
+  {
+    "word": "いいえ",
+    "reading": "iie",
+    "translation": "No",
+    "part": "expression",
+    "collocations": [
+      "いいえ、違います",
+      "いいえ、と答える"
+    ],
+    "example": "それは違いますか？いいえ、と言いました。",
+    "category": "Weather",
+    "id": 164
+  },
+  {
+    "word": "いいえ",
+    "reading": "iie",
+    "translation": "No",
+    "part": "expression",
+    "collocations": [
+      "いいえ、違います",
+      "いいえ、と答える"
+    ],
+    "example": "それは違いますか？いいえ、と言いました。",
+    "category": "Hobbies",
+    "id": 165
+  },
+  {
+    "word": "いいえ",
+    "reading": "iie",
+    "translation": "No",
+    "part": "expression",
+    "collocations": [
+      "いいえ、違います",
+      "いいえ、と答える"
+    ],
+    "example": "それは違いますか？いいえ、と言いました。",
+    "category": "Home",
+    "id": 166
+  },
+  {
+    "word": "いいえ",
+    "reading": "iie",
+    "translation": "No",
+    "part": "expression",
+    "collocations": [
+      "いいえ、違います",
+      "いいえ、と答える"
+    ],
+    "example": "それは違いますか？いいえ、と言いました。",
+    "category": "Directions",
+    "id": 167
+  },
+  {
+    "word": "いいえ",
+    "reading": "iie",
+    "translation": "No",
+    "part": "expression",
+    "collocations": [
+      "いいえ、違います",
+      "いいえ、と答える"
+    ],
+    "example": "それは違いますか？いいえ、と言いました。",
+    "category": "Numbers",
+    "id": 168
+  },
+  {
+    "word": "いいえ",
+    "reading": "iie",
+    "translation": "No",
+    "part": "expression",
+    "collocations": [
+      "いいえ、違います",
+      "いいえ、と答える"
+    ],
+    "example": "それは違いますか？いいえ、と言いました。",
+    "category": "Nature",
+    "id": 169
+  },
+  {
+    "word": "いいえ",
+    "reading": "iie",
+    "translation": "No",
+    "part": "expression",
+    "collocations": [
+      "いいえ、違います",
+      "いいえ、と答える"
+    ],
+    "example": "それは違いますか？いいえ、と言いました。",
+    "category": "Animals",
+    "id": 170
+  },
+  {
+    "word": "いいえ",
+    "reading": "iie",
+    "translation": "No",
+    "part": "expression",
+    "collocations": [
+      "いいえ、違います",
+      "いいえ、と答える"
+    ],
+    "example": "それは違いますか？いいえ、と言いました。",
+    "category": "Time",
+    "id": 171
+  },
+  {
+    "word": "いいえ",
+    "reading": "iie",
+    "translation": "No",
+    "part": "expression",
+    "collocations": [
+      "いいえ、違います",
+      "いいえ、と答える"
+    ],
+    "example": "それは違いますか？いいえ、と言いました。",
+    "category": "Finance",
+    "id": 172
+  },
+  {
+    "word": "いいえ",
+    "reading": "iie",
+    "translation": "No",
+    "part": "expression",
+    "collocations": [
+      "いいえ、違います",
+      "いいえ、と答える"
+    ],
+    "example": "それは違いますか？いいえ、と言いました。",
+    "category": "Grocery",
+    "id": 173
+  },
+  {
+    "word": "いいえ",
+    "reading": "iie",
+    "translation": "No",
+    "part": "expression",
+    "collocations": [
+      "いいえ、違います",
+      "いいえ、と答える"
+    ],
+    "example": "それは違いますか？いいえ、と言いました。",
+    "category": "Tourism",
+    "id": 174
+  },
+  {
+    "word": "いいえ",
+    "reading": "iie",
+    "translation": "No",
+    "part": "expression",
+    "collocations": [
+      "いいえ、違います",
+      "いいえ、と答える"
+    ],
+    "example": "それは違いますか？いいえ、と言いました。",
+    "category": "Medical",
+    "id": 175
+  },
+  {
+    "word": "いいえ",
+    "reading": "iie",
+    "translation": "No",
+    "part": "expression",
+    "collocations": [
+      "いいえ、違います",
+      "いいえ、と答える"
+    ],
+    "example": "それは違いますか？いいえ、と言いました。",
+    "category": "Social",
+    "id": 176
+  },
+  {
+    "word": "わかりません",
+    "reading": "wakarimasen",
+    "translation": "I don't understand",
+    "part": "expression",
+    "collocations": [
+      "わかりません、と答える"
+    ],
+    "example": "この漢字の意味がわかりません。",
+    "category": "Business",
+    "id": 177
+  },
+  {
+    "word": "わかりません",
+    "reading": "wakarimasen",
+    "translation": "I don't understand",
+    "part": "expression",
+    "collocations": [
+      "わかりません、と答える"
+    ],
+    "example": "この漢字の意味がわかりません。",
+    "category": "Media",
+    "id": 178
+  },
+  {
+    "word": "わかりません",
+    "reading": "wakarimasen",
+    "translation": "I don't understand",
+    "part": "expression",
+    "collocations": [
+      "わかりません、と答える"
+    ],
+    "example": "この漢字の意味がわかりません。",
+    "category": "Hotel",
+    "id": 179
+  },
+  {
+    "word": "わかりません",
+    "reading": "wakarimasen",
+    "translation": "I don't understand",
+    "part": "expression",
+    "collocations": [
+      "わかりません、と答える"
+    ],
+    "example": "この漢字の意味がわかりません。",
+    "category": "Misc",
+    "id": 180
+  },
+  {
+    "word": "わかりません",
+    "reading": "wakarimasen",
+    "translation": "I don't understand",
+    "part": "expression",
+    "collocations": [
+      "わかりません、と答える"
+    ],
+    "example": "この漢字の意味がわかりません。",
+    "category": "Greetings",
+    "id": 181
+  },
+  {
+    "word": "わかりません",
+    "reading": "wakarimasen",
+    "translation": "I don't understand",
+    "part": "expression",
+    "collocations": [
+      "わかりません、と答える"
+    ],
+    "example": "この漢字の意味がわかりません。",
+    "category": "Daily Life",
+    "id": 182
+  },
+  {
+    "word": "わかりません",
+    "reading": "wakarimasen",
+    "translation": "I don't understand",
+    "part": "expression",
+    "collocations": [
+      "わかりません、と答える"
+    ],
+    "example": "この漢字の意味がわかりません。",
+    "category": "Food & Drink",
+    "id": 183
+  },
+  {
+    "word": "わかりません",
+    "reading": "wakarimasen",
+    "translation": "I don't understand",
+    "part": "expression",
+    "collocations": [
+      "わかりません、と答える"
+    ],
+    "example": "この漢字の意味がわかりません。",
+    "category": "Travel",
+    "id": 184
+  },
+  {
+    "word": "わかりません",
+    "reading": "wakarimasen",
+    "translation": "I don't understand",
+    "part": "expression",
+    "collocations": [
+      "わかりません、と答える"
+    ],
+    "example": "この漢字の意味がわかりません。",
+    "category": "Shopping",
+    "id": 185
+  },
+  {
+    "word": "わかりません",
+    "reading": "wakarimasen",
+    "translation": "I don't understand",
+    "part": "expression",
+    "collocations": [
+      "わかりません、と答える"
+    ],
+    "example": "この漢字の意味がわかりません。",
+    "category": "Office",
+    "id": 186
+  },
+  {
+    "word": "わかりません",
+    "reading": "wakarimasen",
+    "translation": "I don't understand",
+    "part": "expression",
+    "collocations": [
+      "わかりません、と答える"
+    ],
+    "example": "この漢字の意味がわかりません。",
+    "category": "Health",
+    "id": 187
+  },
+  {
+    "word": "わかりません",
+    "reading": "wakarimasen",
+    "translation": "I don't understand",
+    "part": "expression",
+    "collocations": [
+      "わかりません、と答える"
+    ],
+    "example": "この漢字の意味がわかりません。",
+    "category": "Family",
+    "id": 188
+  },
+  {
+    "word": "わかりません",
+    "reading": "wakarimasen",
+    "translation": "I don't understand",
+    "part": "expression",
+    "collocations": [
+      "わかりません、と答える"
+    ],
+    "example": "この漢字の意味がわかりません。",
+    "category": "Emotions",
+    "id": 189
+  },
+  {
+    "word": "わかりません",
+    "reading": "wakarimasen",
+    "translation": "I don't understand",
+    "part": "expression",
+    "collocations": [
+      "わかりません、と答える"
+    ],
+    "example": "この漢字の意味がわかりません。",
+    "category": "Fitness",
+    "id": 190
+  },
+  {
+    "word": "わかりません",
+    "reading": "wakarimasen",
+    "translation": "I don't understand",
+    "part": "expression",
+    "collocations": [
+      "わかりません、と答える"
+    ],
+    "example": "この漢字の意味がわかりません。",
+    "category": "Leisure",
+    "id": 191
+  },
+  {
+    "word": "わかりません",
+    "reading": "wakarimasen",
+    "translation": "I don't understand",
+    "part": "expression",
+    "collocations": [
+      "わかりません、と答える"
+    ],
+    "example": "この漢字の意味がわかりません。",
+    "category": "Technology",
+    "id": 192
+  },
+  {
+    "word": "わかりません",
+    "reading": "wakarimasen",
+    "translation": "I don't understand",
+    "part": "expression",
+    "collocations": [
+      "わかりません、と答える"
+    ],
+    "example": "この漢字の意味がわかりません。",
+    "category": "Education",
+    "id": 193
+  },
+  {
+    "word": "わかりません",
+    "reading": "wakarimasen",
+    "translation": "I don't understand",
+    "part": "expression",
+    "collocations": [
+      "わかりません、と答える"
+    ],
+    "example": "この漢字の意味がわかりません。",
+    "category": "Weather",
+    "id": 194
+  },
+  {
+    "word": "わかりません",
+    "reading": "wakarimasen",
+    "translation": "I don't understand",
+    "part": "expression",
+    "collocations": [
+      "わかりません、と答える"
+    ],
+    "example": "この漢字の意味がわかりません。",
+    "category": "Hobbies",
+    "id": 195
+  },
+  {
+    "word": "わかりません",
+    "reading": "wakarimasen",
+    "translation": "I don't understand",
+    "part": "expression",
+    "collocations": [
+      "わかりません、と答える"
+    ],
+    "example": "この漢字の意味がわかりません。",
+    "category": "Home",
+    "id": 196
+  },
+  {
+    "word": "わかりません",
+    "reading": "wakarimasen",
+    "translation": "I don't understand",
+    "part": "expression",
+    "collocations": [
+      "わかりません、と答える"
+    ],
+    "example": "この漢字の意味がわかりません。",
+    "category": "Directions",
+    "id": 197
+  },
+  {
+    "word": "わかりません",
+    "reading": "wakarimasen",
+    "translation": "I don't understand",
+    "part": "expression",
+    "collocations": [
+      "わかりません、と答える"
+    ],
+    "example": "この漢字の意味がわかりません。",
+    "category": "Numbers",
+    "id": 198
+  },
+  {
+    "word": "助けてください",
+    "reading": "tasukete kudasai",
+    "translation": "Please help me",
+    "part": "expression",
+    "collocations": [
+      "助けて",
+      "助けてくださいと叫ぶ"
+    ],
+    "example": "危険な状況で助けてくださいと言いました。",
+    "category": "Nature",
+    "id": 199
+  },
+  {
+    "word": "助けてください",
+    "reading": "tasukete kudasai",
+    "translation": "Please help me",
+    "part": "expression",
+    "collocations": [
+      "助けて",
+      "助けてくださいと叫ぶ"
+    ],
+    "example": "危険な状況で助けてくださいと言いました。",
+    "category": "Animals",
+    "id": 200
+  },
+  {
+    "word": "助けてください",
+    "reading": "tasukete kudasai",
+    "translation": "Please help me",
+    "part": "expression",
+    "collocations": [
+      "助けて",
+      "助けてくださいと叫ぶ"
+    ],
+    "example": "危険な状況で助けてくださいと言いました。",
+    "category": "Time",
+    "id": 201
+  },
+  {
+    "word": "助けてください",
+    "reading": "tasukete kudasai",
+    "translation": "Please help me",
+    "part": "expression",
+    "collocations": [
+      "助けて",
+      "助けてくださいと叫ぶ"
+    ],
+    "example": "危険な状況で助けてくださいと言いました。",
+    "category": "Finance",
+    "id": 202
+  },
+  {
+    "word": "助けてください",
+    "reading": "tasukete kudasai",
+    "translation": "Please help me",
+    "part": "expression",
+    "collocations": [
+      "助けて",
+      "助けてくださいと叫ぶ"
+    ],
+    "example": "危険な状況で助けてくださいと言いました。",
+    "category": "Grocery",
+    "id": 203
+  },
+  {
+    "word": "助けてください",
+    "reading": "tasukete kudasai",
+    "translation": "Please help me",
+    "part": "expression",
+    "collocations": [
+      "助けて",
+      "助けてくださいと叫ぶ"
+    ],
+    "example": "危険な状況で助けてくださいと言いました。",
+    "category": "Tourism",
+    "id": 204
+  },
+  {
+    "word": "助けてください",
+    "reading": "tasukete kudasai",
+    "translation": "Please help me",
+    "part": "expression",
+    "collocations": [
+      "助けて",
+      "助けてくださいと叫ぶ"
+    ],
+    "example": "危険な状況で助けてくださいと言いました。",
+    "category": "Medical",
+    "id": 205
+  },
+  {
+    "word": "助けてください",
+    "reading": "tasukete kudasai",
+    "translation": "Please help me",
+    "part": "expression",
+    "collocations": [
+      "助けて",
+      "助けてくださいと叫ぶ"
+    ],
+    "example": "危険な状況で助けてくださいと言いました。",
+    "category": "Social",
+    "id": 206
+  },
+  {
+    "word": "助けてください",
+    "reading": "tasukete kudasai",
+    "translation": "Please help me",
+    "part": "expression",
+    "collocations": [
+      "助けて",
+      "助けてくださいと叫ぶ"
+    ],
+    "example": "危険な状況で助けてくださいと言いました。",
+    "category": "Business",
+    "id": 207
+  },
+  {
+    "word": "助けてください",
+    "reading": "tasukete kudasai",
+    "translation": "Please help me",
+    "part": "expression",
+    "collocations": [
+      "助けて",
+      "助けてくださいと叫ぶ"
+    ],
+    "example": "危険な状況で助けてくださいと言いました。",
+    "category": "Media",
+    "id": 208
+  },
+  {
+    "word": "助けてください",
+    "reading": "tasukete kudasai",
+    "translation": "Please help me",
+    "part": "expression",
+    "collocations": [
+      "助けて",
+      "助けてくださいと叫ぶ"
+    ],
+    "example": "危険な状況で助けてくださいと言いました。",
+    "category": "Hotel",
+    "id": 209
+  },
+  {
+    "word": "助けてください",
+    "reading": "tasukete kudasai",
+    "translation": "Please help me",
+    "part": "expression",
+    "collocations": [
+      "助けて",
+      "助けてくださいと叫ぶ"
+    ],
+    "example": "危険な状況で助けてくださいと言いました。",
+    "category": "Misc",
+    "id": 210
+  },
+  {
+    "word": "助けてください",
+    "reading": "tasukete kudasai",
+    "translation": "Please help me",
+    "part": "expression",
+    "collocations": [
+      "助けて",
+      "助けてくださいと叫ぶ"
+    ],
+    "example": "危険な状況で助けてくださいと言いました。",
+    "category": "Greetings",
+    "id": 211
+  },
+  {
+    "word": "助けてください",
+    "reading": "tasukete kudasai",
+    "translation": "Please help me",
+    "part": "expression",
+    "collocations": [
+      "助けて",
+      "助けてくださいと叫ぶ"
+    ],
+    "example": "危険な状況で助けてくださいと言いました。",
+    "category": "Daily Life",
+    "id": 212
+  },
+  {
+    "word": "助けてください",
+    "reading": "tasukete kudasai",
+    "translation": "Please help me",
+    "part": "expression",
+    "collocations": [
+      "助けて",
+      "助けてくださいと叫ぶ"
+    ],
+    "example": "危険な状況で助けてくださいと言いました。",
+    "category": "Food & Drink",
+    "id": 213
+  },
+  {
+    "word": "助けてください",
+    "reading": "tasukete kudasai",
+    "translation": "Please help me",
+    "part": "expression",
+    "collocations": [
+      "助けて",
+      "助けてくださいと叫ぶ"
+    ],
+    "example": "危険な状況で助けてくださいと言いました。",
+    "category": "Travel",
+    "id": 214
+  },
+  {
+    "word": "助けてください",
+    "reading": "tasukete kudasai",
+    "translation": "Please help me",
+    "part": "expression",
+    "collocations": [
+      "助けて",
+      "助けてくださいと叫ぶ"
+    ],
+    "example": "危険な状況で助けてくださいと言いました。",
+    "category": "Shopping",
+    "id": 215
+  },
+  {
+    "word": "助けてください",
+    "reading": "tasukete kudasai",
+    "translation": "Please help me",
+    "part": "expression",
+    "collocations": [
+      "助けて",
+      "助けてくださいと叫ぶ"
+    ],
+    "example": "危険な状況で助けてくださいと言いました。",
+    "category": "Office",
+    "id": 216
+  },
+  {
+    "word": "助けてください",
+    "reading": "tasukete kudasai",
+    "translation": "Please help me",
+    "part": "expression",
+    "collocations": [
+      "助けて",
+      "助けてくださいと叫ぶ"
+    ],
+    "example": "危険な状況で助けてくださいと言いました。",
+    "category": "Health",
+    "id": 217
+  },
+  {
+    "word": "助けてください",
+    "reading": "tasukete kudasai",
+    "translation": "Please help me",
+    "part": "expression",
+    "collocations": [
+      "助けて",
+      "助けてくださいと叫ぶ"
+    ],
+    "example": "危険な状況で助けてくださいと言いました。",
+    "category": "Family",
+    "id": 218
+  },
+  {
+    "word": "助けてください",
+    "reading": "tasukete kudasai",
+    "translation": "Please help me",
+    "part": "expression",
+    "collocations": [
+      "助けて",
+      "助けてくださいと叫ぶ"
+    ],
+    "example": "危険な状況で助けてくださいと言いました。",
+    "category": "Emotions",
+    "id": 219
+  },
+  {
+    "word": "助けてください",
+    "reading": "tasukete kudasai",
+    "translation": "Please help me",
+    "part": "expression",
+    "collocations": [
+      "助けて",
+      "助けてくださいと叫ぶ"
+    ],
+    "example": "危険な状況で助けてくださいと言いました。",
+    "category": "Fitness",
+    "id": 220
+  },
+  {
+    "word": "名前",
+    "reading": "namae",
+    "translation": "Name",
+    "part": "noun",
+    "collocations": [
+      "名前を書く",
+      "名前を聞く"
+    ],
+    "example": "初対面のときに相手の名前を聞きます。",
+    "category": "Leisure",
+    "id": 221
+  },
+  {
+    "word": "名前",
+    "reading": "namae",
+    "translation": "Name",
+    "part": "noun",
+    "collocations": [
+      "名前を書く",
+      "名前を聞く"
+    ],
+    "example": "初対面のときに相手の名前を聞きます。",
+    "category": "Technology",
+    "id": 222
+  },
+  {
+    "word": "名前",
+    "reading": "namae",
+    "translation": "Name",
+    "part": "noun",
+    "collocations": [
+      "名前を書く",
+      "名前を聞く"
+    ],
+    "example": "初対面のときに相手の名前を聞きます。",
+    "category": "Education",
+    "id": 223
+  },
+  {
+    "word": "名前",
+    "reading": "namae",
+    "translation": "Name",
+    "part": "noun",
+    "collocations": [
+      "名前を書く",
+      "名前を聞く"
+    ],
+    "example": "初対面のときに相手の名前を聞きます。",
+    "category": "Weather",
+    "id": 224
+  },
+  {
+    "word": "名前",
+    "reading": "namae",
+    "translation": "Name",
+    "part": "noun",
+    "collocations": [
+      "名前を書く",
+      "名前を聞く"
+    ],
+    "example": "初対面のときに相手の名前を聞きます。",
+    "category": "Hobbies",
+    "id": 225
+  },
+  {
+    "word": "名前",
+    "reading": "namae",
+    "translation": "Name",
+    "part": "noun",
+    "collocations": [
+      "名前を書く",
+      "名前を聞く"
+    ],
+    "example": "初対面のときに相手の名前を聞きます。",
+    "category": "Home",
+    "id": 226
+  },
+  {
+    "word": "名前",
+    "reading": "namae",
+    "translation": "Name",
+    "part": "noun",
+    "collocations": [
+      "名前を書く",
+      "名前を聞く"
+    ],
+    "example": "初対面のときに相手の名前を聞きます。",
+    "category": "Directions",
+    "id": 227
+  },
+  {
+    "word": "名前",
+    "reading": "namae",
+    "translation": "Name",
+    "part": "noun",
+    "collocations": [
+      "名前を書く",
+      "名前を聞く"
+    ],
+    "example": "初対面のときに相手の名前を聞きます。",
+    "category": "Numbers",
+    "id": 228
+  },
+  {
+    "word": "名前",
+    "reading": "namae",
+    "translation": "Name",
+    "part": "noun",
+    "collocations": [
+      "名前を書く",
+      "名前を聞く"
+    ],
+    "example": "初対面のときに相手の名前を聞きます。",
+    "category": "Nature",
+    "id": 229
+  },
+  {
+    "word": "名前",
+    "reading": "namae",
+    "translation": "Name",
+    "part": "noun",
+    "collocations": [
+      "名前を書く",
+      "名前を聞く"
+    ],
+    "example": "初対面のときに相手の名前を聞きます。",
+    "category": "Animals",
+    "id": 230
+  },
+  {
+    "word": "名前",
+    "reading": "namae",
+    "translation": "Name",
+    "part": "noun",
+    "collocations": [
+      "名前を書く",
+      "名前を聞く"
+    ],
+    "example": "初対面のときに相手の名前を聞きます。",
+    "category": "Time",
+    "id": 231
+  },
+  {
+    "word": "名前",
+    "reading": "namae",
+    "translation": "Name",
+    "part": "noun",
+    "collocations": [
+      "名前を書く",
+      "名前を聞く"
+    ],
+    "example": "初対面のときに相手の名前を聞きます。",
+    "category": "Finance",
+    "id": 232
+  },
+  {
+    "word": "名前",
+    "reading": "namae",
+    "translation": "Name",
+    "part": "noun",
+    "collocations": [
+      "名前を書く",
+      "名前を聞く"
+    ],
+    "example": "初対面のときに相手の名前を聞きます。",
+    "category": "Grocery",
+    "id": 233
+  },
+  {
+    "word": "名前",
+    "reading": "namae",
+    "translation": "Name",
+    "part": "noun",
+    "collocations": [
+      "名前を書く",
+      "名前を聞く"
+    ],
+    "example": "初対面のときに相手の名前を聞きます。",
+    "category": "Tourism",
+    "id": 234
+  },
+  {
+    "word": "名前",
+    "reading": "namae",
+    "translation": "Name",
+    "part": "noun",
+    "collocations": [
+      "名前を書く",
+      "名前を聞く"
+    ],
+    "example": "初対面のときに相手の名前を聞きます。",
+    "category": "Medical",
+    "id": 235
+  },
+  {
+    "word": "名前",
+    "reading": "namae",
+    "translation": "Name",
+    "part": "noun",
+    "collocations": [
+      "名前を書く",
+      "名前を聞く"
+    ],
+    "example": "初対面のときに相手の名前を聞きます。",
+    "category": "Social",
+    "id": 236
+  },
+  {
+    "word": "名前",
+    "reading": "namae",
+    "translation": "Name",
+    "part": "noun",
+    "collocations": [
+      "名前を書く",
+      "名前を聞く"
+    ],
+    "example": "初対面のときに相手の名前を聞きます。",
+    "category": "Business",
+    "id": 237
+  },
+  {
+    "word": "名前",
+    "reading": "namae",
+    "translation": "Name",
+    "part": "noun",
+    "collocations": [
+      "名前を書く",
+      "名前を聞く"
+    ],
+    "example": "初対面のときに相手の名前を聞きます。",
+    "category": "Media",
+    "id": 238
+  },
+  {
+    "word": "名前",
+    "reading": "namae",
+    "translation": "Name",
+    "part": "noun",
+    "collocations": [
+      "名前を書く",
+      "名前を聞く"
+    ],
+    "example": "初対面のときに相手の名前を聞きます。",
+    "category": "Hotel",
+    "id": 239
+  },
+  {
+    "word": "名前",
+    "reading": "namae",
+    "translation": "Name",
+    "part": "noun",
+    "collocations": [
+      "名前を書く",
+      "名前を聞く"
+    ],
+    "example": "初対面のときに相手の名前を聞きます。",
+    "category": "Misc",
+    "id": 240
+  },
+  {
+    "word": "名前",
+    "reading": "namae",
+    "translation": "Name",
+    "part": "noun",
+    "collocations": [
+      "名前を書く",
+      "名前を聞く"
+    ],
+    "example": "初対面のときに相手の名前を聞きます。",
+    "category": "Greetings",
+    "id": 241
+  },
+  {
+    "word": "名前",
+    "reading": "namae",
+    "translation": "Name",
+    "part": "noun",
+    "collocations": [
+      "名前を書く",
+      "名前を聞く"
+    ],
+    "example": "初対面のときに相手の名前を聞きます。",
+    "category": "Daily Life",
+    "id": 242
+  },
+  {
+    "word": "学校",
+    "reading": "gakkou",
+    "translation": "School",
+    "part": "noun",
+    "collocations": [
+      "学校へ行く",
+      "学校の先生"
+    ],
+    "example": "明日学校に行きます。",
+    "category": "Food & Drink",
+    "id": 243
+  },
+  {
+    "word": "学校",
+    "reading": "gakkou",
+    "translation": "School",
+    "part": "noun",
+    "collocations": [
+      "学校へ行く",
+      "学校の先生"
+    ],
+    "example": "明日学校に行きます。",
+    "category": "Travel",
+    "id": 244
+  },
+  {
+    "word": "学校",
+    "reading": "gakkou",
+    "translation": "School",
+    "part": "noun",
+    "collocations": [
+      "学校へ行く",
+      "学校の先生"
+    ],
+    "example": "明日学校に行きます。",
+    "category": "Shopping",
+    "id": 245
+  },
+  {
+    "word": "学校",
+    "reading": "gakkou",
+    "translation": "School",
+    "part": "noun",
+    "collocations": [
+      "学校へ行く",
+      "学校の先生"
+    ],
+    "example": "明日学校に行きます。",
+    "category": "Office",
+    "id": 246
+  },
+  {
+    "word": "学校",
+    "reading": "gakkou",
+    "translation": "School",
+    "part": "noun",
+    "collocations": [
+      "学校へ行く",
+      "学校の先生"
+    ],
+    "example": "明日学校に行きます。",
+    "category": "Health",
+    "id": 247
+  },
+  {
+    "word": "学校",
+    "reading": "gakkou",
+    "translation": "School",
+    "part": "noun",
+    "collocations": [
+      "学校へ行く",
+      "学校の先生"
+    ],
+    "example": "明日学校に行きます。",
+    "category": "Family",
+    "id": 248
+  },
+  {
+    "word": "学校",
+    "reading": "gakkou",
+    "translation": "School",
+    "part": "noun",
+    "collocations": [
+      "学校へ行く",
+      "学校の先生"
+    ],
+    "example": "明日学校に行きます。",
+    "category": "Emotions",
+    "id": 249
+  },
+  {
+    "word": "学校",
+    "reading": "gakkou",
+    "translation": "School",
+    "part": "noun",
+    "collocations": [
+      "学校へ行く",
+      "学校の先生"
+    ],
+    "example": "明日学校に行きます。",
+    "category": "Fitness",
+    "id": 250
+  },
+  {
+    "word": "学校",
+    "reading": "gakkou",
+    "translation": "School",
+    "part": "noun",
+    "collocations": [
+      "学校へ行く",
+      "学校の先生"
+    ],
+    "example": "明日学校に行きます。",
+    "category": "Leisure",
+    "id": 251
+  },
+  {
+    "word": "学校",
+    "reading": "gakkou",
+    "translation": "School",
+    "part": "noun",
+    "collocations": [
+      "学校へ行く",
+      "学校の先生"
+    ],
+    "example": "明日学校に行きます。",
+    "category": "Technology",
+    "id": 252
+  },
+  {
+    "word": "学校",
+    "reading": "gakkou",
+    "translation": "School",
+    "part": "noun",
+    "collocations": [
+      "学校へ行く",
+      "学校の先生"
+    ],
+    "example": "明日学校に行きます。",
+    "category": "Education",
+    "id": 253
+  },
+  {
+    "word": "学校",
+    "reading": "gakkou",
+    "translation": "School",
+    "part": "noun",
+    "collocations": [
+      "学校へ行く",
+      "学校の先生"
+    ],
+    "example": "明日学校に行きます。",
+    "category": "Weather",
+    "id": 254
+  },
+  {
+    "word": "学校",
+    "reading": "gakkou",
+    "translation": "School",
+    "part": "noun",
+    "collocations": [
+      "学校へ行く",
+      "学校の先生"
+    ],
+    "example": "明日学校に行きます。",
+    "category": "Hobbies",
+    "id": 255
+  },
+  {
+    "word": "学校",
+    "reading": "gakkou",
+    "translation": "School",
+    "part": "noun",
+    "collocations": [
+      "学校へ行く",
+      "学校の先生"
+    ],
+    "example": "明日学校に行きます。",
+    "category": "Home",
+    "id": 256
+  },
+  {
+    "word": "学校",
+    "reading": "gakkou",
+    "translation": "School",
+    "part": "noun",
+    "collocations": [
+      "学校へ行く",
+      "学校の先生"
+    ],
+    "example": "明日学校に行きます。",
+    "category": "Directions",
+    "id": 257
+  },
+  {
+    "word": "学校",
+    "reading": "gakkou",
+    "translation": "School",
+    "part": "noun",
+    "collocations": [
+      "学校へ行く",
+      "学校の先生"
+    ],
+    "example": "明日学校に行きます。",
+    "category": "Numbers",
+    "id": 258
+  },
+  {
+    "word": "学校",
+    "reading": "gakkou",
+    "translation": "School",
+    "part": "noun",
+    "collocations": [
+      "学校へ行く",
+      "学校の先生"
+    ],
+    "example": "明日学校に行きます。",
+    "category": "Nature",
+    "id": 259
+  },
+  {
+    "word": "学校",
+    "reading": "gakkou",
+    "translation": "School",
+    "part": "noun",
+    "collocations": [
+      "学校へ行く",
+      "学校の先生"
+    ],
+    "example": "明日学校に行きます。",
+    "category": "Animals",
+    "id": 260
+  },
+  {
+    "word": "学校",
+    "reading": "gakkou",
+    "translation": "School",
+    "part": "noun",
+    "collocations": [
+      "学校へ行く",
+      "学校の先生"
+    ],
+    "example": "明日学校に行きます。",
+    "category": "Time",
+    "id": 261
+  },
+  {
+    "word": "学校",
+    "reading": "gakkou",
+    "translation": "School",
+    "part": "noun",
+    "collocations": [
+      "学校へ行く",
+      "学校の先生"
+    ],
+    "example": "明日学校に行きます。",
+    "category": "Finance",
+    "id": 262
+  },
+  {
+    "word": "学校",
+    "reading": "gakkou",
+    "translation": "School",
+    "part": "noun",
+    "collocations": [
+      "学校へ行く",
+      "学校の先生"
+    ],
+    "example": "明日学校に行きます。",
+    "category": "Grocery",
+    "id": 263
+  },
+  {
+    "word": "学校",
+    "reading": "gakkou",
+    "translation": "School",
+    "part": "noun",
+    "collocations": [
+      "学校へ行く",
+      "学校の先生"
+    ],
+    "example": "明日学校に行きます。",
+    "category": "Tourism",
+    "id": 264
+  },
+  {
+    "word": "学生",
+    "reading": "gakusei",
+    "translation": "Student",
+    "part": "noun",
+    "collocations": [
+      "大学生",
+      "学生生活"
+    ],
+    "example": "私は大学の学生です。",
+    "category": "Medical",
+    "id": 265
+  },
+  {
+    "word": "学生",
+    "reading": "gakusei",
+    "translation": "Student",
+    "part": "noun",
+    "collocations": [
+      "大学生",
+      "学生生活"
+    ],
+    "example": "私は大学の学生です。",
+    "category": "Social",
+    "id": 266
+  },
+  {
+    "word": "学生",
+    "reading": "gakusei",
+    "translation": "Student",
+    "part": "noun",
+    "collocations": [
+      "大学生",
+      "学生生活"
+    ],
+    "example": "私は大学の学生です。",
+    "category": "Business",
+    "id": 267
+  },
+  {
+    "word": "学生",
+    "reading": "gakusei",
+    "translation": "Student",
+    "part": "noun",
+    "collocations": [
+      "大学生",
+      "学生生活"
+    ],
+    "example": "私は大学の学生です。",
+    "category": "Media",
+    "id": 268
+  },
+  {
+    "word": "学生",
+    "reading": "gakusei",
+    "translation": "Student",
+    "part": "noun",
+    "collocations": [
+      "大学生",
+      "学生生活"
+    ],
+    "example": "私は大学の学生です。",
+    "category": "Hotel",
+    "id": 269
+  },
+  {
+    "word": "学生",
+    "reading": "gakusei",
+    "translation": "Student",
+    "part": "noun",
+    "collocations": [
+      "大学生",
+      "学生生活"
+    ],
+    "example": "私は大学の学生です。",
+    "category": "Misc",
+    "id": 270
+  },
+  {
+    "word": "学生",
+    "reading": "gakusei",
+    "translation": "Student",
+    "part": "noun",
+    "collocations": [
+      "大学生",
+      "学生生活"
+    ],
+    "example": "私は大学の学生です。",
+    "category": "Greetings",
+    "id": 271
+  },
+  {
+    "word": "学生",
+    "reading": "gakusei",
+    "translation": "Student",
+    "part": "noun",
+    "collocations": [
+      "大学生",
+      "学生生活"
+    ],
+    "example": "私は大学の学生です。",
+    "category": "Daily Life",
+    "id": 272
+  },
+  {
+    "word": "学生",
+    "reading": "gakusei",
+    "translation": "Student",
+    "part": "noun",
+    "collocations": [
+      "大学生",
+      "学生生活"
+    ],
+    "example": "私は大学の学生です。",
+    "category": "Food & Drink",
+    "id": 273
+  },
+  {
+    "word": "学生",
+    "reading": "gakusei",
+    "translation": "Student",
+    "part": "noun",
+    "collocations": [
+      "大学生",
+      "学生生活"
+    ],
+    "example": "私は大学の学生です。",
+    "category": "Travel",
+    "id": 274
+  },
+  {
+    "word": "学生",
+    "reading": "gakusei",
+    "translation": "Student",
+    "part": "noun",
+    "collocations": [
+      "大学生",
+      "学生生活"
+    ],
+    "example": "私は大学の学生です。",
+    "category": "Shopping",
+    "id": 275
+  },
+  {
+    "word": "学生",
+    "reading": "gakusei",
+    "translation": "Student",
+    "part": "noun",
+    "collocations": [
+      "大学生",
+      "学生生活"
+    ],
+    "example": "私は大学の学生です。",
+    "category": "Office",
+    "id": 276
+  },
+  {
+    "word": "学生",
+    "reading": "gakusei",
+    "translation": "Student",
+    "part": "noun",
+    "collocations": [
+      "大学生",
+      "学生生活"
+    ],
+    "example": "私は大学の学生です。",
+    "category": "Health",
+    "id": 277
+  },
+  {
+    "word": "学生",
+    "reading": "gakusei",
+    "translation": "Student",
+    "part": "noun",
+    "collocations": [
+      "大学生",
+      "学生生活"
+    ],
+    "example": "私は大学の学生です。",
+    "category": "Family",
+    "id": 278
+  },
+  {
+    "word": "学生",
+    "reading": "gakusei",
+    "translation": "Student",
+    "part": "noun",
+    "collocations": [
+      "大学生",
+      "学生生活"
+    ],
+    "example": "私は大学の学生です。",
+    "category": "Emotions",
+    "id": 279
+  },
+  {
+    "word": "学生",
+    "reading": "gakusei",
+    "translation": "Student",
+    "part": "noun",
+    "collocations": [
+      "大学生",
+      "学生生活"
+    ],
+    "example": "私は大学の学生です。",
+    "category": "Fitness",
+    "id": 280
+  },
+  {
+    "word": "学生",
+    "reading": "gakusei",
+    "translation": "Student",
+    "part": "noun",
+    "collocations": [
+      "大学生",
+      "学生生活"
+    ],
+    "example": "私は大学の学生です。",
+    "category": "Leisure",
+    "id": 281
+  },
+  {
+    "word": "学生",
+    "reading": "gakusei",
+    "translation": "Student",
+    "part": "noun",
+    "collocations": [
+      "大学生",
+      "学生生活"
+    ],
+    "example": "私は大学の学生です。",
+    "category": "Technology",
+    "id": 282
+  },
+  {
+    "word": "学生",
+    "reading": "gakusei",
+    "translation": "Student",
+    "part": "noun",
+    "collocations": [
+      "大学生",
+      "学生生活"
+    ],
+    "example": "私は大学の学生です。",
+    "category": "Education",
+    "id": 283
+  },
+  {
+    "word": "学生",
+    "reading": "gakusei",
+    "translation": "Student",
+    "part": "noun",
+    "collocations": [
+      "大学生",
+      "学生生活"
+    ],
+    "example": "私は大学の学生です。",
+    "category": "Weather",
+    "id": 284
+  },
+  {
+    "word": "学生",
+    "reading": "gakusei",
+    "translation": "Student",
+    "part": "noun",
+    "collocations": [
+      "大学生",
+      "学生生活"
+    ],
+    "example": "私は大学の学生です。",
+    "category": "Hobbies",
+    "id": 285
+  },
+  {
+    "word": "学生",
+    "reading": "gakusei",
+    "translation": "Student",
+    "part": "noun",
+    "collocations": [
+      "大学生",
+      "学生生活"
+    ],
+    "example": "私は大学の学生です。",
+    "category": "Home",
+    "id": 286
+  },
+  {
+    "word": "先生",
+    "reading": "sensei",
+    "translation": "Teacher",
+    "part": "noun",
+    "collocations": [
+      "英語の先生",
+      "先生に質問する"
+    ],
+    "example": "先生に宿題を見てもらいました。",
+    "category": "Directions",
+    "id": 287
+  },
+  {
+    "word": "先生",
+    "reading": "sensei",
+    "translation": "Teacher",
+    "part": "noun",
+    "collocations": [
+      "英語の先生",
+      "先生に質問する"
+    ],
+    "example": "先生に宿題を見てもらいました。",
+    "category": "Numbers",
+    "id": 288
+  },
+  {
+    "word": "先生",
+    "reading": "sensei",
+    "translation": "Teacher",
+    "part": "noun",
+    "collocations": [
+      "英語の先生",
+      "先生に質問する"
+    ],
+    "example": "先生に宿題を見てもらいました。",
+    "category": "Nature",
+    "id": 289
+  },
+  {
+    "word": "先生",
+    "reading": "sensei",
+    "translation": "Teacher",
+    "part": "noun",
+    "collocations": [
+      "英語の先生",
+      "先生に質問する"
+    ],
+    "example": "先生に宿題を見てもらいました。",
+    "category": "Animals",
+    "id": 290
+  },
+  {
+    "word": "先生",
+    "reading": "sensei",
+    "translation": "Teacher",
+    "part": "noun",
+    "collocations": [
+      "英語の先生",
+      "先生に質問する"
+    ],
+    "example": "先生に宿題を見てもらいました。",
+    "category": "Time",
+    "id": 291
+  },
+  {
+    "word": "先生",
+    "reading": "sensei",
+    "translation": "Teacher",
+    "part": "noun",
+    "collocations": [
+      "英語の先生",
+      "先生に質問する"
+    ],
+    "example": "先生に宿題を見てもらいました。",
+    "category": "Finance",
+    "id": 292
+  },
+  {
+    "word": "先生",
+    "reading": "sensei",
+    "translation": "Teacher",
+    "part": "noun",
+    "collocations": [
+      "英語の先生",
+      "先生に質問する"
+    ],
+    "example": "先生に宿題を見てもらいました。",
+    "category": "Grocery",
+    "id": 293
+  },
+  {
+    "word": "先生",
+    "reading": "sensei",
+    "translation": "Teacher",
+    "part": "noun",
+    "collocations": [
+      "英語の先生",
+      "先生に質問する"
+    ],
+    "example": "先生に宿題を見てもらいました。",
+    "category": "Tourism",
+    "id": 294
+  },
+  {
+    "word": "先生",
+    "reading": "sensei",
+    "translation": "Teacher",
+    "part": "noun",
+    "collocations": [
+      "英語の先生",
+      "先生に質問する"
+    ],
+    "example": "先生に宿題を見てもらいました。",
+    "category": "Medical",
+    "id": 295
+  },
+  {
+    "word": "先生",
+    "reading": "sensei",
+    "translation": "Teacher",
+    "part": "noun",
+    "collocations": [
+      "英語の先生",
+      "先生に質問する"
+    ],
+    "example": "先生に宿題を見てもらいました。",
+    "category": "Social",
+    "id": 296
+  },
+  {
+    "word": "先生",
+    "reading": "sensei",
+    "translation": "Teacher",
+    "part": "noun",
+    "collocations": [
+      "英語の先生",
+      "先生に質問する"
+    ],
+    "example": "先生に宿題を見てもらいました。",
+    "category": "Business",
+    "id": 297
+  },
+  {
+    "word": "先生",
+    "reading": "sensei",
+    "translation": "Teacher",
+    "part": "noun",
+    "collocations": [
+      "英語の先生",
+      "先生に質問する"
+    ],
+    "example": "先生に宿題を見てもらいました。",
+    "category": "Media",
+    "id": 298
+  },
+  {
+    "word": "先生",
+    "reading": "sensei",
+    "translation": "Teacher",
+    "part": "noun",
+    "collocations": [
+      "英語の先生",
+      "先生に質問する"
+    ],
+    "example": "先生に宿題を見てもらいました。",
+    "category": "Hotel",
+    "id": 299
+  },
+  {
+    "word": "先生",
+    "reading": "sensei",
+    "translation": "Teacher",
+    "part": "noun",
+    "collocations": [
+      "英語の先生",
+      "先生に質問する"
+    ],
+    "example": "先生に宿題を見てもらいました。",
+    "category": "Misc",
+    "id": 300
+  },
+  {
+    "word": "先生",
+    "reading": "sensei",
+    "translation": "Teacher",
+    "part": "noun",
+    "collocations": [
+      "英語の先生",
+      "先生に質問する"
+    ],
+    "example": "先生に宿題を見てもらいました。",
+    "category": "Greetings",
+    "id": 301
+  },
+  {
+    "word": "先生",
+    "reading": "sensei",
+    "translation": "Teacher",
+    "part": "noun",
+    "collocations": [
+      "英語の先生",
+      "先生に質問する"
+    ],
+    "example": "先生に宿題を見てもらいました。",
+    "category": "Daily Life",
+    "id": 302
+  },
+  {
+    "word": "先生",
+    "reading": "sensei",
+    "translation": "Teacher",
+    "part": "noun",
+    "collocations": [
+      "英語の先生",
+      "先生に質問する"
+    ],
+    "example": "先生に宿題を見てもらいました。",
+    "category": "Food & Drink",
+    "id": 303
+  },
+  {
+    "word": "先生",
+    "reading": "sensei",
+    "translation": "Teacher",
+    "part": "noun",
+    "collocations": [
+      "英語の先生",
+      "先生に質問する"
+    ],
+    "example": "先生に宿題を見てもらいました。",
+    "category": "Travel",
+    "id": 304
+  },
+  {
+    "word": "先生",
+    "reading": "sensei",
+    "translation": "Teacher",
+    "part": "noun",
+    "collocations": [
+      "英語の先生",
+      "先生に質問する"
+    ],
+    "example": "先生に宿題を見てもらいました。",
+    "category": "Shopping",
+    "id": 305
+  },
+  {
+    "word": "先生",
+    "reading": "sensei",
+    "translation": "Teacher",
+    "part": "noun",
+    "collocations": [
+      "英語の先生",
+      "先生に質問する"
+    ],
+    "example": "先生に宿題を見てもらいました。",
+    "category": "Office",
+    "id": 306
+  },
+  {
+    "word": "先生",
+    "reading": "sensei",
+    "translation": "Teacher",
+    "part": "noun",
+    "collocations": [
+      "英語の先生",
+      "先生に質問する"
+    ],
+    "example": "先生に宿題を見てもらいました。",
+    "category": "Health",
+    "id": 307
+  },
+  {
+    "word": "先生",
+    "reading": "sensei",
+    "translation": "Teacher",
+    "part": "noun",
+    "collocations": [
+      "英語の先生",
+      "先生に質問する"
+    ],
+    "example": "先生に宿題を見てもらいました。",
+    "category": "Family",
+    "id": 308
+  },
+  {
+    "word": "愛",
+    "reading": "ai",
+    "translation": "Love",
+    "part": "noun",
+    "collocations": [
+      "愛する",
+      "愛を感じる"
+    ],
+    "example": "家族への愛は深い。",
+    "category": "Emotions",
+    "id": 309
+  },
+  {
+    "word": "愛",
+    "reading": "ai",
+    "translation": "Love",
+    "part": "noun",
+    "collocations": [
+      "愛する",
+      "愛を感じる"
+    ],
+    "example": "家族への愛は深い。",
+    "category": "Fitness",
+    "id": 310
+  },
+  {
+    "word": "愛",
+    "reading": "ai",
+    "translation": "Love",
+    "part": "noun",
+    "collocations": [
+      "愛する",
+      "愛を感じる"
+    ],
+    "example": "家族への愛は深い。",
+    "category": "Leisure",
+    "id": 311
+  },
+  {
+    "word": "愛",
+    "reading": "ai",
+    "translation": "Love",
+    "part": "noun",
+    "collocations": [
+      "愛する",
+      "愛を感じる"
+    ],
+    "example": "家族への愛は深い。",
+    "category": "Technology",
+    "id": 312
+  },
+  {
+    "word": "愛",
+    "reading": "ai",
+    "translation": "Love",
+    "part": "noun",
+    "collocations": [
+      "愛する",
+      "愛を感じる"
+    ],
+    "example": "家族への愛は深い。",
+    "category": "Education",
+    "id": 313
+  },
+  {
+    "word": "愛",
+    "reading": "ai",
+    "translation": "Love",
+    "part": "noun",
+    "collocations": [
+      "愛する",
+      "愛を感じる"
+    ],
+    "example": "家族への愛は深い。",
+    "category": "Weather",
+    "id": 314
+  },
+  {
+    "word": "愛",
+    "reading": "ai",
+    "translation": "Love",
+    "part": "noun",
+    "collocations": [
+      "愛する",
+      "愛を感じる"
+    ],
+    "example": "家族への愛は深い。",
+    "category": "Hobbies",
+    "id": 315
+  },
+  {
+    "word": "愛",
+    "reading": "ai",
+    "translation": "Love",
+    "part": "noun",
+    "collocations": [
+      "愛する",
+      "愛を感じる"
+    ],
+    "example": "家族への愛は深い。",
+    "category": "Home",
+    "id": 316
+  },
+  {
+    "word": "愛",
+    "reading": "ai",
+    "translation": "Love",
+    "part": "noun",
+    "collocations": [
+      "愛する",
+      "愛を感じる"
+    ],
+    "example": "家族への愛は深い。",
+    "category": "Directions",
+    "id": 317
+  },
+  {
+    "word": "愛",
+    "reading": "ai",
+    "translation": "Love",
+    "part": "noun",
+    "collocations": [
+      "愛する",
+      "愛を感じる"
+    ],
+    "example": "家族への愛は深い。",
+    "category": "Numbers",
+    "id": 318
+  },
+  {
+    "word": "愛",
+    "reading": "ai",
+    "translation": "Love",
+    "part": "noun",
+    "collocations": [
+      "愛する",
+      "愛を感じる"
+    ],
+    "example": "家族への愛は深い。",
+    "category": "Nature",
+    "id": 319
+  },
+  {
+    "word": "愛",
+    "reading": "ai",
+    "translation": "Love",
+    "part": "noun",
+    "collocations": [
+      "愛する",
+      "愛を感じる"
+    ],
+    "example": "家族への愛は深い。",
+    "category": "Animals",
+    "id": 320
+  },
+  {
+    "word": "愛",
+    "reading": "ai",
+    "translation": "Love",
+    "part": "noun",
+    "collocations": [
+      "愛する",
+      "愛を感じる"
+    ],
+    "example": "家族への愛は深い。",
+    "category": "Time",
+    "id": 321
+  },
+  {
+    "word": "愛",
+    "reading": "ai",
+    "translation": "Love",
+    "part": "noun",
+    "collocations": [
+      "愛する",
+      "愛を感じる"
+    ],
+    "example": "家族への愛は深い。",
+    "category": "Finance",
+    "id": 322
+  },
+  {
+    "word": "愛",
+    "reading": "ai",
+    "translation": "Love",
+    "part": "noun",
+    "collocations": [
+      "愛する",
+      "愛を感じる"
+    ],
+    "example": "家族への愛は深い。",
+    "category": "Grocery",
+    "id": 323
+  },
+  {
+    "word": "愛",
+    "reading": "ai",
+    "translation": "Love",
+    "part": "noun",
+    "collocations": [
+      "愛する",
+      "愛を感じる"
+    ],
+    "example": "家族への愛は深い。",
+    "category": "Tourism",
+    "id": 324
+  },
+  {
+    "word": "愛",
+    "reading": "ai",
+    "translation": "Love",
+    "part": "noun",
+    "collocations": [
+      "愛する",
+      "愛を感じる"
+    ],
+    "example": "家族への愛は深い。",
+    "category": "Medical",
+    "id": 325
+  },
+  {
+    "word": "愛",
+    "reading": "ai",
+    "translation": "Love",
+    "part": "noun",
+    "collocations": [
+      "愛する",
+      "愛を感じる"
+    ],
+    "example": "家族への愛は深い。",
+    "category": "Social",
+    "id": 326
+  },
+  {
+    "word": "愛",
+    "reading": "ai",
+    "translation": "Love",
+    "part": "noun",
+    "collocations": [
+      "愛する",
+      "愛を感じる"
+    ],
+    "example": "家族への愛は深い。",
+    "category": "Business",
+    "id": 327
+  },
+  {
+    "word": "愛",
+    "reading": "ai",
+    "translation": "Love",
+    "part": "noun",
+    "collocations": [
+      "愛する",
+      "愛を感じる"
+    ],
+    "example": "家族への愛は深い。",
+    "category": "Media",
+    "id": 328
+  },
+  {
+    "word": "愛",
+    "reading": "ai",
+    "translation": "Love",
+    "part": "noun",
+    "collocations": [
+      "愛する",
+      "愛を感じる"
+    ],
+    "example": "家族への愛は深い。",
+    "category": "Hotel",
+    "id": 329
+  },
+  {
+    "word": "愛",
+    "reading": "ai",
+    "translation": "Love",
+    "part": "noun",
+    "collocations": [
+      "愛する",
+      "愛を感じる"
+    ],
+    "example": "家族への愛は深い。",
+    "category": "Misc",
+    "id": 330
+  },
+  {
+    "word": "猫",
+    "reading": "neko",
+    "translation": "Cat",
+    "part": "noun",
+    "collocations": [
+      "黒い猫",
+      "猫が鳴く"
+    ],
+    "example": "猫が庭で遊んでいる。",
+    "category": "Greetings",
+    "id": 331
+  },
+  {
+    "word": "猫",
+    "reading": "neko",
+    "translation": "Cat",
+    "part": "noun",
+    "collocations": [
+      "黒い猫",
+      "猫が鳴く"
+    ],
+    "example": "猫が庭で遊んでいる。",
+    "category": "Daily Life",
+    "id": 332
+  },
+  {
+    "word": "猫",
+    "reading": "neko",
+    "translation": "Cat",
+    "part": "noun",
+    "collocations": [
+      "黒い猫",
+      "猫が鳴く"
+    ],
+    "example": "猫が庭で遊んでいる。",
+    "category": "Food & Drink",
+    "id": 333
+  },
+  {
+    "word": "猫",
+    "reading": "neko",
+    "translation": "Cat",
+    "part": "noun",
+    "collocations": [
+      "黒い猫",
+      "猫が鳴く"
+    ],
+    "example": "猫が庭で遊んでいる。",
+    "category": "Travel",
+    "id": 334
+  },
+  {
+    "word": "猫",
+    "reading": "neko",
+    "translation": "Cat",
+    "part": "noun",
+    "collocations": [
+      "黒い猫",
+      "猫が鳴く"
+    ],
+    "example": "猫が庭で遊んでいる。",
+    "category": "Shopping",
+    "id": 335
+  },
+  {
+    "word": "猫",
+    "reading": "neko",
+    "translation": "Cat",
+    "part": "noun",
+    "collocations": [
+      "黒い猫",
+      "猫が鳴く"
+    ],
+    "example": "猫が庭で遊んでいる。",
+    "category": "Office",
+    "id": 336
+  },
+  {
+    "word": "猫",
+    "reading": "neko",
+    "translation": "Cat",
+    "part": "noun",
+    "collocations": [
+      "黒い猫",
+      "猫が鳴く"
+    ],
+    "example": "猫が庭で遊んでいる。",
+    "category": "Health",
+    "id": 337
+  },
+  {
+    "word": "猫",
+    "reading": "neko",
+    "translation": "Cat",
+    "part": "noun",
+    "collocations": [
+      "黒い猫",
+      "猫が鳴く"
+    ],
+    "example": "猫が庭で遊んでいる。",
+    "category": "Family",
+    "id": 338
+  },
+  {
+    "word": "猫",
+    "reading": "neko",
+    "translation": "Cat",
+    "part": "noun",
+    "collocations": [
+      "黒い猫",
+      "猫が鳴く"
+    ],
+    "example": "猫が庭で遊んでいる。",
+    "category": "Emotions",
+    "id": 339
+  },
+  {
+    "word": "猫",
+    "reading": "neko",
+    "translation": "Cat",
+    "part": "noun",
+    "collocations": [
+      "黒い猫",
+      "猫が鳴く"
+    ],
+    "example": "猫が庭で遊んでいる。",
+    "category": "Fitness",
+    "id": 340
+  },
+  {
+    "word": "猫",
+    "reading": "neko",
+    "translation": "Cat",
+    "part": "noun",
+    "collocations": [
+      "黒い猫",
+      "猫が鳴く"
+    ],
+    "example": "猫が庭で遊んでいる。",
+    "category": "Leisure",
+    "id": 341
+  },
+  {
+    "word": "猫",
+    "reading": "neko",
+    "translation": "Cat",
+    "part": "noun",
+    "collocations": [
+      "黒い猫",
+      "猫が鳴く"
+    ],
+    "example": "猫が庭で遊んでいる。",
+    "category": "Technology",
+    "id": 342
+  },
+  {
+    "word": "猫",
+    "reading": "neko",
+    "translation": "Cat",
+    "part": "noun",
+    "collocations": [
+      "黒い猫",
+      "猫が鳴く"
+    ],
+    "example": "猫が庭で遊んでいる。",
+    "category": "Education",
+    "id": 343
+  },
+  {
+    "word": "猫",
+    "reading": "neko",
+    "translation": "Cat",
+    "part": "noun",
+    "collocations": [
+      "黒い猫",
+      "猫が鳴く"
+    ],
+    "example": "猫が庭で遊んでいる。",
+    "category": "Weather",
+    "id": 344
+  },
+  {
+    "word": "猫",
+    "reading": "neko",
+    "translation": "Cat",
+    "part": "noun",
+    "collocations": [
+      "黒い猫",
+      "猫が鳴く"
+    ],
+    "example": "猫が庭で遊んでいる。",
+    "category": "Hobbies",
+    "id": 345
+  },
+  {
+    "word": "猫",
+    "reading": "neko",
+    "translation": "Cat",
+    "part": "noun",
+    "collocations": [
+      "黒い猫",
+      "猫が鳴く"
+    ],
+    "example": "猫が庭で遊んでいる。",
+    "category": "Home",
+    "id": 346
+  },
+  {
+    "word": "猫",
+    "reading": "neko",
+    "translation": "Cat",
+    "part": "noun",
+    "collocations": [
+      "黒い猫",
+      "猫が鳴く"
+    ],
+    "example": "猫が庭で遊んでいる。",
+    "category": "Directions",
+    "id": 347
+  },
+  {
+    "word": "猫",
+    "reading": "neko",
+    "translation": "Cat",
+    "part": "noun",
+    "collocations": [
+      "黒い猫",
+      "猫が鳴く"
+    ],
+    "example": "猫が庭で遊んでいる。",
+    "category": "Numbers",
+    "id": 348
+  },
+  {
+    "word": "猫",
+    "reading": "neko",
+    "translation": "Cat",
+    "part": "noun",
+    "collocations": [
+      "黒い猫",
+      "猫が鳴く"
+    ],
+    "example": "猫が庭で遊んでいる。",
+    "category": "Nature",
+    "id": 349
+  },
+  {
+    "word": "猫",
+    "reading": "neko",
+    "translation": "Cat",
+    "part": "noun",
+    "collocations": [
+      "黒い猫",
+      "猫が鳴く"
+    ],
+    "example": "猫が庭で遊んでいる。",
+    "category": "Animals",
+    "id": 350
+  },
+  {
+    "word": "猫",
+    "reading": "neko",
+    "translation": "Cat",
+    "part": "noun",
+    "collocations": [
+      "黒い猫",
+      "猫が鳴く"
+    ],
+    "example": "猫が庭で遊んでいる。",
+    "category": "Time",
+    "id": 351
+  },
+  {
+    "word": "猫",
+    "reading": "neko",
+    "translation": "Cat",
+    "part": "noun",
+    "collocations": [
+      "黒い猫",
+      "猫が鳴く"
+    ],
+    "example": "猫が庭で遊んでいる。",
+    "category": "Finance",
+    "id": 352
+  },
+  {
+    "word": "犬",
+    "reading": "inu",
+    "translation": "Dog",
+    "part": "noun",
+    "collocations": [
+      "犬を散歩させる",
+      "大型犬"
+    ],
+    "example": "毎朝犬と散歩します。",
+    "category": "Grocery",
+    "id": 353
+  },
+  {
+    "word": "犬",
+    "reading": "inu",
+    "translation": "Dog",
+    "part": "noun",
+    "collocations": [
+      "犬を散歩させる",
+      "大型犬"
+    ],
+    "example": "毎朝犬と散歩します。",
+    "category": "Tourism",
+    "id": 354
+  },
+  {
+    "word": "犬",
+    "reading": "inu",
+    "translation": "Dog",
+    "part": "noun",
+    "collocations": [
+      "犬を散歩させる",
+      "大型犬"
+    ],
+    "example": "毎朝犬と散歩します。",
+    "category": "Medical",
+    "id": 355
+  },
+  {
+    "word": "犬",
+    "reading": "inu",
+    "translation": "Dog",
+    "part": "noun",
+    "collocations": [
+      "犬を散歩させる",
+      "大型犬"
+    ],
+    "example": "毎朝犬と散歩します。",
+    "category": "Social",
+    "id": 356
+  },
+  {
+    "word": "犬",
+    "reading": "inu",
+    "translation": "Dog",
+    "part": "noun",
+    "collocations": [
+      "犬を散歩させる",
+      "大型犬"
+    ],
+    "example": "毎朝犬と散歩します。",
+    "category": "Business",
+    "id": 357
+  },
+  {
+    "word": "犬",
+    "reading": "inu",
+    "translation": "Dog",
+    "part": "noun",
+    "collocations": [
+      "犬を散歩させる",
+      "大型犬"
+    ],
+    "example": "毎朝犬と散歩します。",
+    "category": "Media",
+    "id": 358
+  },
+  {
+    "word": "犬",
+    "reading": "inu",
+    "translation": "Dog",
+    "part": "noun",
+    "collocations": [
+      "犬を散歩させる",
+      "大型犬"
+    ],
+    "example": "毎朝犬と散歩します。",
+    "category": "Hotel",
+    "id": 359
+  },
+  {
+    "word": "犬",
+    "reading": "inu",
+    "translation": "Dog",
+    "part": "noun",
+    "collocations": [
+      "犬を散歩させる",
+      "大型犬"
+    ],
+    "example": "毎朝犬と散歩します。",
+    "category": "Misc",
+    "id": 360
+  },
+  {
+    "word": "犬",
+    "reading": "inu",
+    "translation": "Dog",
+    "part": "noun",
+    "collocations": [
+      "犬を散歩させる",
+      "大型犬"
+    ],
+    "example": "毎朝犬と散歩します。",
+    "category": "Greetings",
+    "id": 361
+  },
+  {
+    "word": "犬",
+    "reading": "inu",
+    "translation": "Dog",
+    "part": "noun",
+    "collocations": [
+      "犬を散歩させる",
+      "大型犬"
+    ],
+    "example": "毎朝犬と散歩します。",
+    "category": "Daily Life",
+    "id": 362
+  },
+  {
+    "word": "犬",
+    "reading": "inu",
+    "translation": "Dog",
+    "part": "noun",
+    "collocations": [
+      "犬を散歩させる",
+      "大型犬"
+    ],
+    "example": "毎朝犬と散歩します。",
+    "category": "Food & Drink",
+    "id": 363
+  },
+  {
+    "word": "犬",
+    "reading": "inu",
+    "translation": "Dog",
+    "part": "noun",
+    "collocations": [
+      "犬を散歩させる",
+      "大型犬"
+    ],
+    "example": "毎朝犬と散歩します。",
+    "category": "Travel",
+    "id": 364
+  },
+  {
+    "word": "犬",
+    "reading": "inu",
+    "translation": "Dog",
+    "part": "noun",
+    "collocations": [
+      "犬を散歩させる",
+      "大型犬"
+    ],
+    "example": "毎朝犬と散歩します。",
+    "category": "Shopping",
+    "id": 365
+  },
+  {
+    "word": "犬",
+    "reading": "inu",
+    "translation": "Dog",
+    "part": "noun",
+    "collocations": [
+      "犬を散歩させる",
+      "大型犬"
+    ],
+    "example": "毎朝犬と散歩します。",
+    "category": "Office",
+    "id": 366
+  },
+  {
+    "word": "犬",
+    "reading": "inu",
+    "translation": "Dog",
+    "part": "noun",
+    "collocations": [
+      "犬を散歩させる",
+      "大型犬"
+    ],
+    "example": "毎朝犬と散歩します。",
+    "category": "Health",
+    "id": 367
+  },
+  {
+    "word": "犬",
+    "reading": "inu",
+    "translation": "Dog",
+    "part": "noun",
+    "collocations": [
+      "犬を散歩させる",
+      "大型犬"
+    ],
+    "example": "毎朝犬と散歩します。",
+    "category": "Family",
+    "id": 368
+  },
+  {
+    "word": "犬",
+    "reading": "inu",
+    "translation": "Dog",
+    "part": "noun",
+    "collocations": [
+      "犬を散歩させる",
+      "大型犬"
+    ],
+    "example": "毎朝犬と散歩します。",
+    "category": "Emotions",
+    "id": 369
+  },
+  {
+    "word": "犬",
+    "reading": "inu",
+    "translation": "Dog",
+    "part": "noun",
+    "collocations": [
+      "犬を散歩させる",
+      "大型犬"
+    ],
+    "example": "毎朝犬と散歩します。",
+    "category": "Fitness",
+    "id": 370
+  },
+  {
+    "word": "犬",
+    "reading": "inu",
+    "translation": "Dog",
+    "part": "noun",
+    "collocations": [
+      "犬を散歩させる",
+      "大型犬"
+    ],
+    "example": "毎朝犬と散歩します。",
+    "category": "Leisure",
+    "id": 371
+  },
+  {
+    "word": "犬",
+    "reading": "inu",
+    "translation": "Dog",
+    "part": "noun",
+    "collocations": [
+      "犬を散歩させる",
+      "大型犬"
+    ],
+    "example": "毎朝犬と散歩します。",
+    "category": "Technology",
+    "id": 372
+  },
+  {
+    "word": "犬",
+    "reading": "inu",
+    "translation": "Dog",
+    "part": "noun",
+    "collocations": [
+      "犬を散歩させる",
+      "大型犬"
+    ],
+    "example": "毎朝犬と散歩します。",
+    "category": "Education",
+    "id": 373
+  },
+  {
+    "word": "犬",
+    "reading": "inu",
+    "translation": "Dog",
+    "part": "noun",
+    "collocations": [
+      "犬を散歩させる",
+      "大型犬"
+    ],
+    "example": "毎朝犬と散歩します。",
+    "category": "Weather",
+    "id": 374
+  },
+  {
+    "word": "食べる",
+    "reading": "taberu",
+    "translation": "to eat",
+    "part": "verb",
+    "collocations": [
+      "ご飯を食べる",
+      "昼食を食べる"
+    ],
+    "example": "昼ご飯に何を食べますか？",
+    "category": "Hobbies",
+    "id": 375
+  },
+  {
+    "word": "食べる",
+    "reading": "taberu",
+    "translation": "to eat",
+    "part": "verb",
+    "collocations": [
+      "ご飯を食べる",
+      "昼食を食べる"
+    ],
+    "example": "昼ご飯に何を食べますか？",
+    "category": "Home",
+    "id": 376
+  },
+  {
+    "word": "食べる",
+    "reading": "taberu",
+    "translation": "to eat",
+    "part": "verb",
+    "collocations": [
+      "ご飯を食べる",
+      "昼食を食べる"
+    ],
+    "example": "昼ご飯に何を食べますか？",
+    "category": "Directions",
+    "id": 377
+  },
+  {
+    "word": "食べる",
+    "reading": "taberu",
+    "translation": "to eat",
+    "part": "verb",
+    "collocations": [
+      "ご飯を食べる",
+      "昼食を食べる"
+    ],
+    "example": "昼ご飯に何を食べますか？",
+    "category": "Numbers",
+    "id": 378
+  },
+  {
+    "word": "食べる",
+    "reading": "taberu",
+    "translation": "to eat",
+    "part": "verb",
+    "collocations": [
+      "ご飯を食べる",
+      "昼食を食べる"
+    ],
+    "example": "昼ご飯に何を食べますか？",
+    "category": "Nature",
+    "id": 379
+  },
+  {
+    "word": "食べる",
+    "reading": "taberu",
+    "translation": "to eat",
+    "part": "verb",
+    "collocations": [
+      "ご飯を食べる",
+      "昼食を食べる"
+    ],
+    "example": "昼ご飯に何を食べますか？",
+    "category": "Animals",
+    "id": 380
+  },
+  {
+    "word": "食べる",
+    "reading": "taberu",
+    "translation": "to eat",
+    "part": "verb",
+    "collocations": [
+      "ご飯を食べる",
+      "昼食を食べる"
+    ],
+    "example": "昼ご飯に何を食べますか？",
+    "category": "Time",
+    "id": 381
+  },
+  {
+    "word": "食べる",
+    "reading": "taberu",
+    "translation": "to eat",
+    "part": "verb",
+    "collocations": [
+      "ご飯を食べる",
+      "昼食を食べる"
+    ],
+    "example": "昼ご飯に何を食べますか？",
+    "category": "Finance",
+    "id": 382
+  },
+  {
+    "word": "食べる",
+    "reading": "taberu",
+    "translation": "to eat",
+    "part": "verb",
+    "collocations": [
+      "ご飯を食べる",
+      "昼食を食べる"
+    ],
+    "example": "昼ご飯に何を食べますか？",
+    "category": "Grocery",
+    "id": 383
+  },
+  {
+    "word": "食べる",
+    "reading": "taberu",
+    "translation": "to eat",
+    "part": "verb",
+    "collocations": [
+      "ご飯を食べる",
+      "昼食を食べる"
+    ],
+    "example": "昼ご飯に何を食べますか？",
+    "category": "Tourism",
+    "id": 384
+  },
+  {
+    "word": "食べる",
+    "reading": "taberu",
+    "translation": "to eat",
+    "part": "verb",
+    "collocations": [
+      "ご飯を食べる",
+      "昼食を食べる"
+    ],
+    "example": "昼ご飯に何を食べますか？",
+    "category": "Medical",
+    "id": 385
+  },
+  {
+    "word": "食べる",
+    "reading": "taberu",
+    "translation": "to eat",
+    "part": "verb",
+    "collocations": [
+      "ご飯を食べる",
+      "昼食を食べる"
+    ],
+    "example": "昼ご飯に何を食べますか？",
+    "category": "Social",
+    "id": 386
+  },
+  {
+    "word": "食べる",
+    "reading": "taberu",
+    "translation": "to eat",
+    "part": "verb",
+    "collocations": [
+      "ご飯を食べる",
+      "昼食を食べる"
+    ],
+    "example": "昼ご飯に何を食べますか？",
+    "category": "Business",
+    "id": 387
+  },
+  {
+    "word": "食べる",
+    "reading": "taberu",
+    "translation": "to eat",
+    "part": "verb",
+    "collocations": [
+      "ご飯を食べる",
+      "昼食を食べる"
+    ],
+    "example": "昼ご飯に何を食べますか？",
+    "category": "Media",
+    "id": 388
+  },
+  {
+    "word": "食べる",
+    "reading": "taberu",
+    "translation": "to eat",
+    "part": "verb",
+    "collocations": [
+      "ご飯を食べる",
+      "昼食を食べる"
+    ],
+    "example": "昼ご飯に何を食べますか？",
+    "category": "Hotel",
+    "id": 389
+  },
+  {
+    "word": "食べる",
+    "reading": "taberu",
+    "translation": "to eat",
+    "part": "verb",
+    "collocations": [
+      "ご飯を食べる",
+      "昼食を食べる"
+    ],
+    "example": "昼ご飯に何を食べますか？",
+    "category": "Misc",
+    "id": 390
+  },
+  {
+    "word": "食べる",
+    "reading": "taberu",
+    "translation": "to eat",
+    "part": "verb",
+    "collocations": [
+      "ご飯を食べる",
+      "昼食を食べる"
+    ],
+    "example": "昼ご飯に何を食べますか？",
+    "category": "Greetings",
+    "id": 391
+  },
+  {
+    "word": "食べる",
+    "reading": "taberu",
+    "translation": "to eat",
+    "part": "verb",
+    "collocations": [
+      "ご飯を食べる",
+      "昼食を食べる"
+    ],
+    "example": "昼ご飯に何を食べますか？",
+    "category": "Daily Life",
+    "id": 392
+  },
+  {
+    "word": "食べる",
+    "reading": "taberu",
+    "translation": "to eat",
+    "part": "verb",
+    "collocations": [
+      "ご飯を食べる",
+      "昼食を食べる"
+    ],
+    "example": "昼ご飯に何を食べますか？",
+    "category": "Food & Drink",
+    "id": 393
+  },
+  {
+    "word": "食べる",
+    "reading": "taberu",
+    "translation": "to eat",
+    "part": "verb",
+    "collocations": [
+      "ご飯を食べる",
+      "昼食を食べる"
+    ],
+    "example": "昼ご飯に何を食べますか？",
+    "category": "Travel",
+    "id": 394
+  },
+  {
+    "word": "食べる",
+    "reading": "taberu",
+    "translation": "to eat",
+    "part": "verb",
+    "collocations": [
+      "ご飯を食べる",
+      "昼食を食べる"
+    ],
+    "example": "昼ご飯に何を食べますか？",
+    "category": "Shopping",
+    "id": 395
+  },
+  {
+    "word": "食べる",
+    "reading": "taberu",
+    "translation": "to eat",
+    "part": "verb",
+    "collocations": [
+      "ご飯を食べる",
+      "昼食を食べる"
+    ],
+    "example": "昼ご飯に何を食べますか？",
+    "category": "Office",
+    "id": 396
+  },
+  {
+    "word": "飲む",
+    "reading": "nomu",
+    "translation": "to drink",
+    "part": "verb",
+    "collocations": [
+      "水を飲む",
+      "お茶を飲む"
+    ],
+    "example": "運動した後に水を飲みます。",
+    "category": "Health",
+    "id": 397
+  },
+  {
+    "word": "飲む",
+    "reading": "nomu",
+    "translation": "to drink",
+    "part": "verb",
+    "collocations": [
+      "水を飲む",
+      "お茶を飲む"
+    ],
+    "example": "運動した後に水を飲みます。",
+    "category": "Family",
+    "id": 398
+  },
+  {
+    "word": "飲む",
+    "reading": "nomu",
+    "translation": "to drink",
+    "part": "verb",
+    "collocations": [
+      "水を飲む",
+      "お茶を飲む"
+    ],
+    "example": "運動した後に水を飲みます。",
+    "category": "Emotions",
+    "id": 399
+  },
+  {
+    "word": "飲む",
+    "reading": "nomu",
+    "translation": "to drink",
+    "part": "verb",
+    "collocations": [
+      "水を飲む",
+      "お茶を飲む"
+    ],
+    "example": "運動した後に水を飲みます。",
+    "category": "Fitness",
+    "id": 400
+  },
+  {
+    "word": "飲む",
+    "reading": "nomu",
+    "translation": "to drink",
+    "part": "verb",
+    "collocations": [
+      "水を飲む",
+      "お茶を飲む"
+    ],
+    "example": "運動した後に水を飲みます。",
+    "category": "Leisure",
+    "id": 401
+  },
+  {
+    "word": "飲む",
+    "reading": "nomu",
+    "translation": "to drink",
+    "part": "verb",
+    "collocations": [
+      "水を飲む",
+      "お茶を飲む"
+    ],
+    "example": "運動した後に水を飲みます。",
+    "category": "Technology",
+    "id": 402
+  },
+  {
+    "word": "飲む",
+    "reading": "nomu",
+    "translation": "to drink",
+    "part": "verb",
+    "collocations": [
+      "水を飲む",
+      "お茶を飲む"
+    ],
+    "example": "運動した後に水を飲みます。",
+    "category": "Education",
+    "id": 403
+  },
+  {
+    "word": "飲む",
+    "reading": "nomu",
+    "translation": "to drink",
+    "part": "verb",
+    "collocations": [
+      "水を飲む",
+      "お茶を飲む"
+    ],
+    "example": "運動した後に水を飲みます。",
+    "category": "Weather",
+    "id": 404
+  },
+  {
+    "word": "飲む",
+    "reading": "nomu",
+    "translation": "to drink",
+    "part": "verb",
+    "collocations": [
+      "水を飲む",
+      "お茶を飲む"
+    ],
+    "example": "運動した後に水を飲みます。",
+    "category": "Hobbies",
+    "id": 405
+  },
+  {
+    "word": "飲む",
+    "reading": "nomu",
+    "translation": "to drink",
+    "part": "verb",
+    "collocations": [
+      "水を飲む",
+      "お茶を飲む"
+    ],
+    "example": "運動した後に水を飲みます。",
+    "category": "Home",
+    "id": 406
+  },
+  {
+    "word": "飲む",
+    "reading": "nomu",
+    "translation": "to drink",
+    "part": "verb",
+    "collocations": [
+      "水を飲む",
+      "お茶を飲む"
+    ],
+    "example": "運動した後に水を飲みます。",
+    "category": "Directions",
+    "id": 407
+  },
+  {
+    "word": "飲む",
+    "reading": "nomu",
+    "translation": "to drink",
+    "part": "verb",
+    "collocations": [
+      "水を飲む",
+      "お茶を飲む"
+    ],
+    "example": "運動した後に水を飲みます。",
+    "category": "Numbers",
+    "id": 408
+  },
+  {
+    "word": "飲む",
+    "reading": "nomu",
+    "translation": "to drink",
+    "part": "verb",
+    "collocations": [
+      "水を飲む",
+      "お茶を飲む"
+    ],
+    "example": "運動した後に水を飲みます。",
+    "category": "Nature",
+    "id": 409
+  },
+  {
+    "word": "飲む",
+    "reading": "nomu",
+    "translation": "to drink",
+    "part": "verb",
+    "collocations": [
+      "水を飲む",
+      "お茶を飲む"
+    ],
+    "example": "運動した後に水を飲みます。",
+    "category": "Animals",
+    "id": 410
+  },
+  {
+    "word": "飲む",
+    "reading": "nomu",
+    "translation": "to drink",
+    "part": "verb",
+    "collocations": [
+      "水を飲む",
+      "お茶を飲む"
+    ],
+    "example": "運動した後に水を飲みます。",
+    "category": "Time",
+    "id": 411
+  },
+  {
+    "word": "飲む",
+    "reading": "nomu",
+    "translation": "to drink",
+    "part": "verb",
+    "collocations": [
+      "水を飲む",
+      "お茶を飲む"
+    ],
+    "example": "運動した後に水を飲みます。",
+    "category": "Finance",
+    "id": 412
+  },
+  {
+    "word": "飲む",
+    "reading": "nomu",
+    "translation": "to drink",
+    "part": "verb",
+    "collocations": [
+      "水を飲む",
+      "お茶を飲む"
+    ],
+    "example": "運動した後に水を飲みます。",
+    "category": "Grocery",
+    "id": 413
+  },
+  {
+    "word": "飲む",
+    "reading": "nomu",
+    "translation": "to drink",
+    "part": "verb",
+    "collocations": [
+      "水を飲む",
+      "お茶を飲む"
+    ],
+    "example": "運動した後に水を飲みます。",
+    "category": "Tourism",
+    "id": 414
+  },
+  {
+    "word": "飲む",
+    "reading": "nomu",
+    "translation": "to drink",
+    "part": "verb",
+    "collocations": [
+      "水を飲む",
+      "お茶を飲む"
+    ],
+    "example": "運動した後に水を飲みます。",
+    "category": "Medical",
+    "id": 415
+  },
+  {
+    "word": "飲む",
+    "reading": "nomu",
+    "translation": "to drink",
+    "part": "verb",
+    "collocations": [
+      "水を飲む",
+      "お茶を飲む"
+    ],
+    "example": "運動した後に水を飲みます。",
+    "category": "Social",
+    "id": 416
+  },
+  {
+    "word": "飲む",
+    "reading": "nomu",
+    "translation": "to drink",
+    "part": "verb",
+    "collocations": [
+      "水を飲む",
+      "お茶を飲む"
+    ],
+    "example": "運動した後に水を飲みます。",
+    "category": "Business",
+    "id": 417
+  },
+  {
+    "word": "飲む",
+    "reading": "nomu",
+    "translation": "to drink",
+    "part": "verb",
+    "collocations": [
+      "水を飲む",
+      "お茶を飲む"
+    ],
+    "example": "運動した後に水を飲みます。",
+    "category": "Media",
+    "id": 418
+  },
+  {
+    "word": "行く",
+    "reading": "iku",
+    "translation": "to go",
+    "part": "verb",
+    "collocations": [
+      "学校へ行く",
+      "旅行に行く"
+    ],
+    "example": "週末に友達と映画館へ行きます。",
+    "category": "Hotel",
+    "id": 419
+  },
+  {
+    "word": "行く",
+    "reading": "iku",
+    "translation": "to go",
+    "part": "verb",
+    "collocations": [
+      "学校へ行く",
+      "旅行に行く"
+    ],
+    "example": "週末に友達と映画館へ行きます。",
+    "category": "Misc",
+    "id": 420
+  },
+  {
+    "word": "行く",
+    "reading": "iku",
+    "translation": "to go",
+    "part": "verb",
+    "collocations": [
+      "学校へ行く",
+      "旅行に行く"
+    ],
+    "example": "週末に友達と映画館へ行きます。",
+    "category": "Greetings",
+    "id": 421
+  },
+  {
+    "word": "行く",
+    "reading": "iku",
+    "translation": "to go",
+    "part": "verb",
+    "collocations": [
+      "学校へ行く",
+      "旅行に行く"
+    ],
+    "example": "週末に友達と映画館へ行きます。",
+    "category": "Daily Life",
+    "id": 422
+  },
+  {
+    "word": "行く",
+    "reading": "iku",
+    "translation": "to go",
+    "part": "verb",
+    "collocations": [
+      "学校へ行く",
+      "旅行に行く"
+    ],
+    "example": "週末に友達と映画館へ行きます。",
+    "category": "Food & Drink",
+    "id": 423
+  },
+  {
+    "word": "行く",
+    "reading": "iku",
+    "translation": "to go",
+    "part": "verb",
+    "collocations": [
+      "学校へ行く",
+      "旅行に行く"
+    ],
+    "example": "週末に友達と映画館へ行きます。",
+    "category": "Travel",
+    "id": 424
+  },
+  {
+    "word": "行く",
+    "reading": "iku",
+    "translation": "to go",
+    "part": "verb",
+    "collocations": [
+      "学校へ行く",
+      "旅行に行く"
+    ],
+    "example": "週末に友達と映画館へ行きます。",
+    "category": "Shopping",
+    "id": 425
+  },
+  {
+    "word": "行く",
+    "reading": "iku",
+    "translation": "to go",
+    "part": "verb",
+    "collocations": [
+      "学校へ行く",
+      "旅行に行く"
+    ],
+    "example": "週末に友達と映画館へ行きます。",
+    "category": "Office",
+    "id": 426
+  },
+  {
+    "word": "行く",
+    "reading": "iku",
+    "translation": "to go",
+    "part": "verb",
+    "collocations": [
+      "学校へ行く",
+      "旅行に行く"
+    ],
+    "example": "週末に友達と映画館へ行きます。",
+    "category": "Health",
+    "id": 427
+  },
+  {
+    "word": "行く",
+    "reading": "iku",
+    "translation": "to go",
+    "part": "verb",
+    "collocations": [
+      "学校へ行く",
+      "旅行に行く"
+    ],
+    "example": "週末に友達と映画館へ行きます。",
+    "category": "Family",
+    "id": 428
+  },
+  {
+    "word": "行く",
+    "reading": "iku",
+    "translation": "to go",
+    "part": "verb",
+    "collocations": [
+      "学校へ行く",
+      "旅行に行く"
+    ],
+    "example": "週末に友達と映画館へ行きます。",
+    "category": "Emotions",
+    "id": 429
+  },
+  {
+    "word": "行く",
+    "reading": "iku",
+    "translation": "to go",
+    "part": "verb",
+    "collocations": [
+      "学校へ行く",
+      "旅行に行く"
+    ],
+    "example": "週末に友達と映画館へ行きます。",
+    "category": "Fitness",
+    "id": 430
+  },
+  {
+    "word": "行く",
+    "reading": "iku",
+    "translation": "to go",
+    "part": "verb",
+    "collocations": [
+      "学校へ行く",
+      "旅行に行く"
+    ],
+    "example": "週末に友達と映画館へ行きます。",
+    "category": "Leisure",
+    "id": 431
+  },
+  {
+    "word": "行く",
+    "reading": "iku",
+    "translation": "to go",
+    "part": "verb",
+    "collocations": [
+      "学校へ行く",
+      "旅行に行く"
+    ],
+    "example": "週末に友達と映画館へ行きます。",
+    "category": "Technology",
+    "id": 432
+  },
+  {
+    "word": "行く",
+    "reading": "iku",
+    "translation": "to go",
+    "part": "verb",
+    "collocations": [
+      "学校へ行く",
+      "旅行に行く"
+    ],
+    "example": "週末に友達と映画館へ行きます。",
+    "category": "Education",
+    "id": 433
+  },
+  {
+    "word": "行く",
+    "reading": "iku",
+    "translation": "to go",
+    "part": "verb",
+    "collocations": [
+      "学校へ行く",
+      "旅行に行く"
+    ],
+    "example": "週末に友達と映画館へ行きます。",
+    "category": "Weather",
+    "id": 434
+  },
+  {
+    "word": "行く",
+    "reading": "iku",
+    "translation": "to go",
+    "part": "verb",
+    "collocations": [
+      "学校へ行く",
+      "旅行に行く"
+    ],
+    "example": "週末に友達と映画館へ行きます。",
+    "category": "Hobbies",
+    "id": 435
+  },
+  {
+    "word": "行く",
+    "reading": "iku",
+    "translation": "to go",
+    "part": "verb",
+    "collocations": [
+      "学校へ行く",
+      "旅行に行く"
+    ],
+    "example": "週末に友達と映画館へ行きます。",
+    "category": "Home",
+    "id": 436
+  },
+  {
+    "word": "行く",
+    "reading": "iku",
+    "translation": "to go",
+    "part": "verb",
+    "collocations": [
+      "学校へ行く",
+      "旅行に行く"
+    ],
+    "example": "週末に友達と映画館へ行きます。",
+    "category": "Directions",
+    "id": 437
+  },
+  {
+    "word": "行く",
+    "reading": "iku",
+    "translation": "to go",
+    "part": "verb",
+    "collocations": [
+      "学校へ行く",
+      "旅行に行く"
+    ],
+    "example": "週末に友達と映画館へ行きます。",
+    "category": "Numbers",
+    "id": 438
+  },
+  {
+    "word": "行く",
+    "reading": "iku",
+    "translation": "to go",
+    "part": "verb",
+    "collocations": [
+      "学校へ行く",
+      "旅行に行く"
+    ],
+    "example": "週末に友達と映画館へ行きます。",
+    "category": "Nature",
+    "id": 439
+  },
+  {
+    "word": "行く",
+    "reading": "iku",
+    "translation": "to go",
+    "part": "verb",
+    "collocations": [
+      "学校へ行く",
+      "旅行に行く"
+    ],
+    "example": "週末に友達と映画館へ行きます。",
+    "category": "Animals",
+    "id": 440
+  },
+  {
+    "word": "見る",
+    "reading": "miru",
+    "translation": "to see / to watch",
+    "part": "verb",
+    "collocations": [
+      "映画を見る",
+      "景色を見る"
+    ],
+    "example": "夜空の星を見るのが好きです。",
+    "category": "Time",
+    "id": 441
+  },
+  {
+    "word": "見る",
+    "reading": "miru",
+    "translation": "to see / to watch",
+    "part": "verb",
+    "collocations": [
+      "映画を見る",
+      "景色を見る"
+    ],
+    "example": "夜空の星を見るのが好きです。",
+    "category": "Finance",
+    "id": 442
+  },
+  {
+    "word": "見る",
+    "reading": "miru",
+    "translation": "to see / to watch",
+    "part": "verb",
+    "collocations": [
+      "映画を見る",
+      "景色を見る"
+    ],
+    "example": "夜空の星を見るのが好きです。",
+    "category": "Grocery",
+    "id": 443
+  },
+  {
+    "word": "見る",
+    "reading": "miru",
+    "translation": "to see / to watch",
+    "part": "verb",
+    "collocations": [
+      "映画を見る",
+      "景色を見る"
+    ],
+    "example": "夜空の星を見るのが好きです。",
+    "category": "Tourism",
+    "id": 444
+  },
+  {
+    "word": "見る",
+    "reading": "miru",
+    "translation": "to see / to watch",
+    "part": "verb",
+    "collocations": [
+      "映画を見る",
+      "景色を見る"
+    ],
+    "example": "夜空の星を見るのが好きです。",
+    "category": "Medical",
+    "id": 445
+  },
+  {
+    "word": "見る",
+    "reading": "miru",
+    "translation": "to see / to watch",
+    "part": "verb",
+    "collocations": [
+      "映画を見る",
+      "景色を見る"
+    ],
+    "example": "夜空の星を見るのが好きです。",
+    "category": "Social",
+    "id": 446
+  },
+  {
+    "word": "見る",
+    "reading": "miru",
+    "translation": "to see / to watch",
+    "part": "verb",
+    "collocations": [
+      "映画を見る",
+      "景色を見る"
+    ],
+    "example": "夜空の星を見るのが好きです。",
+    "category": "Business",
+    "id": 447
+  },
+  {
+    "word": "見る",
+    "reading": "miru",
+    "translation": "to see / to watch",
+    "part": "verb",
+    "collocations": [
+      "映画を見る",
+      "景色を見る"
+    ],
+    "example": "夜空の星を見るのが好きです。",
+    "category": "Media",
+    "id": 448
+  },
+  {
+    "word": "見る",
+    "reading": "miru",
+    "translation": "to see / to watch",
+    "part": "verb",
+    "collocations": [
+      "映画を見る",
+      "景色を見る"
+    ],
+    "example": "夜空の星を見るのが好きです。",
+    "category": "Hotel",
+    "id": 449
+  },
+  {
+    "word": "見る",
+    "reading": "miru",
+    "translation": "to see / to watch",
+    "part": "verb",
+    "collocations": [
+      "映画を見る",
+      "景色を見る"
+    ],
+    "example": "夜空の星を見るのが好きです。",
+    "category": "Misc",
+    "id": 450
+  },
+  {
+    "word": "見る",
+    "reading": "miru",
+    "translation": "to see / to watch",
+    "part": "verb",
+    "collocations": [
+      "映画を見る",
+      "景色を見る"
+    ],
+    "example": "夜空の星を見るのが好きです。",
+    "category": "Greetings",
+    "id": 451
+  },
+  {
+    "word": "見る",
+    "reading": "miru",
+    "translation": "to see / to watch",
+    "part": "verb",
+    "collocations": [
+      "映画を見る",
+      "景色を見る"
+    ],
+    "example": "夜空の星を見るのが好きです。",
+    "category": "Daily Life",
+    "id": 452
+  },
+  {
+    "word": "見る",
+    "reading": "miru",
+    "translation": "to see / to watch",
+    "part": "verb",
+    "collocations": [
+      "映画を見る",
+      "景色を見る"
+    ],
+    "example": "夜空の星を見るのが好きです。",
+    "category": "Food & Drink",
+    "id": 453
+  },
+  {
+    "word": "見る",
+    "reading": "miru",
+    "translation": "to see / to watch",
+    "part": "verb",
+    "collocations": [
+      "映画を見る",
+      "景色を見る"
+    ],
+    "example": "夜空の星を見るのが好きです。",
+    "category": "Travel",
+    "id": 454
+  },
+  {
+    "word": "見る",
+    "reading": "miru",
+    "translation": "to see / to watch",
+    "part": "verb",
+    "collocations": [
+      "映画を見る",
+      "景色を見る"
+    ],
+    "example": "夜空の星を見るのが好きです。",
+    "category": "Shopping",
+    "id": 455
+  },
+  {
+    "word": "見る",
+    "reading": "miru",
+    "translation": "to see / to watch",
+    "part": "verb",
+    "collocations": [
+      "映画を見る",
+      "景色を見る"
+    ],
+    "example": "夜空の星を見るのが好きです。",
+    "category": "Office",
+    "id": 456
+  },
+  {
+    "word": "見る",
+    "reading": "miru",
+    "translation": "to see / to watch",
+    "part": "verb",
+    "collocations": [
+      "映画を見る",
+      "景色を見る"
+    ],
+    "example": "夜空の星を見るのが好きです。",
+    "category": "Health",
+    "id": 457
+  },
+  {
+    "word": "見る",
+    "reading": "miru",
+    "translation": "to see / to watch",
+    "part": "verb",
+    "collocations": [
+      "映画を見る",
+      "景色を見る"
+    ],
+    "example": "夜空の星を見るのが好きです。",
+    "category": "Family",
+    "id": 458
+  },
+  {
+    "word": "見る",
+    "reading": "miru",
+    "translation": "to see / to watch",
+    "part": "verb",
+    "collocations": [
+      "映画を見る",
+      "景色を見る"
+    ],
+    "example": "夜空の星を見るのが好きです。",
+    "category": "Emotions",
+    "id": 459
+  },
+  {
+    "word": "見る",
+    "reading": "miru",
+    "translation": "to see / to watch",
+    "part": "verb",
+    "collocations": [
+      "映画を見る",
+      "景色を見る"
+    ],
+    "example": "夜空の星を見るのが好きです。",
+    "category": "Fitness",
+    "id": 460
+  },
+  {
+    "word": "見る",
+    "reading": "miru",
+    "translation": "to see / to watch",
+    "part": "verb",
+    "collocations": [
+      "映画を見る",
+      "景色を見る"
+    ],
+    "example": "夜空の星を見るのが好きです。",
+    "category": "Leisure",
+    "id": 461
+  },
+  {
+    "word": "見る",
+    "reading": "miru",
+    "translation": "to see / to watch",
+    "part": "verb",
+    "collocations": [
+      "映画を見る",
+      "景色を見る"
+    ],
+    "example": "夜空の星を見るのが好きです。",
+    "category": "Technology",
+    "id": 462
+  },
+  {
+    "word": "話す",
+    "reading": "hanasu",
+    "translation": "to speak",
+    "part": "verb",
+    "collocations": [
+      "日本語で話す",
+      "友達と話す"
+    ],
+    "example": "友達と電話で話す。",
+    "category": "Education",
+    "id": 463
+  },
+  {
+    "word": "話す",
+    "reading": "hanasu",
+    "translation": "to speak",
+    "part": "verb",
+    "collocations": [
+      "日本語で話す",
+      "友達と話す"
+    ],
+    "example": "友達と電話で話す。",
+    "category": "Weather",
+    "id": 464
+  },
+  {
+    "word": "話す",
+    "reading": "hanasu",
+    "translation": "to speak",
+    "part": "verb",
+    "collocations": [
+      "日本語で話す",
+      "友達と話す"
+    ],
+    "example": "友達と電話で話す。",
+    "category": "Hobbies",
+    "id": 465
+  },
+  {
+    "word": "話す",
+    "reading": "hanasu",
+    "translation": "to speak",
+    "part": "verb",
+    "collocations": [
+      "日本語で話す",
+      "友達と話す"
+    ],
+    "example": "友達と電話で話す。",
+    "category": "Home",
+    "id": 466
+  },
+  {
+    "word": "話す",
+    "reading": "hanasu",
+    "translation": "to speak",
+    "part": "verb",
+    "collocations": [
+      "日本語で話す",
+      "友達と話す"
+    ],
+    "example": "友達と電話で話す。",
+    "category": "Directions",
+    "id": 467
+  },
+  {
+    "word": "話す",
+    "reading": "hanasu",
+    "translation": "to speak",
+    "part": "verb",
+    "collocations": [
+      "日本語で話す",
+      "友達と話す"
+    ],
+    "example": "友達と電話で話す。",
+    "category": "Numbers",
+    "id": 468
+  },
+  {
+    "word": "話す",
+    "reading": "hanasu",
+    "translation": "to speak",
+    "part": "verb",
+    "collocations": [
+      "日本語で話す",
+      "友達と話す"
+    ],
+    "example": "友達と電話で話す。",
+    "category": "Nature",
+    "id": 469
+  },
+  {
+    "word": "話す",
+    "reading": "hanasu",
+    "translation": "to speak",
+    "part": "verb",
+    "collocations": [
+      "日本語で話す",
+      "友達と話す"
+    ],
+    "example": "友達と電話で話す。",
+    "category": "Animals",
+    "id": 470
+  },
+  {
+    "word": "話す",
+    "reading": "hanasu",
+    "translation": "to speak",
+    "part": "verb",
+    "collocations": [
+      "日本語で話す",
+      "友達と話す"
+    ],
+    "example": "友達と電話で話す。",
+    "category": "Time",
+    "id": 471
+  },
+  {
+    "word": "話す",
+    "reading": "hanasu",
+    "translation": "to speak",
+    "part": "verb",
+    "collocations": [
+      "日本語で話す",
+      "友達と話す"
+    ],
+    "example": "友達と電話で話す。",
+    "category": "Finance",
+    "id": 472
+  },
+  {
+    "word": "話す",
+    "reading": "hanasu",
+    "translation": "to speak",
+    "part": "verb",
+    "collocations": [
+      "日本語で話す",
+      "友達と話す"
+    ],
+    "example": "友達と電話で話す。",
+    "category": "Grocery",
+    "id": 473
+  },
+  {
+    "word": "話す",
+    "reading": "hanasu",
+    "translation": "to speak",
+    "part": "verb",
+    "collocations": [
+      "日本語で話す",
+      "友達と話す"
+    ],
+    "example": "友達と電話で話す。",
+    "category": "Tourism",
+    "id": 474
+  },
+  {
+    "word": "話す",
+    "reading": "hanasu",
+    "translation": "to speak",
+    "part": "verb",
+    "collocations": [
+      "日本語で話す",
+      "友達と話す"
+    ],
+    "example": "友達と電話で話す。",
+    "category": "Medical",
+    "id": 475
+  },
+  {
+    "word": "話す",
+    "reading": "hanasu",
+    "translation": "to speak",
+    "part": "verb",
+    "collocations": [
+      "日本語で話す",
+      "友達と話す"
+    ],
+    "example": "友達と電話で話す。",
+    "category": "Social",
+    "id": 476
+  },
+  {
+    "word": "話す",
+    "reading": "hanasu",
+    "translation": "to speak",
+    "part": "verb",
+    "collocations": [
+      "日本語で話す",
+      "友達と話す"
+    ],
+    "example": "友達と電話で話す。",
+    "category": "Business",
+    "id": 477
+  },
+  {
+    "word": "話す",
+    "reading": "hanasu",
+    "translation": "to speak",
+    "part": "verb",
+    "collocations": [
+      "日本語で話す",
+      "友達と話す"
+    ],
+    "example": "友達と電話で話す。",
+    "category": "Media",
+    "id": 478
+  },
+  {
+    "word": "話す",
+    "reading": "hanasu",
+    "translation": "to speak",
+    "part": "verb",
+    "collocations": [
+      "日本語で話す",
+      "友達と話す"
+    ],
+    "example": "友達と電話で話す。",
+    "category": "Hotel",
+    "id": 479
+  },
+  {
+    "word": "話す",
+    "reading": "hanasu",
+    "translation": "to speak",
+    "part": "verb",
+    "collocations": [
+      "日本語で話す",
+      "友達と話す"
+    ],
+    "example": "友達と電話で話す。",
+    "category": "Misc",
+    "id": 480
+  },
+  {
+    "word": "話す",
+    "reading": "hanasu",
+    "translation": "to speak",
+    "part": "verb",
+    "collocations": [
+      "日本語で話す",
+      "友達と話す"
+    ],
+    "example": "友達と電話で話す。",
+    "category": "Greetings",
+    "id": 481
+  },
+  {
+    "word": "話す",
+    "reading": "hanasu",
+    "translation": "to speak",
+    "part": "verb",
+    "collocations": [
+      "日本語で話す",
+      "友達と話す"
+    ],
+    "example": "友達と電話で話す。",
+    "category": "Daily Life",
+    "id": 482
+  },
+  {
+    "word": "話す",
+    "reading": "hanasu",
+    "translation": "to speak",
+    "part": "verb",
+    "collocations": [
+      "日本語で話す",
+      "友達と話す"
+    ],
+    "example": "友達と電話で話す。",
+    "category": "Food & Drink",
+    "id": 483
+  },
+  {
+    "word": "話す",
+    "reading": "hanasu",
+    "translation": "to speak",
+    "part": "verb",
+    "collocations": [
+      "日本語で話す",
+      "友達と話す"
+    ],
+    "example": "友達と電話で話す。",
+    "category": "Travel",
+    "id": 484
+  },
+  {
+    "word": "聞く",
+    "reading": "kiku",
+    "translation": "to listen / to ask",
+    "part": "verb",
+    "collocations": [
+      "音楽を聞く",
+      "質問を聞く"
+    ],
+    "example": "授業で先生の話を聞く。",
+    "category": "Shopping",
+    "id": 485
+  },
+  {
+    "word": "聞く",
+    "reading": "kiku",
+    "translation": "to listen / to ask",
+    "part": "verb",
+    "collocations": [
+      "音楽を聞く",
+      "質問を聞く"
+    ],
+    "example": "授業で先生の話を聞く。",
+    "category": "Office",
+    "id": 486
+  },
+  {
+    "word": "聞く",
+    "reading": "kiku",
+    "translation": "to listen / to ask",
+    "part": "verb",
+    "collocations": [
+      "音楽を聞く",
+      "質問を聞く"
+    ],
+    "example": "授業で先生の話を聞く。",
+    "category": "Health",
+    "id": 487
+  },
+  {
+    "word": "聞く",
+    "reading": "kiku",
+    "translation": "to listen / to ask",
+    "part": "verb",
+    "collocations": [
+      "音楽を聞く",
+      "質問を聞く"
+    ],
+    "example": "授業で先生の話を聞く。",
+    "category": "Family",
+    "id": 488
+  },
+  {
+    "word": "聞く",
+    "reading": "kiku",
+    "translation": "to listen / to ask",
+    "part": "verb",
+    "collocations": [
+      "音楽を聞く",
+      "質問を聞く"
+    ],
+    "example": "授業で先生の話を聞く。",
+    "category": "Emotions",
+    "id": 489
+  },
+  {
+    "word": "聞く",
+    "reading": "kiku",
+    "translation": "to listen / to ask",
+    "part": "verb",
+    "collocations": [
+      "音楽を聞く",
+      "質問を聞く"
+    ],
+    "example": "授業で先生の話を聞く。",
+    "category": "Fitness",
+    "id": 490
+  },
+  {
+    "word": "聞く",
+    "reading": "kiku",
+    "translation": "to listen / to ask",
+    "part": "verb",
+    "collocations": [
+      "音楽を聞く",
+      "質問を聞く"
+    ],
+    "example": "授業で先生の話を聞く。",
+    "category": "Leisure",
+    "id": 491
+  },
+  {
+    "word": "聞く",
+    "reading": "kiku",
+    "translation": "to listen / to ask",
+    "part": "verb",
+    "collocations": [
+      "音楽を聞く",
+      "質問を聞く"
+    ],
+    "example": "授業で先生の話を聞く。",
+    "category": "Technology",
+    "id": 492
+  },
+  {
+    "word": "聞く",
+    "reading": "kiku",
+    "translation": "to listen / to ask",
+    "part": "verb",
+    "collocations": [
+      "音楽を聞く",
+      "質問を聞く"
+    ],
+    "example": "授業で先生の話を聞く。",
+    "category": "Education",
+    "id": 493
+  },
+  {
+    "word": "聞く",
+    "reading": "kiku",
+    "translation": "to listen / to ask",
+    "part": "verb",
+    "collocations": [
+      "音楽を聞く",
+      "質問を聞く"
+    ],
+    "example": "授業で先生の話を聞く。",
+    "category": "Weather",
+    "id": 494
+  },
+  {
+    "word": "聞く",
+    "reading": "kiku",
+    "translation": "to listen / to ask",
+    "part": "verb",
+    "collocations": [
+      "音楽を聞く",
+      "質問を聞く"
+    ],
+    "example": "授業で先生の話を聞く。",
+    "category": "Hobbies",
+    "id": 495
+  },
+  {
+    "word": "聞く",
+    "reading": "kiku",
+    "translation": "to listen / to ask",
+    "part": "verb",
+    "collocations": [
+      "音楽を聞く",
+      "質問を聞く"
+    ],
+    "example": "授業で先生の話を聞く。",
+    "category": "Home",
+    "id": 496
+  },
+  {
+    "word": "聞く",
+    "reading": "kiku",
+    "translation": "to listen / to ask",
+    "part": "verb",
+    "collocations": [
+      "音楽を聞く",
+      "質問を聞く"
+    ],
+    "example": "授業で先生の話を聞く。",
+    "category": "Directions",
+    "id": 497
+  },
+  {
+    "word": "聞く",
+    "reading": "kiku",
+    "translation": "to listen / to ask",
+    "part": "verb",
+    "collocations": [
+      "音楽を聞く",
+      "質問を聞く"
+    ],
+    "example": "授業で先生の話を聞く。",
+    "category": "Numbers",
+    "id": 498
+  },
+  {
+    "word": "聞く",
+    "reading": "kiku",
+    "translation": "to listen / to ask",
+    "part": "verb",
+    "collocations": [
+      "音楽を聞く",
+      "質問を聞く"
+    ],
+    "example": "授業で先生の話を聞く。",
+    "category": "Nature",
+    "id": 499
+  },
+  {
+    "word": "聞く",
+    "reading": "kiku",
+    "translation": "to listen / to ask",
+    "part": "verb",
+    "collocations": [
+      "音楽を聞く",
+      "質問を聞く"
+    ],
+    "example": "授業で先生の話を聞く。",
+    "category": "Animals",
+    "id": 500
+  },
+  {
+    "word": "聞く",
+    "reading": "kiku",
+    "translation": "to listen / to ask",
+    "part": "verb",
+    "collocations": [
+      "音楽を聞く",
+      "質問を聞く"
+    ],
+    "example": "授業で先生の話を聞く。",
+    "category": "Time",
+    "id": 501
+  },
+  {
+    "word": "聞く",
+    "reading": "kiku",
+    "translation": "to listen / to ask",
+    "part": "verb",
+    "collocations": [
+      "音楽を聞く",
+      "質問を聞く"
+    ],
+    "example": "授業で先生の話を聞く。",
+    "category": "Finance",
+    "id": 502
+  },
+  {
+    "word": "聞く",
+    "reading": "kiku",
+    "translation": "to listen / to ask",
+    "part": "verb",
+    "collocations": [
+      "音楽を聞く",
+      "質問を聞く"
+    ],
+    "example": "授業で先生の話を聞く。",
+    "category": "Grocery",
+    "id": 503
+  },
+  {
+    "word": "聞く",
+    "reading": "kiku",
+    "translation": "to listen / to ask",
+    "part": "verb",
+    "collocations": [
+      "音楽を聞く",
+      "質問を聞く"
+    ],
+    "example": "授業で先生の話を聞く。",
+    "category": "Tourism",
+    "id": 504
+  },
+  {
+    "word": "聞く",
+    "reading": "kiku",
+    "translation": "to listen / to ask",
+    "part": "verb",
+    "collocations": [
+      "音楽を聞く",
+      "質問を聞く"
+    ],
+    "example": "授業で先生の話を聞く。",
+    "category": "Medical",
+    "id": 505
+  },
+  {
+    "word": "聞く",
+    "reading": "kiku",
+    "translation": "to listen / to ask",
+    "part": "verb",
+    "collocations": [
+      "音楽を聞く",
+      "質問を聞く"
+    ],
+    "example": "授業で先生の話を聞く。",
+    "category": "Social",
+    "id": 506
+  },
+  {
+    "word": "来る",
+    "reading": "kuru",
+    "translation": "to come",
+    "part": "verb",
+    "collocations": [
+      "家に来る",
+      "友達が来る"
+    ],
+    "example": "今夜、友達が家に来ます。",
+    "category": "Business",
+    "id": 507
+  },
+  {
+    "word": "来る",
+    "reading": "kuru",
+    "translation": "to come",
+    "part": "verb",
+    "collocations": [
+      "家に来る",
+      "友達が来る"
+    ],
+    "example": "今夜、友達が家に来ます。",
+    "category": "Media",
+    "id": 508
+  },
+  {
+    "word": "来る",
+    "reading": "kuru",
+    "translation": "to come",
+    "part": "verb",
+    "collocations": [
+      "家に来る",
+      "友達が来る"
+    ],
+    "example": "今夜、友達が家に来ます。",
+    "category": "Hotel",
+    "id": 509
+  },
+  {
+    "word": "来る",
+    "reading": "kuru",
+    "translation": "to come",
+    "part": "verb",
+    "collocations": [
+      "家に来る",
+      "友達が来る"
+    ],
+    "example": "今夜、友達が家に来ます。",
+    "category": "Misc",
+    "id": 510
+  },
+  {
+    "word": "来る",
+    "reading": "kuru",
+    "translation": "to come",
+    "part": "verb",
+    "collocations": [
+      "家に来る",
+      "友達が来る"
+    ],
+    "example": "今夜、友達が家に来ます。",
+    "category": "Greetings",
+    "id": 511
+  },
+  {
+    "word": "来る",
+    "reading": "kuru",
+    "translation": "to come",
+    "part": "verb",
+    "collocations": [
+      "家に来る",
+      "友達が来る"
+    ],
+    "example": "今夜、友達が家に来ます。",
+    "category": "Daily Life",
+    "id": 512
+  },
+  {
+    "word": "来る",
+    "reading": "kuru",
+    "translation": "to come",
+    "part": "verb",
+    "collocations": [
+      "家に来る",
+      "友達が来る"
+    ],
+    "example": "今夜、友達が家に来ます。",
+    "category": "Food & Drink",
+    "id": 513
+  },
+  {
+    "word": "来る",
+    "reading": "kuru",
+    "translation": "to come",
+    "part": "verb",
+    "collocations": [
+      "家に来る",
+      "友達が来る"
+    ],
+    "example": "今夜、友達が家に来ます。",
+    "category": "Travel",
+    "id": 514
+  },
+  {
+    "word": "来る",
+    "reading": "kuru",
+    "translation": "to come",
+    "part": "verb",
+    "collocations": [
+      "家に来る",
+      "友達が来る"
+    ],
+    "example": "今夜、友達が家に来ます。",
+    "category": "Shopping",
+    "id": 515
+  },
+  {
+    "word": "来る",
+    "reading": "kuru",
+    "translation": "to come",
+    "part": "verb",
+    "collocations": [
+      "家に来る",
+      "友達が来る"
+    ],
+    "example": "今夜、友達が家に来ます。",
+    "category": "Office",
+    "id": 516
+  },
+  {
+    "word": "来る",
+    "reading": "kuru",
+    "translation": "to come",
+    "part": "verb",
+    "collocations": [
+      "家に来る",
+      "友達が来る"
+    ],
+    "example": "今夜、友達が家に来ます。",
+    "category": "Health",
+    "id": 517
+  },
+  {
+    "word": "来る",
+    "reading": "kuru",
+    "translation": "to come",
+    "part": "verb",
+    "collocations": [
+      "家に来る",
+      "友達が来る"
+    ],
+    "example": "今夜、友達が家に来ます。",
+    "category": "Family",
+    "id": 518
+  },
+  {
+    "word": "来る",
+    "reading": "kuru",
+    "translation": "to come",
+    "part": "verb",
+    "collocations": [
+      "家に来る",
+      "友達が来る"
+    ],
+    "example": "今夜、友達が家に来ます。",
+    "category": "Emotions",
+    "id": 519
+  },
+  {
+    "word": "来る",
+    "reading": "kuru",
+    "translation": "to come",
+    "part": "verb",
+    "collocations": [
+      "家に来る",
+      "友達が来る"
+    ],
+    "example": "今夜、友達が家に来ます。",
+    "category": "Fitness",
+    "id": 520
+  },
+  {
+    "word": "来る",
+    "reading": "kuru",
+    "translation": "to come",
+    "part": "verb",
+    "collocations": [
+      "家に来る",
+      "友達が来る"
+    ],
+    "example": "今夜、友達が家に来ます。",
+    "category": "Leisure",
+    "id": 521
+  },
+  {
+    "word": "来る",
+    "reading": "kuru",
+    "translation": "to come",
+    "part": "verb",
+    "collocations": [
+      "家に来る",
+      "友達が来る"
+    ],
+    "example": "今夜、友達が家に来ます。",
+    "category": "Technology",
+    "id": 522
+  },
+  {
+    "word": "来る",
+    "reading": "kuru",
+    "translation": "to come",
+    "part": "verb",
+    "collocations": [
+      "家に来る",
+      "友達が来る"
+    ],
+    "example": "今夜、友達が家に来ます。",
+    "category": "Education",
+    "id": 523
+  },
+  {
+    "word": "来る",
+    "reading": "kuru",
+    "translation": "to come",
+    "part": "verb",
+    "collocations": [
+      "家に来る",
+      "友達が来る"
+    ],
+    "example": "今夜、友達が家に来ます。",
+    "category": "Weather",
+    "id": 524
+  },
+  {
+    "word": "来る",
+    "reading": "kuru",
+    "translation": "to come",
+    "part": "verb",
+    "collocations": [
+      "家に来る",
+      "友達が来る"
+    ],
+    "example": "今夜、友達が家に来ます。",
+    "category": "Hobbies",
+    "id": 525
+  },
+  {
+    "word": "来る",
+    "reading": "kuru",
+    "translation": "to come",
+    "part": "verb",
+    "collocations": [
+      "家に来る",
+      "友達が来る"
+    ],
+    "example": "今夜、友達が家に来ます。",
+    "category": "Home",
+    "id": 526
+  },
+  {
+    "word": "来る",
+    "reading": "kuru",
+    "translation": "to come",
+    "part": "verb",
+    "collocations": [
+      "家に来る",
+      "友達が来る"
+    ],
+    "example": "今夜、友達が家に来ます。",
+    "category": "Directions",
+    "id": 527
+  },
+  {
+    "word": "来る",
+    "reading": "kuru",
+    "translation": "to come",
+    "part": "verb",
+    "collocations": [
+      "家に来る",
+      "友達が来る"
+    ],
+    "example": "今夜、友達が家に来ます。",
+    "category": "Numbers",
+    "id": 528
+  },
+  {
+    "word": "する",
+    "reading": "suru",
+    "translation": "to do",
+    "part": "verb",
+    "collocations": [
+      "勉強する",
+      "運動する"
+    ],
+    "example": "週末に掃除をする。",
+    "category": "Nature",
+    "id": 529
+  },
+  {
+    "word": "する",
+    "reading": "suru",
+    "translation": "to do",
+    "part": "verb",
+    "collocations": [
+      "勉強する",
+      "運動する"
+    ],
+    "example": "週末に掃除をする。",
+    "category": "Animals",
+    "id": 530
+  },
+  {
+    "word": "する",
+    "reading": "suru",
+    "translation": "to do",
+    "part": "verb",
+    "collocations": [
+      "勉強する",
+      "運動する"
+    ],
+    "example": "週末に掃除をする。",
+    "category": "Time",
+    "id": 531
+  },
+  {
+    "word": "する",
+    "reading": "suru",
+    "translation": "to do",
+    "part": "verb",
+    "collocations": [
+      "勉強する",
+      "運動する"
+    ],
+    "example": "週末に掃除をする。",
+    "category": "Finance",
+    "id": 532
+  },
+  {
+    "word": "する",
+    "reading": "suru",
+    "translation": "to do",
+    "part": "verb",
+    "collocations": [
+      "勉強する",
+      "運動する"
+    ],
+    "example": "週末に掃除をする。",
+    "category": "Grocery",
+    "id": 533
+  },
+  {
+    "word": "する",
+    "reading": "suru",
+    "translation": "to do",
+    "part": "verb",
+    "collocations": [
+      "勉強する",
+      "運動する"
+    ],
+    "example": "週末に掃除をする。",
+    "category": "Tourism",
+    "id": 534
+  },
+  {
+    "word": "する",
+    "reading": "suru",
+    "translation": "to do",
+    "part": "verb",
+    "collocations": [
+      "勉強する",
+      "運動する"
+    ],
+    "example": "週末に掃除をする。",
+    "category": "Medical",
+    "id": 535
+  },
+  {
+    "word": "する",
+    "reading": "suru",
+    "translation": "to do",
+    "part": "verb",
+    "collocations": [
+      "勉強する",
+      "運動する"
+    ],
+    "example": "週末に掃除をする。",
+    "category": "Social",
+    "id": 536
+  },
+  {
+    "word": "する",
+    "reading": "suru",
+    "translation": "to do",
+    "part": "verb",
+    "collocations": [
+      "勉強する",
+      "運動する"
+    ],
+    "example": "週末に掃除をする。",
+    "category": "Business",
+    "id": 537
+  },
+  {
+    "word": "する",
+    "reading": "suru",
+    "translation": "to do",
+    "part": "verb",
+    "collocations": [
+      "勉強する",
+      "運動する"
+    ],
+    "example": "週末に掃除をする。",
+    "category": "Media",
+    "id": 538
+  },
+  {
+    "word": "する",
+    "reading": "suru",
+    "translation": "to do",
+    "part": "verb",
+    "collocations": [
+      "勉強する",
+      "運動する"
+    ],
+    "example": "週末に掃除をする。",
+    "category": "Hotel",
+    "id": 539
+  },
+  {
+    "word": "する",
+    "reading": "suru",
+    "translation": "to do",
+    "part": "verb",
+    "collocations": [
+      "勉強する",
+      "運動する"
+    ],
+    "example": "週末に掃除をする。",
+    "category": "Misc",
+    "id": 540
+  },
+  {
+    "word": "する",
+    "reading": "suru",
+    "translation": "to do",
+    "part": "verb",
+    "collocations": [
+      "勉強する",
+      "運動する"
+    ],
+    "example": "週末に掃除をする。",
+    "category": "Greetings",
+    "id": 541
+  },
+  {
+    "word": "する",
+    "reading": "suru",
+    "translation": "to do",
+    "part": "verb",
+    "collocations": [
+      "勉強する",
+      "運動する"
+    ],
+    "example": "週末に掃除をする。",
+    "category": "Daily Life",
+    "id": 542
+  },
+  {
+    "word": "する",
+    "reading": "suru",
+    "translation": "to do",
+    "part": "verb",
+    "collocations": [
+      "勉強する",
+      "運動する"
+    ],
+    "example": "週末に掃除をする。",
+    "category": "Food & Drink",
+    "id": 543
+  },
+  {
+    "word": "する",
+    "reading": "suru",
+    "translation": "to do",
+    "part": "verb",
+    "collocations": [
+      "勉強する",
+      "運動する"
+    ],
+    "example": "週末に掃除をする。",
+    "category": "Travel",
+    "id": 544
+  },
+  {
+    "word": "する",
+    "reading": "suru",
+    "translation": "to do",
+    "part": "verb",
+    "collocations": [
+      "勉強する",
+      "運動する"
+    ],
+    "example": "週末に掃除をする。",
+    "category": "Shopping",
+    "id": 545
+  },
+  {
+    "word": "する",
+    "reading": "suru",
+    "translation": "to do",
+    "part": "verb",
+    "collocations": [
+      "勉強する",
+      "運動する"
+    ],
+    "example": "週末に掃除をする。",
+    "category": "Office",
+    "id": 546
+  },
+  {
+    "word": "する",
+    "reading": "suru",
+    "translation": "to do",
+    "part": "verb",
+    "collocations": [
+      "勉強する",
+      "運動する"
+    ],
+    "example": "週末に掃除をする。",
+    "category": "Health",
+    "id": 547
+  },
+  {
+    "word": "する",
+    "reading": "suru",
+    "translation": "to do",
+    "part": "verb",
+    "collocations": [
+      "勉強する",
+      "運動する"
+    ],
+    "example": "週末に掃除をする。",
+    "category": "Family",
+    "id": 548
+  },
+  {
+    "word": "する",
+    "reading": "suru",
+    "translation": "to do",
+    "part": "verb",
+    "collocations": [
+      "勉強する",
+      "運動する"
+    ],
+    "example": "週末に掃除をする。",
+    "category": "Emotions",
+    "id": 549
+  },
+  {
+    "word": "する",
+    "reading": "suru",
+    "translation": "to do",
+    "part": "verb",
+    "collocations": [
+      "勉強する",
+      "運動する"
+    ],
+    "example": "週末に掃除をする。",
+    "category": "Fitness",
+    "id": 550
+  },
+  {
+    "word": "作る",
+    "reading": "tsukuru",
+    "translation": "to make / to create",
+    "part": "verb",
+    "collocations": [
+      "料理を作る",
+      "作品を作る"
+    ],
+    "example": "母は毎日おいしい料理を作ります。",
+    "category": "Leisure",
+    "id": 551
+  },
+  {
+    "word": "作る",
+    "reading": "tsukuru",
+    "translation": "to make / to create",
+    "part": "verb",
+    "collocations": [
+      "料理を作る",
+      "作品を作る"
+    ],
+    "example": "母は毎日おいしい料理を作ります。",
+    "category": "Technology",
+    "id": 552
+  },
+  {
+    "word": "作る",
+    "reading": "tsukuru",
+    "translation": "to make / to create",
+    "part": "verb",
+    "collocations": [
+      "料理を作る",
+      "作品を作る"
+    ],
+    "example": "母は毎日おいしい料理を作ります。",
+    "category": "Education",
+    "id": 553
+  },
+  {
+    "word": "作る",
+    "reading": "tsukuru",
+    "translation": "to make / to create",
+    "part": "verb",
+    "collocations": [
+      "料理を作る",
+      "作品を作る"
+    ],
+    "example": "母は毎日おいしい料理を作ります。",
+    "category": "Weather",
+    "id": 554
+  },
+  {
+    "word": "作る",
+    "reading": "tsukuru",
+    "translation": "to make / to create",
+    "part": "verb",
+    "collocations": [
+      "料理を作る",
+      "作品を作る"
+    ],
+    "example": "母は毎日おいしい料理を作ります。",
+    "category": "Hobbies",
+    "id": 555
+  },
+  {
+    "word": "作る",
+    "reading": "tsukuru",
+    "translation": "to make / to create",
+    "part": "verb",
+    "collocations": [
+      "料理を作る",
+      "作品を作る"
+    ],
+    "example": "母は毎日おいしい料理を作ります。",
+    "category": "Home",
+    "id": 556
+  },
+  {
+    "word": "作る",
+    "reading": "tsukuru",
+    "translation": "to make / to create",
+    "part": "verb",
+    "collocations": [
+      "料理を作る",
+      "作品を作る"
+    ],
+    "example": "母は毎日おいしい料理を作ります。",
+    "category": "Directions",
+    "id": 557
+  },
+  {
+    "word": "作る",
+    "reading": "tsukuru",
+    "translation": "to make / to create",
+    "part": "verb",
+    "collocations": [
+      "料理を作る",
+      "作品を作る"
+    ],
+    "example": "母は毎日おいしい料理を作ります。",
+    "category": "Numbers",
+    "id": 558
+  },
+  {
+    "word": "作る",
+    "reading": "tsukuru",
+    "translation": "to make / to create",
+    "part": "verb",
+    "collocations": [
+      "料理を作る",
+      "作品を作る"
+    ],
+    "example": "母は毎日おいしい料理を作ります。",
+    "category": "Nature",
+    "id": 559
+  },
+  {
+    "word": "作る",
+    "reading": "tsukuru",
+    "translation": "to make / to create",
+    "part": "verb",
+    "collocations": [
+      "料理を作る",
+      "作品を作る"
+    ],
+    "example": "母は毎日おいしい料理を作ります。",
+    "category": "Animals",
+    "id": 560
+  },
+  {
+    "word": "作る",
+    "reading": "tsukuru",
+    "translation": "to make / to create",
+    "part": "verb",
+    "collocations": [
+      "料理を作る",
+      "作品を作る"
+    ],
+    "example": "母は毎日おいしい料理を作ります。",
+    "category": "Time",
+    "id": 561
+  },
+  {
+    "word": "作る",
+    "reading": "tsukuru",
+    "translation": "to make / to create",
+    "part": "verb",
+    "collocations": [
+      "料理を作る",
+      "作品を作る"
+    ],
+    "example": "母は毎日おいしい料理を作ります。",
+    "category": "Finance",
+    "id": 562
+  },
+  {
+    "word": "作る",
+    "reading": "tsukuru",
+    "translation": "to make / to create",
+    "part": "verb",
+    "collocations": [
+      "料理を作る",
+      "作品を作る"
+    ],
+    "example": "母は毎日おいしい料理を作ります。",
+    "category": "Grocery",
+    "id": 563
+  },
+  {
+    "word": "作る",
+    "reading": "tsukuru",
+    "translation": "to make / to create",
+    "part": "verb",
+    "collocations": [
+      "料理を作る",
+      "作品を作る"
+    ],
+    "example": "母は毎日おいしい料理を作ります。",
+    "category": "Tourism",
+    "id": 564
+  },
+  {
+    "word": "作る",
+    "reading": "tsukuru",
+    "translation": "to make / to create",
+    "part": "verb",
+    "collocations": [
+      "料理を作る",
+      "作品を作る"
+    ],
+    "example": "母は毎日おいしい料理を作ります。",
+    "category": "Medical",
+    "id": 565
+  },
+  {
+    "word": "作る",
+    "reading": "tsukuru",
+    "translation": "to make / to create",
+    "part": "verb",
+    "collocations": [
+      "料理を作る",
+      "作品を作る"
+    ],
+    "example": "母は毎日おいしい料理を作ります。",
+    "category": "Social",
+    "id": 566
+  },
+  {
+    "word": "作る",
+    "reading": "tsukuru",
+    "translation": "to make / to create",
+    "part": "verb",
+    "collocations": [
+      "料理を作る",
+      "作品を作る"
+    ],
+    "example": "母は毎日おいしい料理を作ります。",
+    "category": "Business",
+    "id": 567
+  },
+  {
+    "word": "作る",
+    "reading": "tsukuru",
+    "translation": "to make / to create",
+    "part": "verb",
+    "collocations": [
+      "料理を作る",
+      "作品を作る"
+    ],
+    "example": "母は毎日おいしい料理を作ります。",
+    "category": "Media",
+    "id": 568
+  },
+  {
+    "word": "作る",
+    "reading": "tsukuru",
+    "translation": "to make / to create",
+    "part": "verb",
+    "collocations": [
+      "料理を作る",
+      "作品を作る"
+    ],
+    "example": "母は毎日おいしい料理を作ります。",
+    "category": "Hotel",
+    "id": 569
+  },
+  {
+    "word": "作る",
+    "reading": "tsukuru",
+    "translation": "to make / to create",
+    "part": "verb",
+    "collocations": [
+      "料理を作る",
+      "作品を作る"
+    ],
+    "example": "母は毎日おいしい料理を作ります。",
+    "category": "Misc",
+    "id": 570
+  },
+  {
+    "word": "作る",
+    "reading": "tsukuru",
+    "translation": "to make / to create",
+    "part": "verb",
+    "collocations": [
+      "料理を作る",
+      "作品を作る"
+    ],
+    "example": "母は毎日おいしい料理を作ります。",
+    "category": "Greetings",
+    "id": 571
+  },
+  {
+    "word": "作る",
+    "reading": "tsukuru",
+    "translation": "to make / to create",
+    "part": "verb",
+    "collocations": [
+      "料理を作る",
+      "作品を作る"
+    ],
+    "example": "母は毎日おいしい料理を作ります。",
+    "category": "Daily Life",
+    "id": 572
+  },
+  {
+    "word": "読む",
+    "reading": "yomu",
+    "translation": "to read",
+    "part": "verb",
+    "collocations": [
+      "本を読む",
+      "新聞を読む"
+    ],
+    "example": "寝る前に本を読むのが習慣です。",
+    "category": "Food & Drink",
+    "id": 573
+  },
+  {
+    "word": "読む",
+    "reading": "yomu",
+    "translation": "to read",
+    "part": "verb",
+    "collocations": [
+      "本を読む",
+      "新聞を読む"
+    ],
+    "example": "寝る前に本を読むのが習慣です。",
+    "category": "Travel",
+    "id": 574
+  },
+  {
+    "word": "読む",
+    "reading": "yomu",
+    "translation": "to read",
+    "part": "verb",
+    "collocations": [
+      "本を読む",
+      "新聞を読む"
+    ],
+    "example": "寝る前に本を読むのが習慣です。",
+    "category": "Shopping",
+    "id": 575
+  },
+  {
+    "word": "読む",
+    "reading": "yomu",
+    "translation": "to read",
+    "part": "verb",
+    "collocations": [
+      "本を読む",
+      "新聞を読む"
+    ],
+    "example": "寝る前に本を読むのが習慣です。",
+    "category": "Office",
+    "id": 576
+  },
+  {
+    "word": "読む",
+    "reading": "yomu",
+    "translation": "to read",
+    "part": "verb",
+    "collocations": [
+      "本を読む",
+      "新聞を読む"
+    ],
+    "example": "寝る前に本を読むのが習慣です。",
+    "category": "Health",
+    "id": 577
+  },
+  {
+    "word": "読む",
+    "reading": "yomu",
+    "translation": "to read",
+    "part": "verb",
+    "collocations": [
+      "本を読む",
+      "新聞を読む"
+    ],
+    "example": "寝る前に本を読むのが習慣です。",
+    "category": "Family",
+    "id": 578
+  },
+  {
+    "word": "読む",
+    "reading": "yomu",
+    "translation": "to read",
+    "part": "verb",
+    "collocations": [
+      "本を読む",
+      "新聞を読む"
+    ],
+    "example": "寝る前に本を読むのが習慣です。",
+    "category": "Emotions",
+    "id": 579
+  },
+  {
+    "word": "読む",
+    "reading": "yomu",
+    "translation": "to read",
+    "part": "verb",
+    "collocations": [
+      "本を読む",
+      "新聞を読む"
+    ],
+    "example": "寝る前に本を読むのが習慣です。",
+    "category": "Fitness",
+    "id": 580
+  },
+  {
+    "word": "読む",
+    "reading": "yomu",
+    "translation": "to read",
+    "part": "verb",
+    "collocations": [
+      "本を読む",
+      "新聞を読む"
+    ],
+    "example": "寝る前に本を読むのが習慣です。",
+    "category": "Leisure",
+    "id": 581
+  },
+  {
+    "word": "読む",
+    "reading": "yomu",
+    "translation": "to read",
+    "part": "verb",
+    "collocations": [
+      "本を読む",
+      "新聞を読む"
+    ],
+    "example": "寝る前に本を読むのが習慣です。",
+    "category": "Technology",
+    "id": 582
+  },
+  {
+    "word": "読む",
+    "reading": "yomu",
+    "translation": "to read",
+    "part": "verb",
+    "collocations": [
+      "本を読む",
+      "新聞を読む"
+    ],
+    "example": "寝る前に本を読むのが習慣です。",
+    "category": "Education",
+    "id": 583
+  },
+  {
+    "word": "読む",
+    "reading": "yomu",
+    "translation": "to read",
+    "part": "verb",
+    "collocations": [
+      "本を読む",
+      "新聞を読む"
+    ],
+    "example": "寝る前に本を読むのが習慣です。",
+    "category": "Weather",
+    "id": 584
+  },
+  {
+    "word": "読む",
+    "reading": "yomu",
+    "translation": "to read",
+    "part": "verb",
+    "collocations": [
+      "本を読む",
+      "新聞を読む"
+    ],
+    "example": "寝る前に本を読むのが習慣です。",
+    "category": "Hobbies",
+    "id": 585
+  },
+  {
+    "word": "読む",
+    "reading": "yomu",
+    "translation": "to read",
+    "part": "verb",
+    "collocations": [
+      "本を読む",
+      "新聞を読む"
+    ],
+    "example": "寝る前に本を読むのが習慣です。",
+    "category": "Home",
+    "id": 586
+  },
+  {
+    "word": "読む",
+    "reading": "yomu",
+    "translation": "to read",
+    "part": "verb",
+    "collocations": [
+      "本を読む",
+      "新聞を読む"
+    ],
+    "example": "寝る前に本を読むのが習慣です。",
+    "category": "Directions",
+    "id": 587
+  },
+  {
+    "word": "読む",
+    "reading": "yomu",
+    "translation": "to read",
+    "part": "verb",
+    "collocations": [
+      "本を読む",
+      "新聞を読む"
+    ],
+    "example": "寝る前に本を読むのが習慣です。",
+    "category": "Numbers",
+    "id": 588
+  },
+  {
+    "word": "読む",
+    "reading": "yomu",
+    "translation": "to read",
+    "part": "verb",
+    "collocations": [
+      "本を読む",
+      "新聞を読む"
+    ],
+    "example": "寝る前に本を読むのが習慣です。",
+    "category": "Nature",
+    "id": 589
+  },
+  {
+    "word": "読む",
+    "reading": "yomu",
+    "translation": "to read",
+    "part": "verb",
+    "collocations": [
+      "本を読む",
+      "新聞を読む"
+    ],
+    "example": "寝る前に本を読むのが習慣です。",
+    "category": "Animals",
+    "id": 590
+  },
+  {
+    "word": "読む",
+    "reading": "yomu",
+    "translation": "to read",
+    "part": "verb",
+    "collocations": [
+      "本を読む",
+      "新聞を読む"
+    ],
+    "example": "寝る前に本を読むのが習慣です。",
+    "category": "Time",
+    "id": 591
+  },
+  {
+    "word": "読む",
+    "reading": "yomu",
+    "translation": "to read",
+    "part": "verb",
+    "collocations": [
+      "本を読む",
+      "新聞を読む"
+    ],
+    "example": "寝る前に本を読むのが習慣です。",
+    "category": "Finance",
+    "id": 592
+  },
+  {
+    "word": "読む",
+    "reading": "yomu",
+    "translation": "to read",
+    "part": "verb",
+    "collocations": [
+      "本を読む",
+      "新聞を読む"
+    ],
+    "example": "寝る前に本を読むのが習慣です。",
+    "category": "Grocery",
+    "id": 593
+  },
+  {
+    "word": "読む",
+    "reading": "yomu",
+    "translation": "to read",
+    "part": "verb",
+    "collocations": [
+      "本を読む",
+      "新聞を読む"
+    ],
+    "example": "寝る前に本を読むのが習慣です。",
+    "category": "Tourism",
+    "id": 594
+  },
+  {
+    "word": "書く",
+    "reading": "kaku",
+    "translation": "to write",
+    "part": "verb",
+    "collocations": [
+      "手紙を書く",
+      "日記を書く"
+    ],
+    "example": "毎日日記を書くようにしています。",
+    "category": "Medical",
+    "id": 595
+  },
+  {
+    "word": "書く",
+    "reading": "kaku",
+    "translation": "to write",
+    "part": "verb",
+    "collocations": [
+      "手紙を書く",
+      "日記を書く"
+    ],
+    "example": "毎日日記を書くようにしています。",
+    "category": "Social",
+    "id": 596
+  },
+  {
+    "word": "書く",
+    "reading": "kaku",
+    "translation": "to write",
+    "part": "verb",
+    "collocations": [
+      "手紙を書く",
+      "日記を書く"
+    ],
+    "example": "毎日日記を書くようにしています。",
+    "category": "Business",
+    "id": 597
+  },
+  {
+    "word": "書く",
+    "reading": "kaku",
+    "translation": "to write",
+    "part": "verb",
+    "collocations": [
+      "手紙を書く",
+      "日記を書く"
+    ],
+    "example": "毎日日記を書くようにしています。",
+    "category": "Media",
+    "id": 598
+  },
+  {
+    "word": "書く",
+    "reading": "kaku",
+    "translation": "to write",
+    "part": "verb",
+    "collocations": [
+      "手紙を書く",
+      "日記を書く"
+    ],
+    "example": "毎日日記を書くようにしています。",
+    "category": "Hotel",
+    "id": 599
+  },
+  {
+    "word": "書く",
+    "reading": "kaku",
+    "translation": "to write",
+    "part": "verb",
+    "collocations": [
+      "手紙を書く",
+      "日記を書く"
+    ],
+    "example": "毎日日記を書くようにしています。",
+    "category": "Misc",
+    "id": 600
+  },
+  {
+    "word": "書く",
+    "reading": "kaku",
+    "translation": "to write",
+    "part": "verb",
+    "collocations": [
+      "手紙を書く",
+      "日記を書く"
+    ],
+    "example": "毎日日記を書くようにしています。",
+    "category": "Greetings",
+    "id": 601
+  },
+  {
+    "word": "書く",
+    "reading": "kaku",
+    "translation": "to write",
+    "part": "verb",
+    "collocations": [
+      "手紙を書く",
+      "日記を書く"
+    ],
+    "example": "毎日日記を書くようにしています。",
+    "category": "Daily Life",
+    "id": 602
+  },
+  {
+    "word": "書く",
+    "reading": "kaku",
+    "translation": "to write",
+    "part": "verb",
+    "collocations": [
+      "手紙を書く",
+      "日記を書く"
+    ],
+    "example": "毎日日記を書くようにしています。",
+    "category": "Food & Drink",
+    "id": 603
+  },
+  {
+    "word": "書く",
+    "reading": "kaku",
+    "translation": "to write",
+    "part": "verb",
+    "collocations": [
+      "手紙を書く",
+      "日記を書く"
+    ],
+    "example": "毎日日記を書くようにしています。",
+    "category": "Travel",
+    "id": 604
+  },
+  {
+    "word": "書く",
+    "reading": "kaku",
+    "translation": "to write",
+    "part": "verb",
+    "collocations": [
+      "手紙を書く",
+      "日記を書く"
+    ],
+    "example": "毎日日記を書くようにしています。",
+    "category": "Shopping",
+    "id": 605
+  },
+  {
+    "word": "書く",
+    "reading": "kaku",
+    "translation": "to write",
+    "part": "verb",
+    "collocations": [
+      "手紙を書く",
+      "日記を書く"
+    ],
+    "example": "毎日日記を書くようにしています。",
+    "category": "Office",
+    "id": 606
+  },
+  {
+    "word": "書く",
+    "reading": "kaku",
+    "translation": "to write",
+    "part": "verb",
+    "collocations": [
+      "手紙を書く",
+      "日記を書く"
+    ],
+    "example": "毎日日記を書くようにしています。",
+    "category": "Health",
+    "id": 607
+  },
+  {
+    "word": "書く",
+    "reading": "kaku",
+    "translation": "to write",
+    "part": "verb",
+    "collocations": [
+      "手紙を書く",
+      "日記を書く"
+    ],
+    "example": "毎日日記を書くようにしています。",
+    "category": "Family",
+    "id": 608
+  },
+  {
+    "word": "書く",
+    "reading": "kaku",
+    "translation": "to write",
+    "part": "verb",
+    "collocations": [
+      "手紙を書く",
+      "日記を書く"
+    ],
+    "example": "毎日日記を書くようにしています。",
+    "category": "Emotions",
+    "id": 609
+  },
+  {
+    "word": "書く",
+    "reading": "kaku",
+    "translation": "to write",
+    "part": "verb",
+    "collocations": [
+      "手紙を書く",
+      "日記を書く"
+    ],
+    "example": "毎日日記を書くようにしています。",
+    "category": "Fitness",
+    "id": 610
+  },
+  {
+    "word": "書く",
+    "reading": "kaku",
+    "translation": "to write",
+    "part": "verb",
+    "collocations": [
+      "手紙を書く",
+      "日記を書く"
+    ],
+    "example": "毎日日記を書くようにしています。",
+    "category": "Leisure",
+    "id": 611
+  },
+  {
+    "word": "書く",
+    "reading": "kaku",
+    "translation": "to write",
+    "part": "verb",
+    "collocations": [
+      "手紙を書く",
+      "日記を書く"
+    ],
+    "example": "毎日日記を書くようにしています。",
+    "category": "Technology",
+    "id": 612
+  },
+  {
+    "word": "書く",
+    "reading": "kaku",
+    "translation": "to write",
+    "part": "verb",
+    "collocations": [
+      "手紙を書く",
+      "日記を書く"
+    ],
+    "example": "毎日日記を書くようにしています。",
+    "category": "Education",
+    "id": 613
+  },
+  {
+    "word": "書く",
+    "reading": "kaku",
+    "translation": "to write",
+    "part": "verb",
+    "collocations": [
+      "手紙を書く",
+      "日記を書く"
+    ],
+    "example": "毎日日記を書くようにしています。",
+    "category": "Weather",
+    "id": 614
+  },
+  {
+    "word": "書く",
+    "reading": "kaku",
+    "translation": "to write",
+    "part": "verb",
+    "collocations": [
+      "手紙を書く",
+      "日記を書く"
+    ],
+    "example": "毎日日記を書くようにしています。",
+    "category": "Hobbies",
+    "id": 615
+  },
+  {
+    "word": "書く",
+    "reading": "kaku",
+    "translation": "to write",
+    "part": "verb",
+    "collocations": [
+      "手紙を書く",
+      "日記を書く"
+    ],
+    "example": "毎日日記を書くようにしています。",
+    "category": "Home",
+    "id": 616
+  },
+  {
+    "word": "買う",
+    "reading": "kau",
+    "translation": "to buy",
+    "part": "verb",
+    "collocations": [
+      "買い物をする",
+      "本を買う"
+    ],
+    "example": "明日新しい靴を買います。",
+    "category": "Directions",
+    "id": 617
+  },
+  {
+    "word": "買う",
+    "reading": "kau",
+    "translation": "to buy",
+    "part": "verb",
+    "collocations": [
+      "買い物をする",
+      "本を買う"
+    ],
+    "example": "明日新しい靴を買います。",
+    "category": "Numbers",
+    "id": 618
+  },
+  {
+    "word": "買う",
+    "reading": "kau",
+    "translation": "to buy",
+    "part": "verb",
+    "collocations": [
+      "買い物をする",
+      "本を買う"
+    ],
+    "example": "明日新しい靴を買います。",
+    "category": "Nature",
+    "id": 619
+  },
+  {
+    "word": "買う",
+    "reading": "kau",
+    "translation": "to buy",
+    "part": "verb",
+    "collocations": [
+      "買い物をする",
+      "本を買う"
+    ],
+    "example": "明日新しい靴を買います。",
+    "category": "Animals",
+    "id": 620
+  },
+  {
+    "word": "買う",
+    "reading": "kau",
+    "translation": "to buy",
+    "part": "verb",
+    "collocations": [
+      "買い物をする",
+      "本を買う"
+    ],
+    "example": "明日新しい靴を買います。",
+    "category": "Time",
+    "id": 621
+  },
+  {
+    "word": "買う",
+    "reading": "kau",
+    "translation": "to buy",
+    "part": "verb",
+    "collocations": [
+      "買い物をする",
+      "本を買う"
+    ],
+    "example": "明日新しい靴を買います。",
+    "category": "Finance",
+    "id": 622
+  },
+  {
+    "word": "買う",
+    "reading": "kau",
+    "translation": "to buy",
+    "part": "verb",
+    "collocations": [
+      "買い物をする",
+      "本を買う"
+    ],
+    "example": "明日新しい靴を買います。",
+    "category": "Grocery",
+    "id": 623
+  },
+  {
+    "word": "買う",
+    "reading": "kau",
+    "translation": "to buy",
+    "part": "verb",
+    "collocations": [
+      "買い物をする",
+      "本を買う"
+    ],
+    "example": "明日新しい靴を買います。",
+    "category": "Tourism",
+    "id": 624
+  },
+  {
+    "word": "買う",
+    "reading": "kau",
+    "translation": "to buy",
+    "part": "verb",
+    "collocations": [
+      "買い物をする",
+      "本を買う"
+    ],
+    "example": "明日新しい靴を買います。",
+    "category": "Medical",
+    "id": 625
+  },
+  {
+    "word": "買う",
+    "reading": "kau",
+    "translation": "to buy",
+    "part": "verb",
+    "collocations": [
+      "買い物をする",
+      "本を買う"
+    ],
+    "example": "明日新しい靴を買います。",
+    "category": "Social",
+    "id": 626
+  },
+  {
+    "word": "買う",
+    "reading": "kau",
+    "translation": "to buy",
+    "part": "verb",
+    "collocations": [
+      "買い物をする",
+      "本を買う"
+    ],
+    "example": "明日新しい靴を買います。",
+    "category": "Business",
+    "id": 627
+  },
+  {
+    "word": "買う",
+    "reading": "kau",
+    "translation": "to buy",
+    "part": "verb",
+    "collocations": [
+      "買い物をする",
+      "本を買う"
+    ],
+    "example": "明日新しい靴を買います。",
+    "category": "Media",
+    "id": 628
+  },
+  {
+    "word": "買う",
+    "reading": "kau",
+    "translation": "to buy",
+    "part": "verb",
+    "collocations": [
+      "買い物をする",
+      "本を買う"
+    ],
+    "example": "明日新しい靴を買います。",
+    "category": "Hotel",
+    "id": 629
+  },
+  {
+    "word": "買う",
+    "reading": "kau",
+    "translation": "to buy",
+    "part": "verb",
+    "collocations": [
+      "買い物をする",
+      "本を買う"
+    ],
+    "example": "明日新しい靴を買います。",
+    "category": "Misc",
+    "id": 630
+  },
+  {
+    "word": "買う",
+    "reading": "kau",
+    "translation": "to buy",
+    "part": "verb",
+    "collocations": [
+      "買い物をする",
+      "本を買う"
+    ],
+    "example": "明日新しい靴を買います。",
+    "category": "Greetings",
+    "id": 631
+  },
+  {
+    "word": "買う",
+    "reading": "kau",
+    "translation": "to buy",
+    "part": "verb",
+    "collocations": [
+      "買い物をする",
+      "本を買う"
+    ],
+    "example": "明日新しい靴を買います。",
+    "category": "Daily Life",
+    "id": 632
+  },
+  {
+    "word": "買う",
+    "reading": "kau",
+    "translation": "to buy",
+    "part": "verb",
+    "collocations": [
+      "買い物をする",
+      "本を買う"
+    ],
+    "example": "明日新しい靴を買います。",
+    "category": "Food & Drink",
+    "id": 633
+  },
+  {
+    "word": "買う",
+    "reading": "kau",
+    "translation": "to buy",
+    "part": "verb",
+    "collocations": [
+      "買い物をする",
+      "本を買う"
+    ],
+    "example": "明日新しい靴を買います。",
+    "category": "Travel",
+    "id": 634
+  },
+  {
+    "word": "買う",
+    "reading": "kau",
+    "translation": "to buy",
+    "part": "verb",
+    "collocations": [
+      "買い物をする",
+      "本を買う"
+    ],
+    "example": "明日新しい靴を買います。",
+    "category": "Shopping",
+    "id": 635
+  },
+  {
+    "word": "買う",
+    "reading": "kau",
+    "translation": "to buy",
+    "part": "verb",
+    "collocations": [
+      "買い物をする",
+      "本を買う"
+    ],
+    "example": "明日新しい靴を買います。",
+    "category": "Office",
+    "id": 636
+  },
+  {
+    "word": "買う",
+    "reading": "kau",
+    "translation": "to buy",
+    "part": "verb",
+    "collocations": [
+      "買い物をする",
+      "本を買う"
+    ],
+    "example": "明日新しい靴を買います。",
+    "category": "Health",
+    "id": 637
+  },
+  {
+    "word": "買う",
+    "reading": "kau",
+    "translation": "to buy",
+    "part": "verb",
+    "collocations": [
+      "買い物をする",
+      "本を買う"
+    ],
+    "example": "明日新しい靴を買います。",
+    "category": "Family",
+    "id": 638
+  },
+  {
+    "word": "売る",
+    "reading": "uru",
+    "translation": "to sell",
+    "part": "verb",
+    "collocations": [
+      "商品を売る",
+      "高く売る"
+    ],
+    "example": "古い自転車を売りました。",
+    "category": "Emotions",
+    "id": 639
+  },
+  {
+    "word": "売る",
+    "reading": "uru",
+    "translation": "to sell",
+    "part": "verb",
+    "collocations": [
+      "商品を売る",
+      "高く売る"
+    ],
+    "example": "古い自転車を売りました。",
+    "category": "Fitness",
+    "id": 640
+  },
+  {
+    "word": "売る",
+    "reading": "uru",
+    "translation": "to sell",
+    "part": "verb",
+    "collocations": [
+      "商品を売る",
+      "高く売る"
+    ],
+    "example": "古い自転車を売りました。",
+    "category": "Leisure",
+    "id": 641
+  },
+  {
+    "word": "売る",
+    "reading": "uru",
+    "translation": "to sell",
+    "part": "verb",
+    "collocations": [
+      "商品を売る",
+      "高く売る"
+    ],
+    "example": "古い自転車を売りました。",
+    "category": "Technology",
+    "id": 642
+  },
+  {
+    "word": "売る",
+    "reading": "uru",
+    "translation": "to sell",
+    "part": "verb",
+    "collocations": [
+      "商品を売る",
+      "高く売る"
+    ],
+    "example": "古い自転車を売りました。",
+    "category": "Education",
+    "id": 643
+  },
+  {
+    "word": "売る",
+    "reading": "uru",
+    "translation": "to sell",
+    "part": "verb",
+    "collocations": [
+      "商品を売る",
+      "高く売る"
+    ],
+    "example": "古い自転車を売りました。",
+    "category": "Weather",
+    "id": 644
+  },
+  {
+    "word": "売る",
+    "reading": "uru",
+    "translation": "to sell",
+    "part": "verb",
+    "collocations": [
+      "商品を売る",
+      "高く売る"
+    ],
+    "example": "古い自転車を売りました。",
+    "category": "Hobbies",
+    "id": 645
+  },
+  {
+    "word": "売る",
+    "reading": "uru",
+    "translation": "to sell",
+    "part": "verb",
+    "collocations": [
+      "商品を売る",
+      "高く売る"
+    ],
+    "example": "古い自転車を売りました。",
+    "category": "Home",
+    "id": 646
+  },
+  {
+    "word": "売る",
+    "reading": "uru",
+    "translation": "to sell",
+    "part": "verb",
+    "collocations": [
+      "商品を売る",
+      "高く売る"
+    ],
+    "example": "古い自転車を売りました。",
+    "category": "Directions",
+    "id": 647
+  },
+  {
+    "word": "売る",
+    "reading": "uru",
+    "translation": "to sell",
+    "part": "verb",
+    "collocations": [
+      "商品を売る",
+      "高く売る"
+    ],
+    "example": "古い自転車を売りました。",
+    "category": "Numbers",
+    "id": 648
+  },
+  {
+    "word": "売る",
+    "reading": "uru",
+    "translation": "to sell",
+    "part": "verb",
+    "collocations": [
+      "商品を売る",
+      "高く売る"
+    ],
+    "example": "古い自転車を売りました。",
+    "category": "Nature",
+    "id": 649
+  },
+  {
+    "word": "売る",
+    "reading": "uru",
+    "translation": "to sell",
+    "part": "verb",
+    "collocations": [
+      "商品を売る",
+      "高く売る"
+    ],
+    "example": "古い自転車を売りました。",
+    "category": "Animals",
+    "id": 650
+  },
+  {
+    "word": "売る",
+    "reading": "uru",
+    "translation": "to sell",
+    "part": "verb",
+    "collocations": [
+      "商品を売る",
+      "高く売る"
+    ],
+    "example": "古い自転車を売りました。",
+    "category": "Time",
+    "id": 651
+  },
+  {
+    "word": "売る",
+    "reading": "uru",
+    "translation": "to sell",
+    "part": "verb",
+    "collocations": [
+      "商品を売る",
+      "高く売る"
+    ],
+    "example": "古い自転車を売りました。",
+    "category": "Finance",
+    "id": 652
+  },
+  {
+    "word": "売る",
+    "reading": "uru",
+    "translation": "to sell",
+    "part": "verb",
+    "collocations": [
+      "商品を売る",
+      "高く売る"
+    ],
+    "example": "古い自転車を売りました。",
+    "category": "Grocery",
+    "id": 653
+  },
+  {
+    "word": "売る",
+    "reading": "uru",
+    "translation": "to sell",
+    "part": "verb",
+    "collocations": [
+      "商品を売る",
+      "高く売る"
+    ],
+    "example": "古い自転車を売りました。",
+    "category": "Tourism",
+    "id": 654
+  },
+  {
+    "word": "売る",
+    "reading": "uru",
+    "translation": "to sell",
+    "part": "verb",
+    "collocations": [
+      "商品を売る",
+      "高く売る"
+    ],
+    "example": "古い自転車を売りました。",
+    "category": "Medical",
+    "id": 655
+  },
+  {
+    "word": "売る",
+    "reading": "uru",
+    "translation": "to sell",
+    "part": "verb",
+    "collocations": [
+      "商品を売る",
+      "高く売る"
+    ],
+    "example": "古い自転車を売りました。",
+    "category": "Social",
+    "id": 656
+  },
+  {
+    "word": "売る",
+    "reading": "uru",
+    "translation": "to sell",
+    "part": "verb",
+    "collocations": [
+      "商品を売る",
+      "高く売る"
+    ],
+    "example": "古い自転車を売りました。",
+    "category": "Business",
+    "id": 657
+  },
+  {
+    "word": "売る",
+    "reading": "uru",
+    "translation": "to sell",
+    "part": "verb",
+    "collocations": [
+      "商品を売る",
+      "高く売る"
+    ],
+    "example": "古い自転車を売りました。",
+    "category": "Media",
+    "id": 658
+  },
+  {
+    "word": "売る",
+    "reading": "uru",
+    "translation": "to sell",
+    "part": "verb",
+    "collocations": [
+      "商品を売る",
+      "高く売る"
+    ],
+    "example": "古い自転車を売りました。",
+    "category": "Hotel",
+    "id": 659
+  },
+  {
+    "word": "売る",
+    "reading": "uru",
+    "translation": "to sell",
+    "part": "verb",
+    "collocations": [
+      "商品を売る",
+      "高く売る"
+    ],
+    "example": "古い自転車を売りました。",
+    "category": "Misc",
+    "id": 660
+  },
+  {
+    "word": "好き",
+    "reading": "suki",
+    "translation": "like / fond of",
+    "part": "adjective",
+    "collocations": [
+      "好きな食べ物",
+      "好きになる"
+    ],
+    "example": "私は寿司が好きです。",
+    "category": "Greetings",
+    "id": 661
+  },
+  {
+    "word": "好き",
+    "reading": "suki",
+    "translation": "like / fond of",
+    "part": "adjective",
+    "collocations": [
+      "好きな食べ物",
+      "好きになる"
+    ],
+    "example": "私は寿司が好きです。",
+    "category": "Daily Life",
+    "id": 662
+  },
+  {
+    "word": "好き",
+    "reading": "suki",
+    "translation": "like / fond of",
+    "part": "adjective",
+    "collocations": [
+      "好きな食べ物",
+      "好きになる"
+    ],
+    "example": "私は寿司が好きです。",
+    "category": "Food & Drink",
+    "id": 663
+  },
+  {
+    "word": "好き",
+    "reading": "suki",
+    "translation": "like / fond of",
+    "part": "adjective",
+    "collocations": [
+      "好きな食べ物",
+      "好きになる"
+    ],
+    "example": "私は寿司が好きです。",
+    "category": "Travel",
+    "id": 664
+  },
+  {
+    "word": "好き",
+    "reading": "suki",
+    "translation": "like / fond of",
+    "part": "adjective",
+    "collocations": [
+      "好きな食べ物",
+      "好きになる"
+    ],
+    "example": "私は寿司が好きです。",
+    "category": "Shopping",
+    "id": 665
+  },
+  {
+    "word": "好き",
+    "reading": "suki",
+    "translation": "like / fond of",
+    "part": "adjective",
+    "collocations": [
+      "好きな食べ物",
+      "好きになる"
+    ],
+    "example": "私は寿司が好きです。",
+    "category": "Office",
+    "id": 666
+  },
+  {
+    "word": "好き",
+    "reading": "suki",
+    "translation": "like / fond of",
+    "part": "adjective",
+    "collocations": [
+      "好きな食べ物",
+      "好きになる"
+    ],
+    "example": "私は寿司が好きです。",
+    "category": "Health",
+    "id": 667
+  },
+  {
+    "word": "好き",
+    "reading": "suki",
+    "translation": "like / fond of",
+    "part": "adjective",
+    "collocations": [
+      "好きな食べ物",
+      "好きになる"
+    ],
+    "example": "私は寿司が好きです。",
+    "category": "Family",
+    "id": 668
+  },
+  {
+    "word": "好き",
+    "reading": "suki",
+    "translation": "like / fond of",
+    "part": "adjective",
+    "collocations": [
+      "好きな食べ物",
+      "好きになる"
+    ],
+    "example": "私は寿司が好きです。",
+    "category": "Emotions",
+    "id": 669
+  },
+  {
+    "word": "好き",
+    "reading": "suki",
+    "translation": "like / fond of",
+    "part": "adjective",
+    "collocations": [
+      "好きな食べ物",
+      "好きになる"
+    ],
+    "example": "私は寿司が好きです。",
+    "category": "Fitness",
+    "id": 670
+  },
+  {
+    "word": "好き",
+    "reading": "suki",
+    "translation": "like / fond of",
+    "part": "adjective",
+    "collocations": [
+      "好きな食べ物",
+      "好きになる"
+    ],
+    "example": "私は寿司が好きです。",
+    "category": "Leisure",
+    "id": 671
+  },
+  {
+    "word": "好き",
+    "reading": "suki",
+    "translation": "like / fond of",
+    "part": "adjective",
+    "collocations": [
+      "好きな食べ物",
+      "好きになる"
+    ],
+    "example": "私は寿司が好きです。",
+    "category": "Technology",
+    "id": 672
+  },
+  {
+    "word": "好き",
+    "reading": "suki",
+    "translation": "like / fond of",
+    "part": "adjective",
+    "collocations": [
+      "好きな食べ物",
+      "好きになる"
+    ],
+    "example": "私は寿司が好きです。",
+    "category": "Education",
+    "id": 673
+  },
+  {
+    "word": "好き",
+    "reading": "suki",
+    "translation": "like / fond of",
+    "part": "adjective",
+    "collocations": [
+      "好きな食べ物",
+      "好きになる"
+    ],
+    "example": "私は寿司が好きです。",
+    "category": "Weather",
+    "id": 674
+  },
+  {
+    "word": "好き",
+    "reading": "suki",
+    "translation": "like / fond of",
+    "part": "adjective",
+    "collocations": [
+      "好きな食べ物",
+      "好きになる"
+    ],
+    "example": "私は寿司が好きです。",
+    "category": "Hobbies",
+    "id": 675
+  },
+  {
+    "word": "好き",
+    "reading": "suki",
+    "translation": "like / fond of",
+    "part": "adjective",
+    "collocations": [
+      "好きな食べ物",
+      "好きになる"
+    ],
+    "example": "私は寿司が好きです。",
+    "category": "Home",
+    "id": 676
+  },
+  {
+    "word": "好き",
+    "reading": "suki",
+    "translation": "like / fond of",
+    "part": "adjective",
+    "collocations": [
+      "好きな食べ物",
+      "好きになる"
+    ],
+    "example": "私は寿司が好きです。",
+    "category": "Directions",
+    "id": 677
+  },
+  {
+    "word": "好き",
+    "reading": "suki",
+    "translation": "like / fond of",
+    "part": "adjective",
+    "collocations": [
+      "好きな食べ物",
+      "好きになる"
+    ],
+    "example": "私は寿司が好きです。",
+    "category": "Numbers",
+    "id": 678
+  },
+  {
+    "word": "好き",
+    "reading": "suki",
+    "translation": "like / fond of",
+    "part": "adjective",
+    "collocations": [
+      "好きな食べ物",
+      "好きになる"
+    ],
+    "example": "私は寿司が好きです。",
+    "category": "Nature",
+    "id": 679
+  },
+  {
+    "word": "好き",
+    "reading": "suki",
+    "translation": "like / fond of",
+    "part": "adjective",
+    "collocations": [
+      "好きな食べ物",
+      "好きになる"
+    ],
+    "example": "私は寿司が好きです。",
+    "category": "Animals",
+    "id": 680
+  },
+  {
+    "word": "好き",
+    "reading": "suki",
+    "translation": "like / fond of",
+    "part": "adjective",
+    "collocations": [
+      "好きな食べ物",
+      "好きになる"
+    ],
+    "example": "私は寿司が好きです。",
+    "category": "Time",
+    "id": 681
+  },
+  {
+    "word": "好き",
+    "reading": "suki",
+    "translation": "like / fond of",
+    "part": "adjective",
+    "collocations": [
+      "好きな食べ物",
+      "好きになる"
+    ],
+    "example": "私は寿司が好きです。",
+    "category": "Finance",
+    "id": 682
+  },
+  {
+    "word": "嫌い",
+    "reading": "kirai",
+    "translation": "dislike / hate",
+    "part": "adjective",
+    "collocations": [
+      "嫌いな食べ物",
+      "嫌いになる"
+    ],
+    "example": "私は運動が嫌いではありません。",
+    "category": "Grocery",
+    "id": 683
+  },
+  {
+    "word": "嫌い",
+    "reading": "kirai",
+    "translation": "dislike / hate",
+    "part": "adjective",
+    "collocations": [
+      "嫌いな食べ物",
+      "嫌いになる"
+    ],
+    "example": "私は運動が嫌いではありません。",
+    "category": "Tourism",
+    "id": 684
+  },
+  {
+    "word": "嫌い",
+    "reading": "kirai",
+    "translation": "dislike / hate",
+    "part": "adjective",
+    "collocations": [
+      "嫌いな食べ物",
+      "嫌いになる"
+    ],
+    "example": "私は運動が嫌いではありません。",
+    "category": "Medical",
+    "id": 685
+  },
+  {
+    "word": "嫌い",
+    "reading": "kirai",
+    "translation": "dislike / hate",
+    "part": "adjective",
+    "collocations": [
+      "嫌いな食べ物",
+      "嫌いになる"
+    ],
+    "example": "私は運動が嫌いではありません。",
+    "category": "Social",
+    "id": 686
+  },
+  {
+    "word": "嫌い",
+    "reading": "kirai",
+    "translation": "dislike / hate",
+    "part": "adjective",
+    "collocations": [
+      "嫌いな食べ物",
+      "嫌いになる"
+    ],
+    "example": "私は運動が嫌いではありません。",
+    "category": "Business",
+    "id": 687
+  },
+  {
+    "word": "嫌い",
+    "reading": "kirai",
+    "translation": "dislike / hate",
+    "part": "adjective",
+    "collocations": [
+      "嫌いな食べ物",
+      "嫌いになる"
+    ],
+    "example": "私は運動が嫌いではありません。",
+    "category": "Media",
+    "id": 688
+  },
+  {
+    "word": "嫌い",
+    "reading": "kirai",
+    "translation": "dislike / hate",
+    "part": "adjective",
+    "collocations": [
+      "嫌いな食べ物",
+      "嫌いになる"
+    ],
+    "example": "私は運動が嫌いではありません。",
+    "category": "Hotel",
+    "id": 689
+  },
+  {
+    "word": "嫌い",
+    "reading": "kirai",
+    "translation": "dislike / hate",
+    "part": "adjective",
+    "collocations": [
+      "嫌いな食べ物",
+      "嫌いになる"
+    ],
+    "example": "私は運動が嫌いではありません。",
+    "category": "Misc",
+    "id": 690
+  },
+  {
+    "word": "嫌い",
+    "reading": "kirai",
+    "translation": "dislike / hate",
+    "part": "adjective",
+    "collocations": [
+      "嫌いな食べ物",
+      "嫌いになる"
+    ],
+    "example": "私は運動が嫌いではありません。",
+    "category": "Greetings",
+    "id": 691
+  },
+  {
+    "word": "嫌い",
+    "reading": "kirai",
+    "translation": "dislike / hate",
+    "part": "adjective",
+    "collocations": [
+      "嫌いな食べ物",
+      "嫌いになる"
+    ],
+    "example": "私は運動が嫌いではありません。",
+    "category": "Daily Life",
+    "id": 692
+  },
+  {
+    "word": "嫌い",
+    "reading": "kirai",
+    "translation": "dislike / hate",
+    "part": "adjective",
+    "collocations": [
+      "嫌いな食べ物",
+      "嫌いになる"
+    ],
+    "example": "私は運動が嫌いではありません。",
+    "category": "Food & Drink",
+    "id": 693
+  },
+  {
+    "word": "嫌い",
+    "reading": "kirai",
+    "translation": "dislike / hate",
+    "part": "adjective",
+    "collocations": [
+      "嫌いな食べ物",
+      "嫌いになる"
+    ],
+    "example": "私は運動が嫌いではありません。",
+    "category": "Travel",
+    "id": 694
+  },
+  {
+    "word": "嫌い",
+    "reading": "kirai",
+    "translation": "dislike / hate",
+    "part": "adjective",
+    "collocations": [
+      "嫌いな食べ物",
+      "嫌いになる"
+    ],
+    "example": "私は運動が嫌いではありません。",
+    "category": "Shopping",
+    "id": 695
+  },
+  {
+    "word": "嫌い",
+    "reading": "kirai",
+    "translation": "dislike / hate",
+    "part": "adjective",
+    "collocations": [
+      "嫌いな食べ物",
+      "嫌いになる"
+    ],
+    "example": "私は運動が嫌いではありません。",
+    "category": "Office",
+    "id": 696
+  },
+  {
+    "word": "嫌い",
+    "reading": "kirai",
+    "translation": "dislike / hate",
+    "part": "adjective",
+    "collocations": [
+      "嫌いな食べ物",
+      "嫌いになる"
+    ],
+    "example": "私は運動が嫌いではありません。",
+    "category": "Health",
+    "id": 697
+  },
+  {
+    "word": "嫌い",
+    "reading": "kirai",
+    "translation": "dislike / hate",
+    "part": "adjective",
+    "collocations": [
+      "嫌いな食べ物",
+      "嫌いになる"
+    ],
+    "example": "私は運動が嫌いではありません。",
+    "category": "Family",
+    "id": 698
+  },
+  {
+    "word": "嫌い",
+    "reading": "kirai",
+    "translation": "dislike / hate",
+    "part": "adjective",
+    "collocations": [
+      "嫌いな食べ物",
+      "嫌いになる"
+    ],
+    "example": "私は運動が嫌いではありません。",
+    "category": "Emotions",
+    "id": 699
+  },
+  {
+    "word": "嫌い",
+    "reading": "kirai",
+    "translation": "dislike / hate",
+    "part": "adjective",
+    "collocations": [
+      "嫌いな食べ物",
+      "嫌いになる"
+    ],
+    "example": "私は運動が嫌いではありません。",
+    "category": "Fitness",
+    "id": 700
+  },
+  {
+    "word": "嫌い",
+    "reading": "kirai",
+    "translation": "dislike / hate",
+    "part": "adjective",
+    "collocations": [
+      "嫌いな食べ物",
+      "嫌いになる"
+    ],
+    "example": "私は運動が嫌いではありません。",
+    "category": "Leisure",
+    "id": 701
+  },
+  {
+    "word": "嫌い",
+    "reading": "kirai",
+    "translation": "dislike / hate",
+    "part": "adjective",
+    "collocations": [
+      "嫌いな食べ物",
+      "嫌いになる"
+    ],
+    "example": "私は運動が嫌いではありません。",
+    "category": "Technology",
+    "id": 702
+  },
+  {
+    "word": "嫌い",
+    "reading": "kirai",
+    "translation": "dislike / hate",
+    "part": "adjective",
+    "collocations": [
+      "嫌いな食べ物",
+      "嫌いになる"
+    ],
+    "example": "私は運動が嫌いではありません。",
+    "category": "Education",
+    "id": 703
+  },
+  {
+    "word": "嫌い",
+    "reading": "kirai",
+    "translation": "dislike / hate",
+    "part": "adjective",
+    "collocations": [
+      "嫌いな食べ物",
+      "嫌いになる"
+    ],
+    "example": "私は運動が嫌いではありません。",
+    "category": "Weather",
+    "id": 704
+  },
+  {
+    "word": "美しい",
+    "reading": "utsukushii",
+    "translation": "beautiful",
+    "part": "adjective",
+    "collocations": [
+      "美しい景色",
+      "美しい花"
+    ],
+    "example": "春には桜がとても美しい。",
+    "category": "Hobbies",
+    "id": 705
+  },
+  {
+    "word": "美しい",
+    "reading": "utsukushii",
+    "translation": "beautiful",
+    "part": "adjective",
+    "collocations": [
+      "美しい景色",
+      "美しい花"
+    ],
+    "example": "春には桜がとても美しい。",
+    "category": "Home",
+    "id": 706
+  },
+  {
+    "word": "美しい",
+    "reading": "utsukushii",
+    "translation": "beautiful",
+    "part": "adjective",
+    "collocations": [
+      "美しい景色",
+      "美しい花"
+    ],
+    "example": "春には桜がとても美しい。",
+    "category": "Directions",
+    "id": 707
+  },
+  {
+    "word": "美しい",
+    "reading": "utsukushii",
+    "translation": "beautiful",
+    "part": "adjective",
+    "collocations": [
+      "美しい景色",
+      "美しい花"
+    ],
+    "example": "春には桜がとても美しい。",
+    "category": "Numbers",
+    "id": 708
+  },
+  {
+    "word": "美しい",
+    "reading": "utsukushii",
+    "translation": "beautiful",
+    "part": "adjective",
+    "collocations": [
+      "美しい景色",
+      "美しい花"
+    ],
+    "example": "春には桜がとても美しい。",
+    "category": "Nature",
+    "id": 709
+  },
+  {
+    "word": "美しい",
+    "reading": "utsukushii",
+    "translation": "beautiful",
+    "part": "adjective",
+    "collocations": [
+      "美しい景色",
+      "美しい花"
+    ],
+    "example": "春には桜がとても美しい。",
+    "category": "Animals",
+    "id": 710
+  },
+  {
+    "word": "美しい",
+    "reading": "utsukushii",
+    "translation": "beautiful",
+    "part": "adjective",
+    "collocations": [
+      "美しい景色",
+      "美しい花"
+    ],
+    "example": "春には桜がとても美しい。",
+    "category": "Time",
+    "id": 711
+  },
+  {
+    "word": "美しい",
+    "reading": "utsukushii",
+    "translation": "beautiful",
+    "part": "adjective",
+    "collocations": [
+      "美しい景色",
+      "美しい花"
+    ],
+    "example": "春には桜がとても美しい。",
+    "category": "Finance",
+    "id": 712
+  },
+  {
+    "word": "美しい",
+    "reading": "utsukushii",
+    "translation": "beautiful",
+    "part": "adjective",
+    "collocations": [
+      "美しい景色",
+      "美しい花"
+    ],
+    "example": "春には桜がとても美しい。",
+    "category": "Grocery",
+    "id": 713
+  },
+  {
+    "word": "美しい",
+    "reading": "utsukushii",
+    "translation": "beautiful",
+    "part": "adjective",
+    "collocations": [
+      "美しい景色",
+      "美しい花"
+    ],
+    "example": "春には桜がとても美しい。",
+    "category": "Tourism",
+    "id": 714
+  },
+  {
+    "word": "美しい",
+    "reading": "utsukushii",
+    "translation": "beautiful",
+    "part": "adjective",
+    "collocations": [
+      "美しい景色",
+      "美しい花"
+    ],
+    "example": "春には桜がとても美しい。",
+    "category": "Medical",
+    "id": 715
+  },
+  {
+    "word": "美しい",
+    "reading": "utsukushii",
+    "translation": "beautiful",
+    "part": "adjective",
+    "collocations": [
+      "美しい景色",
+      "美しい花"
+    ],
+    "example": "春には桜がとても美しい。",
+    "category": "Social",
+    "id": 716
+  },
+  {
+    "word": "美しい",
+    "reading": "utsukushii",
+    "translation": "beautiful",
+    "part": "adjective",
+    "collocations": [
+      "美しい景色",
+      "美しい花"
+    ],
+    "example": "春には桜がとても美しい。",
+    "category": "Business",
+    "id": 717
+  },
+  {
+    "word": "美しい",
+    "reading": "utsukushii",
+    "translation": "beautiful",
+    "part": "adjective",
+    "collocations": [
+      "美しい景色",
+      "美しい花"
+    ],
+    "example": "春には桜がとても美しい。",
+    "category": "Media",
+    "id": 718
+  },
+  {
+    "word": "美しい",
+    "reading": "utsukushii",
+    "translation": "beautiful",
+    "part": "adjective",
+    "collocations": [
+      "美しい景色",
+      "美しい花"
+    ],
+    "example": "春には桜がとても美しい。",
+    "category": "Hotel",
+    "id": 719
+  },
+  {
+    "word": "美しい",
+    "reading": "utsukushii",
+    "translation": "beautiful",
+    "part": "adjective",
+    "collocations": [
+      "美しい景色",
+      "美しい花"
+    ],
+    "example": "春には桜がとても美しい。",
+    "category": "Misc",
+    "id": 720
+  },
+  {
+    "word": "美しい",
+    "reading": "utsukushii",
+    "translation": "beautiful",
+    "part": "adjective",
+    "collocations": [
+      "美しい景色",
+      "美しい花"
+    ],
+    "example": "春には桜がとても美しい。",
+    "category": "Greetings",
+    "id": 721
+  },
+  {
+    "word": "美しい",
+    "reading": "utsukushii",
+    "translation": "beautiful",
+    "part": "adjective",
+    "collocations": [
+      "美しい景色",
+      "美しい花"
+    ],
+    "example": "春には桜がとても美しい。",
+    "category": "Daily Life",
+    "id": 722
+  },
+  {
+    "word": "美しい",
+    "reading": "utsukushii",
+    "translation": "beautiful",
+    "part": "adjective",
+    "collocations": [
+      "美しい景色",
+      "美しい花"
+    ],
+    "example": "春には桜がとても美しい。",
+    "category": "Food & Drink",
+    "id": 723
+  },
+  {
+    "word": "美しい",
+    "reading": "utsukushii",
+    "translation": "beautiful",
+    "part": "adjective",
+    "collocations": [
+      "美しい景色",
+      "美しい花"
+    ],
+    "example": "春には桜がとても美しい。",
+    "category": "Travel",
+    "id": 724
+  },
+  {
+    "word": "美しい",
+    "reading": "utsukushii",
+    "translation": "beautiful",
+    "part": "adjective",
+    "collocations": [
+      "美しい景色",
+      "美しい花"
+    ],
+    "example": "春には桜がとても美しい。",
+    "category": "Shopping",
+    "id": 725
+  },
+  {
+    "word": "美しい",
+    "reading": "utsukushii",
+    "translation": "beautiful",
+    "part": "adjective",
+    "collocations": [
+      "美しい景色",
+      "美しい花"
+    ],
+    "example": "春には桜がとても美しい。",
+    "category": "Office",
+    "id": 726
+  },
+  {
+    "word": "大きい",
+    "reading": "ookii",
+    "translation": "big / large",
+    "part": "adjective",
+    "collocations": [
+      "大きい家",
+      "大きいサイズ"
+    ],
+    "example": "その犬はとても大きい。",
+    "category": "Health",
+    "id": 727
+  },
+  {
+    "word": "大きい",
+    "reading": "ookii",
+    "translation": "big / large",
+    "part": "adjective",
+    "collocations": [
+      "大きい家",
+      "大きいサイズ"
+    ],
+    "example": "その犬はとても大きい。",
+    "category": "Family",
+    "id": 728
+  },
+  {
+    "word": "大きい",
+    "reading": "ookii",
+    "translation": "big / large",
+    "part": "adjective",
+    "collocations": [
+      "大きい家",
+      "大きいサイズ"
+    ],
+    "example": "その犬はとても大きい。",
+    "category": "Emotions",
+    "id": 729
+  },
+  {
+    "word": "大きい",
+    "reading": "ookii",
+    "translation": "big / large",
+    "part": "adjective",
+    "collocations": [
+      "大きい家",
+      "大きいサイズ"
+    ],
+    "example": "その犬はとても大きい。",
+    "category": "Fitness",
+    "id": 730
+  },
+  {
+    "word": "大きい",
+    "reading": "ookii",
+    "translation": "big / large",
+    "part": "adjective",
+    "collocations": [
+      "大きい家",
+      "大きいサイズ"
+    ],
+    "example": "その犬はとても大きい。",
+    "category": "Leisure",
+    "id": 731
+  },
+  {
+    "word": "大きい",
+    "reading": "ookii",
+    "translation": "big / large",
+    "part": "adjective",
+    "collocations": [
+      "大きい家",
+      "大きいサイズ"
+    ],
+    "example": "その犬はとても大きい。",
+    "category": "Technology",
+    "id": 732
+  },
+  {
+    "word": "大きい",
+    "reading": "ookii",
+    "translation": "big / large",
+    "part": "adjective",
+    "collocations": [
+      "大きい家",
+      "大きいサイズ"
+    ],
+    "example": "その犬はとても大きい。",
+    "category": "Education",
+    "id": 733
+  },
+  {
+    "word": "大きい",
+    "reading": "ookii",
+    "translation": "big / large",
+    "part": "adjective",
+    "collocations": [
+      "大きい家",
+      "大きいサイズ"
+    ],
+    "example": "その犬はとても大きい。",
+    "category": "Weather",
+    "id": 734
+  },
+  {
+    "word": "大きい",
+    "reading": "ookii",
+    "translation": "big / large",
+    "part": "adjective",
+    "collocations": [
+      "大きい家",
+      "大きいサイズ"
+    ],
+    "example": "その犬はとても大きい。",
+    "category": "Hobbies",
+    "id": 735
+  },
+  {
+    "word": "大きい",
+    "reading": "ookii",
+    "translation": "big / large",
+    "part": "adjective",
+    "collocations": [
+      "大きい家",
+      "大きいサイズ"
+    ],
+    "example": "その犬はとても大きい。",
+    "category": "Home",
+    "id": 736
+  },
+  {
+    "word": "大きい",
+    "reading": "ookii",
+    "translation": "big / large",
+    "part": "adjective",
+    "collocations": [
+      "大きい家",
+      "大きいサイズ"
+    ],
+    "example": "その犬はとても大きい。",
+    "category": "Directions",
+    "id": 737
+  },
+  {
+    "word": "大きい",
+    "reading": "ookii",
+    "translation": "big / large",
+    "part": "adjective",
+    "collocations": [
+      "大きい家",
+      "大きいサイズ"
+    ],
+    "example": "その犬はとても大きい。",
+    "category": "Numbers",
+    "id": 738
+  },
+  {
+    "word": "大きい",
+    "reading": "ookii",
+    "translation": "big / large",
+    "part": "adjective",
+    "collocations": [
+      "大きい家",
+      "大きいサイズ"
+    ],
+    "example": "その犬はとても大きい。",
+    "category": "Nature",
+    "id": 739
+  },
+  {
+    "word": "大きい",
+    "reading": "ookii",
+    "translation": "big / large",
+    "part": "adjective",
+    "collocations": [
+      "大きい家",
+      "大きいサイズ"
+    ],
+    "example": "その犬はとても大きい。",
+    "category": "Animals",
+    "id": 740
+  },
+  {
+    "word": "大きい",
+    "reading": "ookii",
+    "translation": "big / large",
+    "part": "adjective",
+    "collocations": [
+      "大きい家",
+      "大きいサイズ"
+    ],
+    "example": "その犬はとても大きい。",
+    "category": "Time",
+    "id": 741
+  },
+  {
+    "word": "大きい",
+    "reading": "ookii",
+    "translation": "big / large",
+    "part": "adjective",
+    "collocations": [
+      "大きい家",
+      "大きいサイズ"
+    ],
+    "example": "その犬はとても大きい。",
+    "category": "Finance",
+    "id": 742
+  },
+  {
+    "word": "大きい",
+    "reading": "ookii",
+    "translation": "big / large",
+    "part": "adjective",
+    "collocations": [
+      "大きい家",
+      "大きいサイズ"
+    ],
+    "example": "その犬はとても大きい。",
+    "category": "Grocery",
+    "id": 743
+  },
+  {
+    "word": "大きい",
+    "reading": "ookii",
+    "translation": "big / large",
+    "part": "adjective",
+    "collocations": [
+      "大きい家",
+      "大きいサイズ"
+    ],
+    "example": "その犬はとても大きい。",
+    "category": "Tourism",
+    "id": 744
+  },
+  {
+    "word": "大きい",
+    "reading": "ookii",
+    "translation": "big / large",
+    "part": "adjective",
+    "collocations": [
+      "大きい家",
+      "大きいサイズ"
+    ],
+    "example": "その犬はとても大きい。",
+    "category": "Medical",
+    "id": 745
+  },
+  {
+    "word": "大きい",
+    "reading": "ookii",
+    "translation": "big / large",
+    "part": "adjective",
+    "collocations": [
+      "大きい家",
+      "大きいサイズ"
+    ],
+    "example": "その犬はとても大きい。",
+    "category": "Social",
+    "id": 746
+  },
+  {
+    "word": "大きい",
+    "reading": "ookii",
+    "translation": "big / large",
+    "part": "adjective",
+    "collocations": [
+      "大きい家",
+      "大きいサイズ"
+    ],
+    "example": "その犬はとても大きい。",
+    "category": "Business",
+    "id": 747
+  },
+  {
+    "word": "大きい",
+    "reading": "ookii",
+    "translation": "big / large",
+    "part": "adjective",
+    "collocations": [
+      "大きい家",
+      "大きいサイズ"
+    ],
+    "example": "その犬はとても大きい。",
+    "category": "Media",
+    "id": 748
+  },
+  {
+    "word": "小さい",
+    "reading": "chiisai",
+    "translation": "small",
+    "part": "adjective",
+    "collocations": [
+      "小さい村",
+      "小さい子ども"
+    ],
+    "example": "彼の手は小さい。",
+    "category": "Hotel",
+    "id": 749
+  },
+  {
+    "word": "小さい",
+    "reading": "chiisai",
+    "translation": "small",
+    "part": "adjective",
+    "collocations": [
+      "小さい村",
+      "小さい子ども"
+    ],
+    "example": "彼の手は小さい。",
+    "category": "Misc",
+    "id": 750
+  },
+  {
+    "word": "小さい",
+    "reading": "chiisai",
+    "translation": "small",
+    "part": "adjective",
+    "collocations": [
+      "小さい村",
+      "小さい子ども"
+    ],
+    "example": "彼の手は小さい。",
+    "category": "Greetings",
+    "id": 751
+  },
+  {
+    "word": "小さい",
+    "reading": "chiisai",
+    "translation": "small",
+    "part": "adjective",
+    "collocations": [
+      "小さい村",
+      "小さい子ども"
+    ],
+    "example": "彼の手は小さい。",
+    "category": "Daily Life",
+    "id": 752
+  },
+  {
+    "word": "小さい",
+    "reading": "chiisai",
+    "translation": "small",
+    "part": "adjective",
+    "collocations": [
+      "小さい村",
+      "小さい子ども"
+    ],
+    "example": "彼の手は小さい。",
+    "category": "Food & Drink",
+    "id": 753
+  },
+  {
+    "word": "小さい",
+    "reading": "chiisai",
+    "translation": "small",
+    "part": "adjective",
+    "collocations": [
+      "小さい村",
+      "小さい子ども"
+    ],
+    "example": "彼の手は小さい。",
+    "category": "Travel",
+    "id": 754
+  },
+  {
+    "word": "小さい",
+    "reading": "chiisai",
+    "translation": "small",
+    "part": "adjective",
+    "collocations": [
+      "小さい村",
+      "小さい子ども"
+    ],
+    "example": "彼の手は小さい。",
+    "category": "Shopping",
+    "id": 755
+  },
+  {
+    "word": "小さい",
+    "reading": "chiisai",
+    "translation": "small",
+    "part": "adjective",
+    "collocations": [
+      "小さい村",
+      "小さい子ども"
+    ],
+    "example": "彼の手は小さい。",
+    "category": "Office",
+    "id": 756
+  },
+  {
+    "word": "小さい",
+    "reading": "chiisai",
+    "translation": "small",
+    "part": "adjective",
+    "collocations": [
+      "小さい村",
+      "小さい子ども"
+    ],
+    "example": "彼の手は小さい。",
+    "category": "Health",
+    "id": 757
+  },
+  {
+    "word": "小さい",
+    "reading": "chiisai",
+    "translation": "small",
+    "part": "adjective",
+    "collocations": [
+      "小さい村",
+      "小さい子ども"
+    ],
+    "example": "彼の手は小さい。",
+    "category": "Family",
+    "id": 758
+  },
+  {
+    "word": "小さい",
+    "reading": "chiisai",
+    "translation": "small",
+    "part": "adjective",
+    "collocations": [
+      "小さい村",
+      "小さい子ども"
+    ],
+    "example": "彼の手は小さい。",
+    "category": "Emotions",
+    "id": 759
+  },
+  {
+    "word": "小さい",
+    "reading": "chiisai",
+    "translation": "small",
+    "part": "adjective",
+    "collocations": [
+      "小さい村",
+      "小さい子ども"
+    ],
+    "example": "彼の手は小さい。",
+    "category": "Fitness",
+    "id": 760
+  },
+  {
+    "word": "小さい",
+    "reading": "chiisai",
+    "translation": "small",
+    "part": "adjective",
+    "collocations": [
+      "小さい村",
+      "小さい子ども"
+    ],
+    "example": "彼の手は小さい。",
+    "category": "Leisure",
+    "id": 761
+  },
+  {
+    "word": "小さい",
+    "reading": "chiisai",
+    "translation": "small",
+    "part": "adjective",
+    "collocations": [
+      "小さい村",
+      "小さい子ども"
+    ],
+    "example": "彼の手は小さい。",
+    "category": "Technology",
+    "id": 762
+  },
+  {
+    "word": "小さい",
+    "reading": "chiisai",
+    "translation": "small",
+    "part": "adjective",
+    "collocations": [
+      "小さい村",
+      "小さい子ども"
+    ],
+    "example": "彼の手は小さい。",
+    "category": "Education",
+    "id": 763
+  },
+  {
+    "word": "小さい",
+    "reading": "chiisai",
+    "translation": "small",
+    "part": "adjective",
+    "collocations": [
+      "小さい村",
+      "小さい子ども"
+    ],
+    "example": "彼の手は小さい。",
+    "category": "Weather",
+    "id": 764
+  },
+  {
+    "word": "小さい",
+    "reading": "chiisai",
+    "translation": "small",
+    "part": "adjective",
+    "collocations": [
+      "小さい村",
+      "小さい子ども"
+    ],
+    "example": "彼の手は小さい。",
+    "category": "Hobbies",
+    "id": 765
+  },
+  {
+    "word": "小さい",
+    "reading": "chiisai",
+    "translation": "small",
+    "part": "adjective",
+    "collocations": [
+      "小さい村",
+      "小さい子ども"
+    ],
+    "example": "彼の手は小さい。",
+    "category": "Home",
+    "id": 766
+  },
+  {
+    "word": "小さい",
+    "reading": "chiisai",
+    "translation": "small",
+    "part": "adjective",
+    "collocations": [
+      "小さい村",
+      "小さい子ども"
+    ],
+    "example": "彼の手は小さい。",
+    "category": "Directions",
+    "id": 767
+  },
+  {
+    "word": "小さい",
+    "reading": "chiisai",
+    "translation": "small",
+    "part": "adjective",
+    "collocations": [
+      "小さい村",
+      "小さい子ども"
+    ],
+    "example": "彼の手は小さい。",
+    "category": "Numbers",
+    "id": 768
+  },
+  {
+    "word": "小さい",
+    "reading": "chiisai",
+    "translation": "small",
+    "part": "adjective",
+    "collocations": [
+      "小さい村",
+      "小さい子ども"
+    ],
+    "example": "彼の手は小さい。",
+    "category": "Nature",
+    "id": 769
+  },
+  {
+    "word": "小さい",
+    "reading": "chiisai",
+    "translation": "small",
+    "part": "adjective",
+    "collocations": [
+      "小さい村",
+      "小さい子ども"
+    ],
+    "example": "彼の手は小さい。",
+    "category": "Animals",
+    "id": 770
+  },
+  {
+    "word": "高い",
+    "reading": "takai",
+    "translation": "high / tall / expensive",
+    "part": "adjective",
+    "collocations": [
+      "高い山",
+      "値段が高い"
+    ],
+    "example": "この時計はとても高いです。",
+    "category": "Time",
+    "id": 771
+  },
+  {
+    "word": "高い",
+    "reading": "takai",
+    "translation": "high / tall / expensive",
+    "part": "adjective",
+    "collocations": [
+      "高い山",
+      "値段が高い"
+    ],
+    "example": "この時計はとても高いです。",
+    "category": "Finance",
+    "id": 772
+  },
+  {
+    "word": "高い",
+    "reading": "takai",
+    "translation": "high / tall / expensive",
+    "part": "adjective",
+    "collocations": [
+      "高い山",
+      "値段が高い"
+    ],
+    "example": "この時計はとても高いです。",
+    "category": "Grocery",
+    "id": 773
+  },
+  {
+    "word": "高い",
+    "reading": "takai",
+    "translation": "high / tall / expensive",
+    "part": "adjective",
+    "collocations": [
+      "高い山",
+      "値段が高い"
+    ],
+    "example": "この時計はとても高いです。",
+    "category": "Tourism",
+    "id": 774
+  },
+  {
+    "word": "高い",
+    "reading": "takai",
+    "translation": "high / tall / expensive",
+    "part": "adjective",
+    "collocations": [
+      "高い山",
+      "値段が高い"
+    ],
+    "example": "この時計はとても高いです。",
+    "category": "Medical",
+    "id": 775
+  },
+  {
+    "word": "高い",
+    "reading": "takai",
+    "translation": "high / tall / expensive",
+    "part": "adjective",
+    "collocations": [
+      "高い山",
+      "値段が高い"
+    ],
+    "example": "この時計はとても高いです。",
+    "category": "Social",
+    "id": 776
+  },
+  {
+    "word": "高い",
+    "reading": "takai",
+    "translation": "high / tall / expensive",
+    "part": "adjective",
+    "collocations": [
+      "高い山",
+      "値段が高い"
+    ],
+    "example": "この時計はとても高いです。",
+    "category": "Business",
+    "id": 777
+  },
+  {
+    "word": "高い",
+    "reading": "takai",
+    "translation": "high / tall / expensive",
+    "part": "adjective",
+    "collocations": [
+      "高い山",
+      "値段が高い"
+    ],
+    "example": "この時計はとても高いです。",
+    "category": "Media",
+    "id": 778
+  },
+  {
+    "word": "高い",
+    "reading": "takai",
+    "translation": "high / tall / expensive",
+    "part": "adjective",
+    "collocations": [
+      "高い山",
+      "値段が高い"
+    ],
+    "example": "この時計はとても高いです。",
+    "category": "Hotel",
+    "id": 779
+  },
+  {
+    "word": "高い",
+    "reading": "takai",
+    "translation": "high / tall / expensive",
+    "part": "adjective",
+    "collocations": [
+      "高い山",
+      "値段が高い"
+    ],
+    "example": "この時計はとても高いです。",
+    "category": "Misc",
+    "id": 780
+  },
+  {
+    "word": "高い",
+    "reading": "takai",
+    "translation": "high / tall / expensive",
+    "part": "adjective",
+    "collocations": [
+      "高い山",
+      "値段が高い"
+    ],
+    "example": "この時計はとても高いです。",
+    "category": "Greetings",
+    "id": 781
+  },
+  {
+    "word": "高い",
+    "reading": "takai",
+    "translation": "high / tall / expensive",
+    "part": "adjective",
+    "collocations": [
+      "高い山",
+      "値段が高い"
+    ],
+    "example": "この時計はとても高いです。",
+    "category": "Daily Life",
+    "id": 782
+  },
+  {
+    "word": "高い",
+    "reading": "takai",
+    "translation": "high / tall / expensive",
+    "part": "adjective",
+    "collocations": [
+      "高い山",
+      "値段が高い"
+    ],
+    "example": "この時計はとても高いです。",
+    "category": "Food & Drink",
+    "id": 783
+  },
+  {
+    "word": "高い",
+    "reading": "takai",
+    "translation": "high / tall / expensive",
+    "part": "adjective",
+    "collocations": [
+      "高い山",
+      "値段が高い"
+    ],
+    "example": "この時計はとても高いです。",
+    "category": "Travel",
+    "id": 784
+  },
+  {
+    "word": "高い",
+    "reading": "takai",
+    "translation": "high / tall / expensive",
+    "part": "adjective",
+    "collocations": [
+      "高い山",
+      "値段が高い"
+    ],
+    "example": "この時計はとても高いです。",
+    "category": "Shopping",
+    "id": 785
+  },
+  {
+    "word": "高い",
+    "reading": "takai",
+    "translation": "high / tall / expensive",
+    "part": "adjective",
+    "collocations": [
+      "高い山",
+      "値段が高い"
+    ],
+    "example": "この時計はとても高いです。",
+    "category": "Office",
+    "id": 786
+  },
+  {
+    "word": "高い",
+    "reading": "takai",
+    "translation": "high / tall / expensive",
+    "part": "adjective",
+    "collocations": [
+      "高い山",
+      "値段が高い"
+    ],
+    "example": "この時計はとても高いです。",
+    "category": "Health",
+    "id": 787
+  },
+  {
+    "word": "高い",
+    "reading": "takai",
+    "translation": "high / tall / expensive",
+    "part": "adjective",
+    "collocations": [
+      "高い山",
+      "値段が高い"
+    ],
+    "example": "この時計はとても高いです。",
+    "category": "Family",
+    "id": 788
+  },
+  {
+    "word": "高い",
+    "reading": "takai",
+    "translation": "high / tall / expensive",
+    "part": "adjective",
+    "collocations": [
+      "高い山",
+      "値段が高い"
+    ],
+    "example": "この時計はとても高いです。",
+    "category": "Emotions",
+    "id": 789
+  },
+  {
+    "word": "高い",
+    "reading": "takai",
+    "translation": "high / tall / expensive",
+    "part": "adjective",
+    "collocations": [
+      "高い山",
+      "値段が高い"
+    ],
+    "example": "この時計はとても高いです。",
+    "category": "Fitness",
+    "id": 790
+  },
+  {
+    "word": "高い",
+    "reading": "takai",
+    "translation": "high / tall / expensive",
+    "part": "adjective",
+    "collocations": [
+      "高い山",
+      "値段が高い"
+    ],
+    "example": "この時計はとても高いです。",
+    "category": "Leisure",
+    "id": 791
+  },
+  {
+    "word": "高い",
+    "reading": "takai",
+    "translation": "high / tall / expensive",
+    "part": "adjective",
+    "collocations": [
+      "高い山",
+      "値段が高い"
+    ],
+    "example": "この時計はとても高いです。",
+    "category": "Technology",
+    "id": 792
+  },
+  {
+    "word": "安い",
+    "reading": "yasui",
+    "translation": "cheap / inexpensive",
+    "part": "adjective",
+    "collocations": [
+      "安い商品",
+      "値段が安い"
+    ],
+    "example": "この店は安い服が多い。",
+    "category": "Education",
+    "id": 793
+  },
+  {
+    "word": "安い",
+    "reading": "yasui",
+    "translation": "cheap / inexpensive",
+    "part": "adjective",
+    "collocations": [
+      "安い商品",
+      "値段が安い"
+    ],
+    "example": "この店は安い服が多い。",
+    "category": "Weather",
+    "id": 794
+  },
+  {
+    "word": "安い",
+    "reading": "yasui",
+    "translation": "cheap / inexpensive",
+    "part": "adjective",
+    "collocations": [
+      "安い商品",
+      "値段が安い"
+    ],
+    "example": "この店は安い服が多い。",
+    "category": "Hobbies",
+    "id": 795
+  },
+  {
+    "word": "安い",
+    "reading": "yasui",
+    "translation": "cheap / inexpensive",
+    "part": "adjective",
+    "collocations": [
+      "安い商品",
+      "値段が安い"
+    ],
+    "example": "この店は安い服が多い。",
+    "category": "Home",
+    "id": 796
+  },
+  {
+    "word": "安い",
+    "reading": "yasui",
+    "translation": "cheap / inexpensive",
+    "part": "adjective",
+    "collocations": [
+      "安い商品",
+      "値段が安い"
+    ],
+    "example": "この店は安い服が多い。",
+    "category": "Directions",
+    "id": 797
+  },
+  {
+    "word": "安い",
+    "reading": "yasui",
+    "translation": "cheap / inexpensive",
+    "part": "adjective",
+    "collocations": [
+      "安い商品",
+      "値段が安い"
+    ],
+    "example": "この店は安い服が多い。",
+    "category": "Numbers",
+    "id": 798
+  },
+  {
+    "word": "安い",
+    "reading": "yasui",
+    "translation": "cheap / inexpensive",
+    "part": "adjective",
+    "collocations": [
+      "安い商品",
+      "値段が安い"
+    ],
+    "example": "この店は安い服が多い。",
+    "category": "Nature",
+    "id": 799
+  },
+  {
+    "word": "安い",
+    "reading": "yasui",
+    "translation": "cheap / inexpensive",
+    "part": "adjective",
+    "collocations": [
+      "安い商品",
+      "値段が安い"
+    ],
+    "example": "この店は安い服が多い。",
+    "category": "Animals",
+    "id": 800
+  },
+  {
+    "word": "安い",
+    "reading": "yasui",
+    "translation": "cheap / inexpensive",
+    "part": "adjective",
+    "collocations": [
+      "安い商品",
+      "値段が安い"
+    ],
+    "example": "この店は安い服が多い。",
+    "category": "Time",
+    "id": 801
+  },
+  {
+    "word": "安い",
+    "reading": "yasui",
+    "translation": "cheap / inexpensive",
+    "part": "adjective",
+    "collocations": [
+      "安い商品",
+      "値段が安い"
+    ],
+    "example": "この店は安い服が多い。",
+    "category": "Finance",
+    "id": 802
+  },
+  {
+    "word": "安い",
+    "reading": "yasui",
+    "translation": "cheap / inexpensive",
+    "part": "adjective",
+    "collocations": [
+      "安い商品",
+      "値段が安い"
+    ],
+    "example": "この店は安い服が多い。",
+    "category": "Grocery",
+    "id": 803
+  },
+  {
+    "word": "安い",
+    "reading": "yasui",
+    "translation": "cheap / inexpensive",
+    "part": "adjective",
+    "collocations": [
+      "安い商品",
+      "値段が安い"
+    ],
+    "example": "この店は安い服が多い。",
+    "category": "Tourism",
+    "id": 804
+  },
+  {
+    "word": "安い",
+    "reading": "yasui",
+    "translation": "cheap / inexpensive",
+    "part": "adjective",
+    "collocations": [
+      "安い商品",
+      "値段が安い"
+    ],
+    "example": "この店は安い服が多い。",
+    "category": "Medical",
+    "id": 805
+  },
+  {
+    "word": "安い",
+    "reading": "yasui",
+    "translation": "cheap / inexpensive",
+    "part": "adjective",
+    "collocations": [
+      "安い商品",
+      "値段が安い"
+    ],
+    "example": "この店は安い服が多い。",
+    "category": "Social",
+    "id": 806
+  },
+  {
+    "word": "安い",
+    "reading": "yasui",
+    "translation": "cheap / inexpensive",
+    "part": "adjective",
+    "collocations": [
+      "安い商品",
+      "値段が安い"
+    ],
+    "example": "この店は安い服が多い。",
+    "category": "Business",
+    "id": 807
+  },
+  {
+    "word": "安い",
+    "reading": "yasui",
+    "translation": "cheap / inexpensive",
+    "part": "adjective",
+    "collocations": [
+      "安い商品",
+      "値段が安い"
+    ],
+    "example": "この店は安い服が多い。",
+    "category": "Media",
+    "id": 808
+  },
+  {
+    "word": "安い",
+    "reading": "yasui",
+    "translation": "cheap / inexpensive",
+    "part": "adjective",
+    "collocations": [
+      "安い商品",
+      "値段が安い"
+    ],
+    "example": "この店は安い服が多い。",
+    "category": "Hotel",
+    "id": 809
+  },
+  {
+    "word": "安い",
+    "reading": "yasui",
+    "translation": "cheap / inexpensive",
+    "part": "adjective",
+    "collocations": [
+      "安い商品",
+      "値段が安い"
+    ],
+    "example": "この店は安い服が多い。",
+    "category": "Misc",
+    "id": 810
+  },
+  {
+    "word": "安い",
+    "reading": "yasui",
+    "translation": "cheap / inexpensive",
+    "part": "adjective",
+    "collocations": [
+      "安い商品",
+      "値段が安い"
+    ],
+    "example": "この店は安い服が多い。",
+    "category": "Greetings",
+    "id": 811
+  },
+  {
+    "word": "安い",
+    "reading": "yasui",
+    "translation": "cheap / inexpensive",
+    "part": "adjective",
+    "collocations": [
+      "安い商品",
+      "値段が安い"
+    ],
+    "example": "この店は安い服が多い。",
+    "category": "Daily Life",
+    "id": 812
+  },
+  {
+    "word": "安い",
+    "reading": "yasui",
+    "translation": "cheap / inexpensive",
+    "part": "adjective",
+    "collocations": [
+      "安い商品",
+      "値段が安い"
+    ],
+    "example": "この店は安い服が多い。",
+    "category": "Food & Drink",
+    "id": 813
+  },
+  {
+    "word": "安い",
+    "reading": "yasui",
+    "translation": "cheap / inexpensive",
+    "part": "adjective",
+    "collocations": [
+      "安い商品",
+      "値段が安い"
+    ],
+    "example": "この店は安い服が多い。",
+    "category": "Travel",
+    "id": 814
+  },
+  {
+    "word": "新しい",
+    "reading": "atarashii",
+    "translation": "new",
+    "part": "adjective",
+    "collocations": [
+      "新しい車",
+      "新しいアイデア"
+    ],
+    "example": "昨日新しい本を買いました。",
+    "category": "Shopping",
+    "id": 815
+  },
+  {
+    "word": "新しい",
+    "reading": "atarashii",
+    "translation": "new",
+    "part": "adjective",
+    "collocations": [
+      "新しい車",
+      "新しいアイデア"
+    ],
+    "example": "昨日新しい本を買いました。",
+    "category": "Office",
+    "id": 816
+  },
+  {
+    "word": "新しい",
+    "reading": "atarashii",
+    "translation": "new",
+    "part": "adjective",
+    "collocations": [
+      "新しい車",
+      "新しいアイデア"
+    ],
+    "example": "昨日新しい本を買いました。",
+    "category": "Health",
+    "id": 817
+  },
+  {
+    "word": "新しい",
+    "reading": "atarashii",
+    "translation": "new",
+    "part": "adjective",
+    "collocations": [
+      "新しい車",
+      "新しいアイデア"
+    ],
+    "example": "昨日新しい本を買いました。",
+    "category": "Family",
+    "id": 818
+  },
+  {
+    "word": "新しい",
+    "reading": "atarashii",
+    "translation": "new",
+    "part": "adjective",
+    "collocations": [
+      "新しい車",
+      "新しいアイデア"
+    ],
+    "example": "昨日新しい本を買いました。",
+    "category": "Emotions",
+    "id": 819
+  },
+  {
+    "word": "新しい",
+    "reading": "atarashii",
+    "translation": "new",
+    "part": "adjective",
+    "collocations": [
+      "新しい車",
+      "新しいアイデア"
+    ],
+    "example": "昨日新しい本を買いました。",
+    "category": "Fitness",
+    "id": 820
+  },
+  {
+    "word": "新しい",
+    "reading": "atarashii",
+    "translation": "new",
+    "part": "adjective",
+    "collocations": [
+      "新しい車",
+      "新しいアイデア"
+    ],
+    "example": "昨日新しい本を買いました。",
+    "category": "Leisure",
+    "id": 821
+  },
+  {
+    "word": "新しい",
+    "reading": "atarashii",
+    "translation": "new",
+    "part": "adjective",
+    "collocations": [
+      "新しい車",
+      "新しいアイデア"
+    ],
+    "example": "昨日新しい本を買いました。",
+    "category": "Technology",
+    "id": 822
+  },
+  {
+    "word": "新しい",
+    "reading": "atarashii",
+    "translation": "new",
+    "part": "adjective",
+    "collocations": [
+      "新しい車",
+      "新しいアイデア"
+    ],
+    "example": "昨日新しい本を買いました。",
+    "category": "Education",
+    "id": 823
+  },
+  {
+    "word": "新しい",
+    "reading": "atarashii",
+    "translation": "new",
+    "part": "adjective",
+    "collocations": [
+      "新しい車",
+      "新しいアイデア"
+    ],
+    "example": "昨日新しい本を買いました。",
+    "category": "Weather",
+    "id": 824
+  },
+  {
+    "word": "新しい",
+    "reading": "atarashii",
+    "translation": "new",
+    "part": "adjective",
+    "collocations": [
+      "新しい車",
+      "新しいアイデア"
+    ],
+    "example": "昨日新しい本を買いました。",
+    "category": "Hobbies",
+    "id": 825
+  },
+  {
+    "word": "新しい",
+    "reading": "atarashii",
+    "translation": "new",
+    "part": "adjective",
+    "collocations": [
+      "新しい車",
+      "新しいアイデア"
+    ],
+    "example": "昨日新しい本を買いました。",
+    "category": "Home",
+    "id": 826
+  },
+  {
+    "word": "新しい",
+    "reading": "atarashii",
+    "translation": "new",
+    "part": "adjective",
+    "collocations": [
+      "新しい車",
+      "新しいアイデア"
+    ],
+    "example": "昨日新しい本を買いました。",
+    "category": "Directions",
+    "id": 827
+  },
+  {
+    "word": "新しい",
+    "reading": "atarashii",
+    "translation": "new",
+    "part": "adjective",
+    "collocations": [
+      "新しい車",
+      "新しいアイデア"
+    ],
+    "example": "昨日新しい本を買いました。",
+    "category": "Numbers",
+    "id": 828
+  },
+  {
+    "word": "新しい",
+    "reading": "atarashii",
+    "translation": "new",
+    "part": "adjective",
+    "collocations": [
+      "新しい車",
+      "新しいアイデア"
+    ],
+    "example": "昨日新しい本を買いました。",
+    "category": "Nature",
+    "id": 829
+  },
+  {
+    "word": "新しい",
+    "reading": "atarashii",
+    "translation": "new",
+    "part": "adjective",
+    "collocations": [
+      "新しい車",
+      "新しいアイデア"
+    ],
+    "example": "昨日新しい本を買いました。",
+    "category": "Animals",
+    "id": 830
+  },
+  {
+    "word": "新しい",
+    "reading": "atarashii",
+    "translation": "new",
+    "part": "adjective",
+    "collocations": [
+      "新しい車",
+      "新しいアイデア"
+    ],
+    "example": "昨日新しい本を買いました。",
+    "category": "Time",
+    "id": 831
+  },
+  {
+    "word": "新しい",
+    "reading": "atarashii",
+    "translation": "new",
+    "part": "adjective",
+    "collocations": [
+      "新しい車",
+      "新しいアイデア"
+    ],
+    "example": "昨日新しい本を買いました。",
+    "category": "Finance",
+    "id": 832
+  },
+  {
+    "word": "新しい",
+    "reading": "atarashii",
+    "translation": "new",
+    "part": "adjective",
+    "collocations": [
+      "新しい車",
+      "新しいアイデア"
+    ],
+    "example": "昨日新しい本を買いました。",
+    "category": "Grocery",
+    "id": 833
+  },
+  {
+    "word": "新しい",
+    "reading": "atarashii",
+    "translation": "new",
+    "part": "adjective",
+    "collocations": [
+      "新しい車",
+      "新しいアイデア"
+    ],
+    "example": "昨日新しい本を買いました。",
+    "category": "Tourism",
+    "id": 834
+  },
+  {
+    "word": "新しい",
+    "reading": "atarashii",
+    "translation": "new",
+    "part": "adjective",
+    "collocations": [
+      "新しい車",
+      "新しいアイデア"
+    ],
+    "example": "昨日新しい本を買いました。",
+    "category": "Medical",
+    "id": 835
+  },
+  {
+    "word": "新しい",
+    "reading": "atarashii",
+    "translation": "new",
+    "part": "adjective",
+    "collocations": [
+      "新しい車",
+      "新しいアイデア"
+    ],
+    "example": "昨日新しい本を買いました。",
+    "category": "Social",
+    "id": 836
+  },
+  {
+    "word": "古い",
+    "reading": "furui",
+    "translation": "old",
+    "part": "adjective",
+    "collocations": [
+      "古い建物",
+      "古い友人"
+    ],
+    "example": "これは古い写真です。",
+    "category": "Business",
+    "id": 837
+  },
+  {
+    "word": "古い",
+    "reading": "furui",
+    "translation": "old",
+    "part": "adjective",
+    "collocations": [
+      "古い建物",
+      "古い友人"
+    ],
+    "example": "これは古い写真です。",
+    "category": "Media",
+    "id": 838
+  },
+  {
+    "word": "古い",
+    "reading": "furui",
+    "translation": "old",
+    "part": "adjective",
+    "collocations": [
+      "古い建物",
+      "古い友人"
+    ],
+    "example": "これは古い写真です。",
+    "category": "Hotel",
+    "id": 839
+  },
+  {
+    "word": "古い",
+    "reading": "furui",
+    "translation": "old",
+    "part": "adjective",
+    "collocations": [
+      "古い建物",
+      "古い友人"
+    ],
+    "example": "これは古い写真です。",
+    "category": "Misc",
+    "id": 840
+  },
+  {
+    "word": "古い",
+    "reading": "furui",
+    "translation": "old",
+    "part": "adjective",
+    "collocations": [
+      "古い建物",
+      "古い友人"
+    ],
+    "example": "これは古い写真です。",
+    "category": "Greetings",
+    "id": 841
+  },
+  {
+    "word": "古い",
+    "reading": "furui",
+    "translation": "old",
+    "part": "adjective",
+    "collocations": [
+      "古い建物",
+      "古い友人"
+    ],
+    "example": "これは古い写真です。",
+    "category": "Daily Life",
+    "id": 842
+  },
+  {
+    "word": "古い",
+    "reading": "furui",
+    "translation": "old",
+    "part": "adjective",
+    "collocations": [
+      "古い建物",
+      "古い友人"
+    ],
+    "example": "これは古い写真です。",
+    "category": "Food & Drink",
+    "id": 843
+  },
+  {
+    "word": "古い",
+    "reading": "furui",
+    "translation": "old",
+    "part": "adjective",
+    "collocations": [
+      "古い建物",
+      "古い友人"
+    ],
+    "example": "これは古い写真です。",
+    "category": "Travel",
+    "id": 844
+  },
+  {
+    "word": "古い",
+    "reading": "furui",
+    "translation": "old",
+    "part": "adjective",
+    "collocations": [
+      "古い建物",
+      "古い友人"
+    ],
+    "example": "これは古い写真です。",
+    "category": "Shopping",
+    "id": 845
+  },
+  {
+    "word": "古い",
+    "reading": "furui",
+    "translation": "old",
+    "part": "adjective",
+    "collocations": [
+      "古い建物",
+      "古い友人"
+    ],
+    "example": "これは古い写真です。",
+    "category": "Office",
+    "id": 846
+  },
+  {
+    "word": "古い",
+    "reading": "furui",
+    "translation": "old",
+    "part": "adjective",
+    "collocations": [
+      "古い建物",
+      "古い友人"
+    ],
+    "example": "これは古い写真です。",
+    "category": "Health",
+    "id": 847
+  },
+  {
+    "word": "古い",
+    "reading": "furui",
+    "translation": "old",
+    "part": "adjective",
+    "collocations": [
+      "古い建物",
+      "古い友人"
+    ],
+    "example": "これは古い写真です。",
+    "category": "Family",
+    "id": 848
+  },
+  {
+    "word": "古い",
+    "reading": "furui",
+    "translation": "old",
+    "part": "adjective",
+    "collocations": [
+      "古い建物",
+      "古い友人"
+    ],
+    "example": "これは古い写真です。",
+    "category": "Emotions",
+    "id": 849
+  },
+  {
+    "word": "古い",
+    "reading": "furui",
+    "translation": "old",
+    "part": "adjective",
+    "collocations": [
+      "古い建物",
+      "古い友人"
+    ],
+    "example": "これは古い写真です。",
+    "category": "Fitness",
+    "id": 850
+  },
+  {
+    "word": "古い",
+    "reading": "furui",
+    "translation": "old",
+    "part": "adjective",
+    "collocations": [
+      "古い建物",
+      "古い友人"
+    ],
+    "example": "これは古い写真です。",
+    "category": "Leisure",
+    "id": 851
+  },
+  {
+    "word": "古い",
+    "reading": "furui",
+    "translation": "old",
+    "part": "adjective",
+    "collocations": [
+      "古い建物",
+      "古い友人"
+    ],
+    "example": "これは古い写真です。",
+    "category": "Technology",
+    "id": 852
+  },
+  {
+    "word": "古い",
+    "reading": "furui",
+    "translation": "old",
+    "part": "adjective",
+    "collocations": [
+      "古い建物",
+      "古い友人"
+    ],
+    "example": "これは古い写真です。",
+    "category": "Education",
+    "id": 853
+  },
+  {
+    "word": "古い",
+    "reading": "furui",
+    "translation": "old",
+    "part": "adjective",
+    "collocations": [
+      "古い建物",
+      "古い友人"
+    ],
+    "example": "これは古い写真です。",
+    "category": "Weather",
+    "id": 854
+  },
+  {
+    "word": "古い",
+    "reading": "furui",
+    "translation": "old",
+    "part": "adjective",
+    "collocations": [
+      "古い建物",
+      "古い友人"
+    ],
+    "example": "これは古い写真です。",
+    "category": "Hobbies",
+    "id": 855
+  },
+  {
+    "word": "古い",
+    "reading": "furui",
+    "translation": "old",
+    "part": "adjective",
+    "collocations": [
+      "古い建物",
+      "古い友人"
+    ],
+    "example": "これは古い写真です。",
+    "category": "Home",
+    "id": 856
+  },
+  {
+    "word": "古い",
+    "reading": "furui",
+    "translation": "old",
+    "part": "adjective",
+    "collocations": [
+      "古い建物",
+      "古い友人"
+    ],
+    "example": "これは古い写真です。",
+    "category": "Directions",
+    "id": 857
+  },
+  {
+    "word": "古い",
+    "reading": "furui",
+    "translation": "old",
+    "part": "adjective",
+    "collocations": [
+      "古い建物",
+      "古い友人"
+    ],
+    "example": "これは古い写真です。",
+    "category": "Numbers",
+    "id": 858
+  },
+  {
+    "word": "早い",
+    "reading": "hayai",
+    "translation": "fast / early",
+    "part": "adjective",
+    "collocations": [
+      "早い電車",
+      "時間が早い"
+    ],
+    "example": "彼は早い時間に起きます。",
+    "category": "Nature",
+    "id": 859
+  },
+  {
+    "word": "早い",
+    "reading": "hayai",
+    "translation": "fast / early",
+    "part": "adjective",
+    "collocations": [
+      "早い電車",
+      "時間が早い"
+    ],
+    "example": "彼は早い時間に起きます。",
+    "category": "Animals",
+    "id": 860
+  },
+  {
+    "word": "早い",
+    "reading": "hayai",
+    "translation": "fast / early",
+    "part": "adjective",
+    "collocations": [
+      "早い電車",
+      "時間が早い"
+    ],
+    "example": "彼は早い時間に起きます。",
+    "category": "Time",
+    "id": 861
+  },
+  {
+    "word": "早い",
+    "reading": "hayai",
+    "translation": "fast / early",
+    "part": "adjective",
+    "collocations": [
+      "早い電車",
+      "時間が早い"
+    ],
+    "example": "彼は早い時間に起きます。",
+    "category": "Finance",
+    "id": 862
+  },
+  {
+    "word": "早い",
+    "reading": "hayai",
+    "translation": "fast / early",
+    "part": "adjective",
+    "collocations": [
+      "早い電車",
+      "時間が早い"
+    ],
+    "example": "彼は早い時間に起きます。",
+    "category": "Grocery",
+    "id": 863
+  },
+  {
+    "word": "早い",
+    "reading": "hayai",
+    "translation": "fast / early",
+    "part": "adjective",
+    "collocations": [
+      "早い電車",
+      "時間が早い"
+    ],
+    "example": "彼は早い時間に起きます。",
+    "category": "Tourism",
+    "id": 864
+  },
+  {
+    "word": "早い",
+    "reading": "hayai",
+    "translation": "fast / early",
+    "part": "adjective",
+    "collocations": [
+      "早い電車",
+      "時間が早い"
+    ],
+    "example": "彼は早い時間に起きます。",
+    "category": "Medical",
+    "id": 865
+  },
+  {
+    "word": "早い",
+    "reading": "hayai",
+    "translation": "fast / early",
+    "part": "adjective",
+    "collocations": [
+      "早い電車",
+      "時間が早い"
+    ],
+    "example": "彼は早い時間に起きます。",
+    "category": "Social",
+    "id": 866
+  },
+  {
+    "word": "早い",
+    "reading": "hayai",
+    "translation": "fast / early",
+    "part": "adjective",
+    "collocations": [
+      "早い電車",
+      "時間が早い"
+    ],
+    "example": "彼は早い時間に起きます。",
+    "category": "Business",
+    "id": 867
+  },
+  {
+    "word": "早い",
+    "reading": "hayai",
+    "translation": "fast / early",
+    "part": "adjective",
+    "collocations": [
+      "早い電車",
+      "時間が早い"
+    ],
+    "example": "彼は早い時間に起きます。",
+    "category": "Media",
+    "id": 868
+  },
+  {
+    "word": "早い",
+    "reading": "hayai",
+    "translation": "fast / early",
+    "part": "adjective",
+    "collocations": [
+      "早い電車",
+      "時間が早い"
+    ],
+    "example": "彼は早い時間に起きます。",
+    "category": "Hotel",
+    "id": 869
+  },
+  {
+    "word": "早い",
+    "reading": "hayai",
+    "translation": "fast / early",
+    "part": "adjective",
+    "collocations": [
+      "早い電車",
+      "時間が早い"
+    ],
+    "example": "彼は早い時間に起きます。",
+    "category": "Misc",
+    "id": 870
+  },
+  {
+    "word": "早い",
+    "reading": "hayai",
+    "translation": "fast / early",
+    "part": "adjective",
+    "collocations": [
+      "早い電車",
+      "時間が早い"
+    ],
+    "example": "彼は早い時間に起きます。",
+    "category": "Greetings",
+    "id": 871
+  },
+  {
+    "word": "早い",
+    "reading": "hayai",
+    "translation": "fast / early",
+    "part": "adjective",
+    "collocations": [
+      "早い電車",
+      "時間が早い"
+    ],
+    "example": "彼は早い時間に起きます。",
+    "category": "Daily Life",
+    "id": 872
+  },
+  {
+    "word": "早い",
+    "reading": "hayai",
+    "translation": "fast / early",
+    "part": "adjective",
+    "collocations": [
+      "早い電車",
+      "時間が早い"
+    ],
+    "example": "彼は早い時間に起きます。",
+    "category": "Food & Drink",
+    "id": 873
+  },
+  {
+    "word": "早い",
+    "reading": "hayai",
+    "translation": "fast / early",
+    "part": "adjective",
+    "collocations": [
+      "早い電車",
+      "時間が早い"
+    ],
+    "example": "彼は早い時間に起きます。",
+    "category": "Travel",
+    "id": 874
+  },
+  {
+    "word": "早い",
+    "reading": "hayai",
+    "translation": "fast / early",
+    "part": "adjective",
+    "collocations": [
+      "早い電車",
+      "時間が早い"
+    ],
+    "example": "彼は早い時間に起きます。",
+    "category": "Shopping",
+    "id": 875
+  },
+  {
+    "word": "早い",
+    "reading": "hayai",
+    "translation": "fast / early",
+    "part": "adjective",
+    "collocations": [
+      "早い電車",
+      "時間が早い"
+    ],
+    "example": "彼は早い時間に起きます。",
+    "category": "Office",
+    "id": 876
+  },
+  {
+    "word": "早い",
+    "reading": "hayai",
+    "translation": "fast / early",
+    "part": "adjective",
+    "collocations": [
+      "早い電車",
+      "時間が早い"
+    ],
+    "example": "彼は早い時間に起きます。",
+    "category": "Health",
+    "id": 877
+  },
+  {
+    "word": "早い",
+    "reading": "hayai",
+    "translation": "fast / early",
+    "part": "adjective",
+    "collocations": [
+      "早い電車",
+      "時間が早い"
+    ],
+    "example": "彼は早い時間に起きます。",
+    "category": "Family",
+    "id": 878
+  },
+  {
+    "word": "早い",
+    "reading": "hayai",
+    "translation": "fast / early",
+    "part": "adjective",
+    "collocations": [
+      "早い電車",
+      "時間が早い"
+    ],
+    "example": "彼は早い時間に起きます。",
+    "category": "Emotions",
+    "id": 879
+  },
+  {
+    "word": "早い",
+    "reading": "hayai",
+    "translation": "fast / early",
+    "part": "adjective",
+    "collocations": [
+      "早い電車",
+      "時間が早い"
+    ],
+    "example": "彼は早い時間に起きます。",
+    "category": "Fitness",
+    "id": 880
+  },
+  {
+    "word": "遅い",
+    "reading": "osoi",
+    "translation": "late / slow",
+    "part": "adjective",
+    "collocations": [
+      "遅い時間",
+      "動きが遅い"
+    ],
+    "example": "今日は遅い電車に乗りました。",
+    "category": "Leisure",
+    "id": 881
+  },
+  {
+    "word": "遅い",
+    "reading": "osoi",
+    "translation": "late / slow",
+    "part": "adjective",
+    "collocations": [
+      "遅い時間",
+      "動きが遅い"
+    ],
+    "example": "今日は遅い電車に乗りました。",
+    "category": "Technology",
+    "id": 882
+  },
+  {
+    "word": "遅い",
+    "reading": "osoi",
+    "translation": "late / slow",
+    "part": "adjective",
+    "collocations": [
+      "遅い時間",
+      "動きが遅い"
+    ],
+    "example": "今日は遅い電車に乗りました。",
+    "category": "Education",
+    "id": 883
+  },
+  {
+    "word": "遅い",
+    "reading": "osoi",
+    "translation": "late / slow",
+    "part": "adjective",
+    "collocations": [
+      "遅い時間",
+      "動きが遅い"
+    ],
+    "example": "今日は遅い電車に乗りました。",
+    "category": "Weather",
+    "id": 884
+  },
+  {
+    "word": "遅い",
+    "reading": "osoi",
+    "translation": "late / slow",
+    "part": "adjective",
+    "collocations": [
+      "遅い時間",
+      "動きが遅い"
+    ],
+    "example": "今日は遅い電車に乗りました。",
+    "category": "Hobbies",
+    "id": 885
+  },
+  {
+    "word": "遅い",
+    "reading": "osoi",
+    "translation": "late / slow",
+    "part": "adjective",
+    "collocations": [
+      "遅い時間",
+      "動きが遅い"
+    ],
+    "example": "今日は遅い電車に乗りました。",
+    "category": "Home",
+    "id": 886
+  },
+  {
+    "word": "遅い",
+    "reading": "osoi",
+    "translation": "late / slow",
+    "part": "adjective",
+    "collocations": [
+      "遅い時間",
+      "動きが遅い"
+    ],
+    "example": "今日は遅い電車に乗りました。",
+    "category": "Directions",
+    "id": 887
+  },
+  {
+    "word": "遅い",
+    "reading": "osoi",
+    "translation": "late / slow",
+    "part": "adjective",
+    "collocations": [
+      "遅い時間",
+      "動きが遅い"
+    ],
+    "example": "今日は遅い電車に乗りました。",
+    "category": "Numbers",
+    "id": 888
+  },
+  {
+    "word": "遅い",
+    "reading": "osoi",
+    "translation": "late / slow",
+    "part": "adjective",
+    "collocations": [
+      "遅い時間",
+      "動きが遅い"
+    ],
+    "example": "今日は遅い電車に乗りました。",
+    "category": "Nature",
+    "id": 889
+  },
+  {
+    "word": "遅い",
+    "reading": "osoi",
+    "translation": "late / slow",
+    "part": "adjective",
+    "collocations": [
+      "遅い時間",
+      "動きが遅い"
+    ],
+    "example": "今日は遅い電車に乗りました。",
+    "category": "Animals",
+    "id": 890
+  },
+  {
+    "word": "遅い",
+    "reading": "osoi",
+    "translation": "late / slow",
+    "part": "adjective",
+    "collocations": [
+      "遅い時間",
+      "動きが遅い"
+    ],
+    "example": "今日は遅い電車に乗りました。",
+    "category": "Time",
+    "id": 891
+  },
+  {
+    "word": "遅い",
+    "reading": "osoi",
+    "translation": "late / slow",
+    "part": "adjective",
+    "collocations": [
+      "遅い時間",
+      "動きが遅い"
+    ],
+    "example": "今日は遅い電車に乗りました。",
+    "category": "Finance",
+    "id": 892
+  },
+  {
+    "word": "遅い",
+    "reading": "osoi",
+    "translation": "late / slow",
+    "part": "adjective",
+    "collocations": [
+      "遅い時間",
+      "動きが遅い"
+    ],
+    "example": "今日は遅い電車に乗りました。",
+    "category": "Grocery",
+    "id": 893
+  },
+  {
+    "word": "遅い",
+    "reading": "osoi",
+    "translation": "late / slow",
+    "part": "adjective",
+    "collocations": [
+      "遅い時間",
+      "動きが遅い"
+    ],
+    "example": "今日は遅い電車に乗りました。",
+    "category": "Tourism",
+    "id": 894
+  },
+  {
+    "word": "遅い",
+    "reading": "osoi",
+    "translation": "late / slow",
+    "part": "adjective",
+    "collocations": [
+      "遅い時間",
+      "動きが遅い"
+    ],
+    "example": "今日は遅い電車に乗りました。",
+    "category": "Medical",
+    "id": 895
+  },
+  {
+    "word": "遅い",
+    "reading": "osoi",
+    "translation": "late / slow",
+    "part": "adjective",
+    "collocations": [
+      "遅い時間",
+      "動きが遅い"
+    ],
+    "example": "今日は遅い電車に乗りました。",
+    "category": "Social",
+    "id": 896
+  },
+  {
+    "word": "遅い",
+    "reading": "osoi",
+    "translation": "late / slow",
+    "part": "adjective",
+    "collocations": [
+      "遅い時間",
+      "動きが遅い"
+    ],
+    "example": "今日は遅い電車に乗りました。",
+    "category": "Business",
+    "id": 897
+  },
+  {
+    "word": "遅い",
+    "reading": "osoi",
+    "translation": "late / slow",
+    "part": "adjective",
+    "collocations": [
+      "遅い時間",
+      "動きが遅い"
+    ],
+    "example": "今日は遅い電車に乗りました。",
+    "category": "Media",
+    "id": 898
+  },
+  {
+    "word": "遅い",
+    "reading": "osoi",
+    "translation": "late / slow",
+    "part": "adjective",
+    "collocations": [
+      "遅い時間",
+      "動きが遅い"
+    ],
+    "example": "今日は遅い電車に乗りました。",
+    "category": "Hotel",
+    "id": 899
+  },
+  {
+    "word": "遅い",
+    "reading": "osoi",
+    "translation": "late / slow",
+    "part": "adjective",
+    "collocations": [
+      "遅い時間",
+      "動きが遅い"
+    ],
+    "example": "今日は遅い電車に乗りました。",
+    "category": "Misc",
+    "id": 900
+  },
+  {
+    "word": "遅い",
+    "reading": "osoi",
+    "translation": "late / slow",
+    "part": "adjective",
+    "collocations": [
+      "遅い時間",
+      "動きが遅い"
+    ],
+    "example": "今日は遅い電車に乗りました。",
+    "category": "Greetings",
+    "id": 901
+  },
+  {
+    "word": "遅い",
+    "reading": "osoi",
+    "translation": "late / slow",
+    "part": "adjective",
+    "collocations": [
+      "遅い時間",
+      "動きが遅い"
+    ],
+    "example": "今日は遅い電車に乗りました。",
+    "category": "Daily Life",
+    "id": 902
+  },
+  {
+    "word": "便利",
+    "reading": "benri",
+    "translation": "convenient",
+    "part": "adjective",
+    "collocations": [
+      "便利な道具",
+      "便利な場所"
+    ],
+    "example": "このアプリはとても便利です。",
+    "category": "Food & Drink",
+    "id": 903
+  },
+  {
+    "word": "便利",
+    "reading": "benri",
+    "translation": "convenient",
+    "part": "adjective",
+    "collocations": [
+      "便利な道具",
+      "便利な場所"
+    ],
+    "example": "このアプリはとても便利です。",
+    "category": "Travel",
+    "id": 904
+  },
+  {
+    "word": "便利",
+    "reading": "benri",
+    "translation": "convenient",
+    "part": "adjective",
+    "collocations": [
+      "便利な道具",
+      "便利な場所"
+    ],
+    "example": "このアプリはとても便利です。",
+    "category": "Shopping",
+    "id": 905
+  },
+  {
+    "word": "便利",
+    "reading": "benri",
+    "translation": "convenient",
+    "part": "adjective",
+    "collocations": [
+      "便利な道具",
+      "便利な場所"
+    ],
+    "example": "このアプリはとても便利です。",
+    "category": "Office",
+    "id": 906
+  },
+  {
+    "word": "便利",
+    "reading": "benri",
+    "translation": "convenient",
+    "part": "adjective",
+    "collocations": [
+      "便利な道具",
+      "便利な場所"
+    ],
+    "example": "このアプリはとても便利です。",
+    "category": "Health",
+    "id": 907
+  },
+  {
+    "word": "便利",
+    "reading": "benri",
+    "translation": "convenient",
+    "part": "adjective",
+    "collocations": [
+      "便利な道具",
+      "便利な場所"
+    ],
+    "example": "このアプリはとても便利です。",
+    "category": "Family",
+    "id": 908
+  },
+  {
+    "word": "便利",
+    "reading": "benri",
+    "translation": "convenient",
+    "part": "adjective",
+    "collocations": [
+      "便利な道具",
+      "便利な場所"
+    ],
+    "example": "このアプリはとても便利です。",
+    "category": "Emotions",
+    "id": 909
+  },
+  {
+    "word": "便利",
+    "reading": "benri",
+    "translation": "convenient",
+    "part": "adjective",
+    "collocations": [
+      "便利な道具",
+      "便利な場所"
+    ],
+    "example": "このアプリはとても便利です。",
+    "category": "Fitness",
+    "id": 910
+  },
+  {
+    "word": "便利",
+    "reading": "benri",
+    "translation": "convenient",
+    "part": "adjective",
+    "collocations": [
+      "便利な道具",
+      "便利な場所"
+    ],
+    "example": "このアプリはとても便利です。",
+    "category": "Leisure",
+    "id": 911
+  },
+  {
+    "word": "便利",
+    "reading": "benri",
+    "translation": "convenient",
+    "part": "adjective",
+    "collocations": [
+      "便利な道具",
+      "便利な場所"
+    ],
+    "example": "このアプリはとても便利です。",
+    "category": "Technology",
+    "id": 912
+  },
+  {
+    "word": "便利",
+    "reading": "benri",
+    "translation": "convenient",
+    "part": "adjective",
+    "collocations": [
+      "便利な道具",
+      "便利な場所"
+    ],
+    "example": "このアプリはとても便利です。",
+    "category": "Education",
+    "id": 913
+  },
+  {
+    "word": "便利",
+    "reading": "benri",
+    "translation": "convenient",
+    "part": "adjective",
+    "collocations": [
+      "便利な道具",
+      "便利な場所"
+    ],
+    "example": "このアプリはとても便利です。",
+    "category": "Weather",
+    "id": 914
+  },
+  {
+    "word": "便利",
+    "reading": "benri",
+    "translation": "convenient",
+    "part": "adjective",
+    "collocations": [
+      "便利な道具",
+      "便利な場所"
+    ],
+    "example": "このアプリはとても便利です。",
+    "category": "Hobbies",
+    "id": 915
+  },
+  {
+    "word": "便利",
+    "reading": "benri",
+    "translation": "convenient",
+    "part": "adjective",
+    "collocations": [
+      "便利な道具",
+      "便利な場所"
+    ],
+    "example": "このアプリはとても便利です。",
+    "category": "Home",
+    "id": 916
+  },
+  {
+    "word": "便利",
+    "reading": "benri",
+    "translation": "convenient",
+    "part": "adjective",
+    "collocations": [
+      "便利な道具",
+      "便利な場所"
+    ],
+    "example": "このアプリはとても便利です。",
+    "category": "Directions",
+    "id": 917
+  },
+  {
+    "word": "便利",
+    "reading": "benri",
+    "translation": "convenient",
+    "part": "adjective",
+    "collocations": [
+      "便利な道具",
+      "便利な場所"
+    ],
+    "example": "このアプリはとても便利です。",
+    "category": "Numbers",
+    "id": 918
+  },
+  {
+    "word": "便利",
+    "reading": "benri",
+    "translation": "convenient",
+    "part": "adjective",
+    "collocations": [
+      "便利な道具",
+      "便利な場所"
+    ],
+    "example": "このアプリはとても便利です。",
+    "category": "Nature",
+    "id": 919
+  },
+  {
+    "word": "便利",
+    "reading": "benri",
+    "translation": "convenient",
+    "part": "adjective",
+    "collocations": [
+      "便利な道具",
+      "便利な場所"
+    ],
+    "example": "このアプリはとても便利です。",
+    "category": "Animals",
+    "id": 920
+  },
+  {
+    "word": "便利",
+    "reading": "benri",
+    "translation": "convenient",
+    "part": "adjective",
+    "collocations": [
+      "便利な道具",
+      "便利な場所"
+    ],
+    "example": "このアプリはとても便利です。",
+    "category": "Time",
+    "id": 921
+  },
+  {
+    "word": "便利",
+    "reading": "benri",
+    "translation": "convenient",
+    "part": "adjective",
+    "collocations": [
+      "便利な道具",
+      "便利な場所"
+    ],
+    "example": "このアプリはとても便利です。",
+    "category": "Finance",
+    "id": 922
+  },
+  {
+    "word": "便利",
+    "reading": "benri",
+    "translation": "convenient",
+    "part": "adjective",
+    "collocations": [
+      "便利な道具",
+      "便利な場所"
+    ],
+    "example": "このアプリはとても便利です。",
+    "category": "Grocery",
+    "id": 923
+  },
+  {
+    "word": "便利",
+    "reading": "benri",
+    "translation": "convenient",
+    "part": "adjective",
+    "collocations": [
+      "便利な道具",
+      "便利な場所"
+    ],
+    "example": "このアプリはとても便利です。",
+    "category": "Tourism",
+    "id": 924
+  },
+  {
+    "word": "大丈夫",
+    "reading": "daijoubu",
+    "translation": "it's okay / I'm fine",
+    "part": "expression",
+    "collocations": [
+      "大丈夫ですか",
+      "大丈夫と言う"
+    ],
+    "example": "怪我はありませんか？大丈夫です。",
+    "category": "Medical",
+    "id": 925
+  },
+  {
+    "word": "大丈夫",
+    "reading": "daijoubu",
+    "translation": "it's okay / I'm fine",
+    "part": "expression",
+    "collocations": [
+      "大丈夫ですか",
+      "大丈夫と言う"
+    ],
+    "example": "怪我はありませんか？大丈夫です。",
+    "category": "Social",
+    "id": 926
+  },
+  {
+    "word": "大丈夫",
+    "reading": "daijoubu",
+    "translation": "it's okay / I'm fine",
+    "part": "expression",
+    "collocations": [
+      "大丈夫ですか",
+      "大丈夫と言う"
+    ],
+    "example": "怪我はありませんか？大丈夫です。",
+    "category": "Business",
+    "id": 927
+  },
+  {
+    "word": "大丈夫",
+    "reading": "daijoubu",
+    "translation": "it's okay / I'm fine",
+    "part": "expression",
+    "collocations": [
+      "大丈夫ですか",
+      "大丈夫と言う"
+    ],
+    "example": "怪我はありませんか？大丈夫です。",
+    "category": "Media",
+    "id": 928
+  },
+  {
+    "word": "大丈夫",
+    "reading": "daijoubu",
+    "translation": "it's okay / I'm fine",
+    "part": "expression",
+    "collocations": [
+      "大丈夫ですか",
+      "大丈夫と言う"
+    ],
+    "example": "怪我はありませんか？大丈夫です。",
+    "category": "Hotel",
+    "id": 929
+  },
+  {
+    "word": "大丈夫",
+    "reading": "daijoubu",
+    "translation": "it's okay / I'm fine",
+    "part": "expression",
+    "collocations": [
+      "大丈夫ですか",
+      "大丈夫と言う"
+    ],
+    "example": "怪我はありませんか？大丈夫です。",
+    "category": "Misc",
+    "id": 930
+  },
+  {
+    "word": "大丈夫",
+    "reading": "daijoubu",
+    "translation": "it's okay / I'm fine",
+    "part": "expression",
+    "collocations": [
+      "大丈夫ですか",
+      "大丈夫と言う"
+    ],
+    "example": "怪我はありませんか？大丈夫です。",
+    "category": "Greetings",
+    "id": 931
+  },
+  {
+    "word": "大丈夫",
+    "reading": "daijoubu",
+    "translation": "it's okay / I'm fine",
+    "part": "expression",
+    "collocations": [
+      "大丈夫ですか",
+      "大丈夫と言う"
+    ],
+    "example": "怪我はありませんか？大丈夫です。",
+    "category": "Daily Life",
+    "id": 932
+  },
+  {
+    "word": "大丈夫",
+    "reading": "daijoubu",
+    "translation": "it's okay / I'm fine",
+    "part": "expression",
+    "collocations": [
+      "大丈夫ですか",
+      "大丈夫と言う"
+    ],
+    "example": "怪我はありませんか？大丈夫です。",
+    "category": "Food & Drink",
+    "id": 933
+  },
+  {
+    "word": "大丈夫",
+    "reading": "daijoubu",
+    "translation": "it's okay / I'm fine",
+    "part": "expression",
+    "collocations": [
+      "大丈夫ですか",
+      "大丈夫と言う"
+    ],
+    "example": "怪我はありませんか？大丈夫です。",
+    "category": "Travel",
+    "id": 934
+  },
+  {
+    "word": "大丈夫",
+    "reading": "daijoubu",
+    "translation": "it's okay / I'm fine",
+    "part": "expression",
+    "collocations": [
+      "大丈夫ですか",
+      "大丈夫と言う"
+    ],
+    "example": "怪我はありませんか？大丈夫です。",
+    "category": "Shopping",
+    "id": 935
+  },
+  {
+    "word": "大丈夫",
+    "reading": "daijoubu",
+    "translation": "it's okay / I'm fine",
+    "part": "expression",
+    "collocations": [
+      "大丈夫ですか",
+      "大丈夫と言う"
+    ],
+    "example": "怪我はありませんか？大丈夫です。",
+    "category": "Office",
+    "id": 936
+  },
+  {
+    "word": "大丈夫",
+    "reading": "daijoubu",
+    "translation": "it's okay / I'm fine",
+    "part": "expression",
+    "collocations": [
+      "大丈夫ですか",
+      "大丈夫と言う"
+    ],
+    "example": "怪我はありませんか？大丈夫です。",
+    "category": "Health",
+    "id": 937
+  },
+  {
+    "word": "大丈夫",
+    "reading": "daijoubu",
+    "translation": "it's okay / I'm fine",
+    "part": "expression",
+    "collocations": [
+      "大丈夫ですか",
+      "大丈夫と言う"
+    ],
+    "example": "怪我はありませんか？大丈夫です。",
+    "category": "Family",
+    "id": 938
+  },
+  {
+    "word": "大丈夫",
+    "reading": "daijoubu",
+    "translation": "it's okay / I'm fine",
+    "part": "expression",
+    "collocations": [
+      "大丈夫ですか",
+      "大丈夫と言う"
+    ],
+    "example": "怪我はありませんか？大丈夫です。",
+    "category": "Emotions",
+    "id": 939
+  },
+  {
+    "word": "大丈夫",
+    "reading": "daijoubu",
+    "translation": "it's okay / I'm fine",
+    "part": "expression",
+    "collocations": [
+      "大丈夫ですか",
+      "大丈夫と言う"
+    ],
+    "example": "怪我はありませんか？大丈夫です。",
+    "category": "Fitness",
+    "id": 940
+  },
+  {
+    "word": "大丈夫",
+    "reading": "daijoubu",
+    "translation": "it's okay / I'm fine",
+    "part": "expression",
+    "collocations": [
+      "大丈夫ですか",
+      "大丈夫と言う"
+    ],
+    "example": "怪我はありませんか？大丈夫です。",
+    "category": "Leisure",
+    "id": 941
+  },
+  {
+    "word": "大丈夫",
+    "reading": "daijoubu",
+    "translation": "it's okay / I'm fine",
+    "part": "expression",
+    "collocations": [
+      "大丈夫ですか",
+      "大丈夫と言う"
+    ],
+    "example": "怪我はありませんか？大丈夫です。",
+    "category": "Technology",
+    "id": 942
+  },
+  {
+    "word": "大丈夫",
+    "reading": "daijoubu",
+    "translation": "it's okay / I'm fine",
+    "part": "expression",
+    "collocations": [
+      "大丈夫ですか",
+      "大丈夫と言う"
+    ],
+    "example": "怪我はありませんか？大丈夫です。",
+    "category": "Education",
+    "id": 943
+  },
+  {
+    "word": "大丈夫",
+    "reading": "daijoubu",
+    "translation": "it's okay / I'm fine",
+    "part": "expression",
+    "collocations": [
+      "大丈夫ですか",
+      "大丈夫と言う"
+    ],
+    "example": "怪我はありませんか？大丈夫です。",
+    "category": "Weather",
+    "id": 944
+  },
+  {
+    "word": "大丈夫",
+    "reading": "daijoubu",
+    "translation": "it's okay / I'm fine",
+    "part": "expression",
+    "collocations": [
+      "大丈夫ですか",
+      "大丈夫と言う"
+    ],
+    "example": "怪我はありませんか？大丈夫です。",
+    "category": "Hobbies",
+    "id": 945
+  },
+  {
+    "word": "大丈夫",
+    "reading": "daijoubu",
+    "translation": "it's okay / I'm fine",
+    "part": "expression",
+    "collocations": [
+      "大丈夫ですか",
+      "大丈夫と言う"
+    ],
+    "example": "怪我はありませんか？大丈夫です。",
+    "category": "Home",
+    "id": 946
+  },
+  {
+    "word": "お願いします",
+    "reading": "onegaishimasu",
+    "translation": "please",
+    "part": "expression",
+    "collocations": [
+      "よろしくお願いします",
+      "お願いしますと頼む"
+    ],
+    "example": "注文をお願いします。",
+    "category": "Directions",
+    "id": 947
+  },
+  {
+    "word": "お願いします",
+    "reading": "onegaishimasu",
+    "translation": "please",
+    "part": "expression",
+    "collocations": [
+      "よろしくお願いします",
+      "お願いしますと頼む"
+    ],
+    "example": "注文をお願いします。",
+    "category": "Numbers",
+    "id": 948
+  },
+  {
+    "word": "お願いします",
+    "reading": "onegaishimasu",
+    "translation": "please",
+    "part": "expression",
+    "collocations": [
+      "よろしくお願いします",
+      "お願いしますと頼む"
+    ],
+    "example": "注文をお願いします。",
+    "category": "Nature",
+    "id": 949
+  },
+  {
+    "word": "お願いします",
+    "reading": "onegaishimasu",
+    "translation": "please",
+    "part": "expression",
+    "collocations": [
+      "よろしくお願いします",
+      "お願いしますと頼む"
+    ],
+    "example": "注文をお願いします。",
+    "category": "Animals",
+    "id": 950
+  },
+  {
+    "word": "お願いします",
+    "reading": "onegaishimasu",
+    "translation": "please",
+    "part": "expression",
+    "collocations": [
+      "よろしくお願いします",
+      "お願いしますと頼む"
+    ],
+    "example": "注文をお願いします。",
+    "category": "Time",
+    "id": 951
+  },
+  {
+    "word": "お願いします",
+    "reading": "onegaishimasu",
+    "translation": "please",
+    "part": "expression",
+    "collocations": [
+      "よろしくお願いします",
+      "お願いしますと頼む"
+    ],
+    "example": "注文をお願いします。",
+    "category": "Finance",
+    "id": 952
+  },
+  {
+    "word": "お願いします",
+    "reading": "onegaishimasu",
+    "translation": "please",
+    "part": "expression",
+    "collocations": [
+      "よろしくお願いします",
+      "お願いしますと頼む"
+    ],
+    "example": "注文をお願いします。",
+    "category": "Grocery",
+    "id": 953
+  },
+  {
+    "word": "お願いします",
+    "reading": "onegaishimasu",
+    "translation": "please",
+    "part": "expression",
+    "collocations": [
+      "よろしくお願いします",
+      "お願いしますと頼む"
+    ],
+    "example": "注文をお願いします。",
+    "category": "Tourism",
+    "id": 954
+  },
+  {
+    "word": "お願いします",
+    "reading": "onegaishimasu",
+    "translation": "please",
+    "part": "expression",
+    "collocations": [
+      "よろしくお願いします",
+      "お願いしますと頼む"
+    ],
+    "example": "注文をお願いします。",
+    "category": "Medical",
+    "id": 955
+  },
+  {
+    "word": "お願いします",
+    "reading": "onegaishimasu",
+    "translation": "please",
+    "part": "expression",
+    "collocations": [
+      "よろしくお願いします",
+      "お願いしますと頼む"
+    ],
+    "example": "注文をお願いします。",
+    "category": "Social",
+    "id": 956
+  },
+  {
+    "word": "お願いします",
+    "reading": "onegaishimasu",
+    "translation": "please",
+    "part": "expression",
+    "collocations": [
+      "よろしくお願いします",
+      "お願いしますと頼む"
+    ],
+    "example": "注文をお願いします。",
+    "category": "Business",
+    "id": 957
+  },
+  {
+    "word": "お願いします",
+    "reading": "onegaishimasu",
+    "translation": "please",
+    "part": "expression",
+    "collocations": [
+      "よろしくお願いします",
+      "お願いしますと頼む"
+    ],
+    "example": "注文をお願いします。",
+    "category": "Media",
+    "id": 958
+  },
+  {
+    "word": "お願いします",
+    "reading": "onegaishimasu",
+    "translation": "please",
+    "part": "expression",
+    "collocations": [
+      "よろしくお願いします",
+      "お願いしますと頼む"
+    ],
+    "example": "注文をお願いします。",
+    "category": "Hotel",
+    "id": 959
+  },
+  {
+    "word": "お願いします",
+    "reading": "onegaishimasu",
+    "translation": "please",
+    "part": "expression",
+    "collocations": [
+      "よろしくお願いします",
+      "お願いしますと頼む"
+    ],
+    "example": "注文をお願いします。",
+    "category": "Misc",
+    "id": 960
+  },
+  {
+    "word": "お願いします",
+    "reading": "onegaishimasu",
+    "translation": "please",
+    "part": "expression",
+    "collocations": [
+      "よろしくお願いします",
+      "お願いしますと頼む"
+    ],
+    "example": "注文をお願いします。",
+    "category": "Greetings",
+    "id": 961
+  },
+  {
+    "word": "お願いします",
+    "reading": "onegaishimasu",
+    "translation": "please",
+    "part": "expression",
+    "collocations": [
+      "よろしくお願いします",
+      "お願いしますと頼む"
+    ],
+    "example": "注文をお願いします。",
+    "category": "Daily Life",
+    "id": 962
+  },
+  {
+    "word": "お願いします",
+    "reading": "onegaishimasu",
+    "translation": "please",
+    "part": "expression",
+    "collocations": [
+      "よろしくお願いします",
+      "お願いしますと頼む"
+    ],
+    "example": "注文をお願いします。",
+    "category": "Food & Drink",
+    "id": 963
+  },
+  {
+    "word": "お願いします",
+    "reading": "onegaishimasu",
+    "translation": "please",
+    "part": "expression",
+    "collocations": [
+      "よろしくお願いします",
+      "お願いしますと頼む"
+    ],
+    "example": "注文をお願いします。",
+    "category": "Travel",
+    "id": 964
+  },
+  {
+    "word": "お願いします",
+    "reading": "onegaishimasu",
+    "translation": "please",
+    "part": "expression",
+    "collocations": [
+      "よろしくお願いします",
+      "お願いしますと頼む"
+    ],
+    "example": "注文をお願いします。",
+    "category": "Shopping",
+    "id": 965
+  },
+  {
+    "word": "お願いします",
+    "reading": "onegaishimasu",
+    "translation": "please",
+    "part": "expression",
+    "collocations": [
+      "よろしくお願いします",
+      "お願いしますと頼む"
+    ],
+    "example": "注文をお願いします。",
+    "category": "Office",
+    "id": 966
+  },
+  {
+    "word": "お願いします",
+    "reading": "onegaishimasu",
+    "translation": "please",
+    "part": "expression",
+    "collocations": [
+      "よろしくお願いします",
+      "お願いしますと頼む"
+    ],
+    "example": "注文をお願いします。",
+    "category": "Health",
+    "id": 967
+  },
+  {
+    "word": "お願いします",
+    "reading": "onegaishimasu",
+    "translation": "please",
+    "part": "expression",
+    "collocations": [
+      "よろしくお願いします",
+      "お願いしますと頼む"
+    ],
+    "example": "注文をお願いします。",
+    "category": "Family",
+    "id": 968
+  },
+  {
+    "word": "どこ",
+    "reading": "doko",
+    "translation": "where",
+    "part": "pronoun",
+    "collocations": [
+      "どこですか？",
+      "どこにありますか？"
+    ],
+    "example": "駅はどこですか？",
+    "category": "Emotions",
+    "id": 969
+  },
+  {
+    "word": "どこ",
+    "reading": "doko",
+    "translation": "where",
+    "part": "pronoun",
+    "collocations": [
+      "どこですか？",
+      "どこにありますか？"
+    ],
+    "example": "駅はどこですか？",
+    "category": "Fitness",
+    "id": 970
+  },
+  {
+    "word": "どこ",
+    "reading": "doko",
+    "translation": "where",
+    "part": "pronoun",
+    "collocations": [
+      "どこですか？",
+      "どこにありますか？"
+    ],
+    "example": "駅はどこですか？",
+    "category": "Leisure",
+    "id": 971
+  },
+  {
+    "word": "どこ",
+    "reading": "doko",
+    "translation": "where",
+    "part": "pronoun",
+    "collocations": [
+      "どこですか？",
+      "どこにありますか？"
+    ],
+    "example": "駅はどこですか？",
+    "category": "Technology",
+    "id": 972
+  },
+  {
+    "word": "どこ",
+    "reading": "doko",
+    "translation": "where",
+    "part": "pronoun",
+    "collocations": [
+      "どこですか？",
+      "どこにありますか？"
+    ],
+    "example": "駅はどこですか？",
+    "category": "Education",
+    "id": 973
+  },
+  {
+    "word": "どこ",
+    "reading": "doko",
+    "translation": "where",
+    "part": "pronoun",
+    "collocations": [
+      "どこですか？",
+      "どこにありますか？"
+    ],
+    "example": "駅はどこですか？",
+    "category": "Weather",
+    "id": 974
+  },
+  {
+    "word": "どこ",
+    "reading": "doko",
+    "translation": "where",
+    "part": "pronoun",
+    "collocations": [
+      "どこですか？",
+      "どこにありますか？"
+    ],
+    "example": "駅はどこですか？",
+    "category": "Hobbies",
+    "id": 975
+  },
+  {
+    "word": "どこ",
+    "reading": "doko",
+    "translation": "where",
+    "part": "pronoun",
+    "collocations": [
+      "どこですか？",
+      "どこにありますか？"
+    ],
+    "example": "駅はどこですか？",
+    "category": "Home",
+    "id": 976
+  },
+  {
+    "word": "どこ",
+    "reading": "doko",
+    "translation": "where",
+    "part": "pronoun",
+    "collocations": [
+      "どこですか？",
+      "どこにありますか？"
+    ],
+    "example": "駅はどこですか？",
+    "category": "Directions",
+    "id": 977
+  },
+  {
+    "word": "どこ",
+    "reading": "doko",
+    "translation": "where",
+    "part": "pronoun",
+    "collocations": [
+      "どこですか？",
+      "どこにありますか？"
+    ],
+    "example": "駅はどこですか？",
+    "category": "Numbers",
+    "id": 978
+  },
+  {
+    "word": "どこ",
+    "reading": "doko",
+    "translation": "where",
+    "part": "pronoun",
+    "collocations": [
+      "どこですか？",
+      "どこにありますか？"
+    ],
+    "example": "駅はどこですか？",
+    "category": "Nature",
+    "id": 979
+  },
+  {
+    "word": "どこ",
+    "reading": "doko",
+    "translation": "where",
+    "part": "pronoun",
+    "collocations": [
+      "どこですか？",
+      "どこにありますか？"
+    ],
+    "example": "駅はどこですか？",
+    "category": "Animals",
+    "id": 980
+  },
+  {
+    "word": "どこ",
+    "reading": "doko",
+    "translation": "where",
+    "part": "pronoun",
+    "collocations": [
+      "どこですか？",
+      "どこにありますか？"
+    ],
+    "example": "駅はどこですか？",
+    "category": "Time",
+    "id": 981
+  },
+  {
+    "word": "どこ",
+    "reading": "doko",
+    "translation": "where",
+    "part": "pronoun",
+    "collocations": [
+      "どこですか？",
+      "どこにありますか？"
+    ],
+    "example": "駅はどこですか？",
+    "category": "Finance",
+    "id": 982
+  },
+  {
+    "word": "どこ",
+    "reading": "doko",
+    "translation": "where",
+    "part": "pronoun",
+    "collocations": [
+      "どこですか？",
+      "どこにありますか？"
+    ],
+    "example": "駅はどこですか？",
+    "category": "Grocery",
+    "id": 983
+  },
+  {
+    "word": "どこ",
+    "reading": "doko",
+    "translation": "where",
+    "part": "pronoun",
+    "collocations": [
+      "どこですか？",
+      "どこにありますか？"
+    ],
+    "example": "駅はどこですか？",
+    "category": "Tourism",
+    "id": 984
+  },
+  {
+    "word": "どこ",
+    "reading": "doko",
+    "translation": "where",
+    "part": "pronoun",
+    "collocations": [
+      "どこですか？",
+      "どこにありますか？"
+    ],
+    "example": "駅はどこですか？",
+    "category": "Medical",
+    "id": 985
+  },
+  {
+    "word": "どこ",
+    "reading": "doko",
+    "translation": "where",
+    "part": "pronoun",
+    "collocations": [
+      "どこですか？",
+      "どこにありますか？"
+    ],
+    "example": "駅はどこですか？",
+    "category": "Social",
+    "id": 986
+  },
+  {
+    "word": "どこ",
+    "reading": "doko",
+    "translation": "where",
+    "part": "pronoun",
+    "collocations": [
+      "どこですか？",
+      "どこにありますか？"
+    ],
+    "example": "駅はどこですか？",
+    "category": "Business",
+    "id": 987
+  },
+  {
+    "word": "どこ",
+    "reading": "doko",
+    "translation": "where",
+    "part": "pronoun",
+    "collocations": [
+      "どこですか？",
+      "どこにありますか？"
+    ],
+    "example": "駅はどこですか？",
+    "category": "Media",
+    "id": 988
+  },
+  {
+    "word": "どこ",
+    "reading": "doko",
+    "translation": "where",
+    "part": "pronoun",
+    "collocations": [
+      "どこですか？",
+      "どこにありますか？"
+    ],
+    "example": "駅はどこですか？",
+    "category": "Hotel",
+    "id": 989
+  },
+  {
+    "word": "どこ",
+    "reading": "doko",
+    "translation": "where",
+    "part": "pronoun",
+    "collocations": [
+      "どこですか？",
+      "どこにありますか？"
+    ],
+    "example": "駅はどこですか？",
+    "category": "Misc",
+    "id": 990
+  },
+  {
+    "word": "いくら",
+    "reading": "ikura",
+    "translation": "how much",
+    "part": "interrogative",
+    "collocations": [
+      "いくらですか",
+      "値段はいくら"
+    ],
+    "example": "このリンゴはいくらですか？",
+    "category": "Greetings",
+    "id": 991
+  },
+  {
+    "word": "いくら",
+    "reading": "ikura",
+    "translation": "how much",
+    "part": "interrogative",
+    "collocations": [
+      "いくらですか",
+      "値段はいくら"
+    ],
+    "example": "このリンゴはいくらですか？",
+    "category": "Daily Life",
+    "id": 992
+  },
+  {
+    "word": "いくら",
+    "reading": "ikura",
+    "translation": "how much",
+    "part": "interrogative",
+    "collocations": [
+      "いくらですか",
+      "値段はいくら"
+    ],
+    "example": "このリンゴはいくらですか？",
+    "category": "Food & Drink",
+    "id": 993
+  },
+  {
+    "word": "いくら",
+    "reading": "ikura",
+    "translation": "how much",
+    "part": "interrogative",
+    "collocations": [
+      "いくらですか",
+      "値段はいくら"
+    ],
+    "example": "このリンゴはいくらですか？",
+    "category": "Travel",
+    "id": 994
+  },
+  {
+    "word": "いくら",
+    "reading": "ikura",
+    "translation": "how much",
+    "part": "interrogative",
+    "collocations": [
+      "いくらですか",
+      "値段はいくら"
+    ],
+    "example": "このリンゴはいくらですか？",
+    "category": "Shopping",
+    "id": 995
+  },
+  {
+    "word": "いくら",
+    "reading": "ikura",
+    "translation": "how much",
+    "part": "interrogative",
+    "collocations": [
+      "いくらですか",
+      "値段はいくら"
+    ],
+    "example": "このリンゴはいくらですか？",
+    "category": "Office",
+    "id": 996
+  },
+  {
+    "word": "いくら",
+    "reading": "ikura",
+    "translation": "how much",
+    "part": "interrogative",
+    "collocations": [
+      "いくらですか",
+      "値段はいくら"
+    ],
+    "example": "このリンゴはいくらですか？",
+    "category": "Health",
+    "id": 997
+  },
+  {
+    "word": "いくら",
+    "reading": "ikura",
+    "translation": "how much",
+    "part": "interrogative",
+    "collocations": [
+      "いくらですか",
+      "値段はいくら"
+    ],
+    "example": "このリンゴはいくらですか？",
+    "category": "Family",
+    "id": 998
+  },
+  {
+    "word": "いくら",
+    "reading": "ikura",
+    "translation": "how much",
+    "part": "interrogative",
+    "collocations": [
+      "いくらですか",
+      "値段はいくら"
+    ],
+    "example": "このリンゴはいくらですか？",
+    "category": "Emotions",
+    "id": 999
+  },
+  {
+    "word": "いくら",
+    "reading": "ikura",
+    "translation": "how much",
+    "part": "interrogative",
+    "collocations": [
+      "いくらですか",
+      "値段はいくら"
+    ],
+    "example": "このリンゴはいくらですか？",
+    "category": "Fitness",
+    "id": 1000
+  }
+];

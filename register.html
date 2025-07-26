@@ -1,0 +1,26 @@
+{% extends 'layout.html' %}
+{% block title %}新規登録 - 日本語学習サイト{% endblock %}
+
+{% block content %}
+<div class="auth-container">
+  <h2>新規登録</h2>
+  <form method="post" class="auth-form">
+    <div class="form-group">
+      <label for="username">ユーザー名</label>
+      <input type="text" id="username" name="username" placeholder="ユーザー名" required>
+    </div>
+    <div class="form-group">
+      <label for="password">パスワード</label>
+      <input type="password" id="password" name="password" placeholder="パスワード" required>
+    </div>
+    <div class="form-group">
+      <label for="code">購入コード</label>
+      <input type="text" id="code" name="code" placeholder="購入後に提供されるコード" required>
+    </div>
+    <div class="form-actions">
+      <button type="submit" class="btn">登録</button>
+      <p class="extra-link">すでにアカウントをお持ちですか？ <a href="{{ url_for('login') }}">ログイン</a></p>
+    </div>
+  </form>
+</div>
+{% endblock %}

@@ -1,0 +1,290 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  background: #f5f5f7;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Header */
+.site-header {
+  background: #2c3e50;
+  color: white;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.site-title a {
+  color: white;
+  text-decoration: none;
+}
+
+.user-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-nav .btn-link {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-weight: bold;
+  transition: opacity 0.2s;
+}
+
+.user-nav .btn-link:hover {
+  opacity: 0.8;
+}
+
+/* Flash messages */
+.flash-messages {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.flash-messages .flash {
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.flash-messages .success {
+  background: #dff0d8;
+  color: #3c763d;
+}
+
+.flash-messages .danger {
+  background: #f2dede;
+  color: #a94442;
+}
+
+/* Auth forms */
+.auth-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.auth-container h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.auth-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.auth-form label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.auth-form input[type="text"],
+.auth-form input[type="password"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.auth-form .form-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth-form .btn {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.auth-form .btn:hover {
+  background: #2980b9;
+}
+
+.auth-form .extra-link {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.auth-form .extra-link a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.auth-form .extra-link a:hover {
+  text-decoration: underline;
+}
+
+/* Dashboard */
+.dashboard {
+  margin-top: 1rem;
+}
+
+.search-section {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+#searchInput {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.categories-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.category-btn {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #95a5a6;
+  border-radius: 4px;
+  background: #ecf0f1;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.category-btn.active {
+  background: #3498db;
+  color: white;
+  border-color: #2980b9;
+}
+
+.category-btn:hover {
+  background: #bdc3c7;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.8rem;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.card-subtitle {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.card-category {
+  font-size: 0.75rem;
+  color: #888;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 1.5rem;
+  border: 1px solid #888;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 6px;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #999;
+}
+
+.close-button:hover {
+  color: #333;
+}
+
+.modal-content h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.modal-content .btn {
+  margin-top: 1rem;
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.modal-content .btn:hover {
+  background: #1e8449;
+}
